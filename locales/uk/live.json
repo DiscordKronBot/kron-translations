@@ -1,0 +1,10 @@
+{
+  "default": "🔴 **{streamer}** is live: {title}\n{url}",
+  "isLive": "{streamer} is live on {platform}",
+  "ended": "{streamer} · stream ended",
+  "category": "Category",
+  "viewers": "Viewers",
+  "started": "Started",
+  "duration": "Duration",
+  "watch": "Watch on {platform}"
+}
