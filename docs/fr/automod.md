@@ -2,49 +2,49 @@
 title: AutoMod
 category: modules
 emoji: 🤖
-summary: Bloquer les mots interdits, les regex, le spam, les mentions de masse et les pseudos douteux avec l'AutoMod de Discord.
+summary: Block banned words, regexes, spam, mass mentions and shady names with Discord's AutoMod.
 order: 13
 ---
 
-Le module **AutoMod** configure l'AutoMod intégré à Discord depuis le dashboard. Les règles sont appliquées par Discord lui-même : un message bloqué n'est jamais publié, et tout fonctionne même si Kron est hors ligne.
+The **AutoMod** module sets up Discord's built-in AutoMod from the dashboard. Rules are enforced by Discord itself: a blocked message is never posted, and it all works even when Kron is offline.
 
-## Mise en place
+## Setup
 
-1. Active le module **AutoMod** dans le dashboard.
-2. Choisis une **règle prête à l'emploi** (invitations Discord, liens, insultes, spam, mentions de masse, pseudos) ou crée une règle vide.
-3. Ajuste les mots, les actions et les exemptions, puis clique sur **Enregistrer** en bas.
+1. Turn on the **AutoMod** module in the dashboard.
+2. Pick a **ready-made rule** (Discord invites, links, slurs, spam, mass mentions, names) or create an empty rule.
+3. Adjust the words, actions and exemptions, then click **Save** at the bottom.
 
 > [!IMPORTANT]
-> Kron a besoin de la permission **Gérer le serveur** pour créer et modifier les règles. C'est une exigence de Discord pour toute gestion d'AutoMod.
+> Kron needs the **Manage Server** permission to create and edit rules. Discord requires it for any AutoMod management.
 
-## Types de règles
+## Rule types
 
-| Type | Ce qu'il bloque | Maximum |
-|---|---|---|
-| Mots-clés | Mots (avec `*`) et regex | 6 règles |
-| Listes de Discord | Grossièretés, contenu sexuel, insultes | 1 |
-| Spam | Messages jugés suspects par Discord | 1 |
-| Mentions de masse | Trop de mentions dans un message | 1 |
-| Pseudos | Pseudos et profils des membres | 1 |
+| Type          | What it blocks                                  | Maximum |
+| ------------- | ----------------------------------------------- | ------- |
+| Keywords      | words (with `*`) and regexes | 6 rules |
+| Discord lists | profanity, sexual content, slurs                | 1       |
+| Spam          | messages Discord deems suspicious               | 1       |
+| Mass mentions | too many mentions in a message                  | 1       |
+| Names         | member names and profiles                       | 1       |
 
-Les maximums sont ceux de Discord. Les règles créées directement dans Discord apparaissent aussi dans le dashboard et peuvent y être modifiées.
+The maximums are Discord's. Rules created directly in Discord show up in the dashboard too and can be edited there.
 
-## Mots et regex
+## Words and regexes
 
-- Un mot par ligne. `*` veut dire « n'importe quoi » : `*chat*` attrape aussi « achats », `chat` seul attrape seulement le mot entier.
-- Les regex suivent la syntaxe Rust. Exemple pour les invitations : `(discord\.gg|discord\.com/invite)/\w+`
-- Les **exceptions** ne déclenchent jamais la règle, même si elles contiennent un mot interdit.
+- One word per line. `*` means "anything": `*cat*` also catches "concatenate", `cat` alone only catches the whole word.
+- Regexes use Rust syntax. Example for invites: `(discord\.gg|discord\.com/invite)/\w+`
+- **Exceptions** never trigger the rule, even if they contain a banned word.
 
 ## Actions
 
-- **Bloquer le message** : il n'est pas publié. Tu peux montrer un court message à l'auteur.
-- **Alerter le staff** : Discord publie une alerte avec le message dans le salon choisi.
-- **Exclure temporairement** l'auteur (mots-clés et mentions seulement), de 1 minute à 1 semaine.
-- Les règles de **pseudos** empêchent le membre d'écrire tant que son pseudo enfreint la règle.
+- **Block the message**: it is not posted. You can show a short message to the author.
+- **Alert staff**: Discord posts an alert with the message in the chosen channel.
+- **Time out** the author (keywords and mentions only), from 1 minute to 1 week.
+- **Name** rules stop the member from chatting while their name breaks the rule.
 
 ## Exemptions
 
-Chaque règle peut ignorer jusqu'à 20 rôles (le staff, en général) et 50 salons (par exemple un salon de partage de liens).
+Each rule can ignore up to 20 roles (usually staff) and 50 channels (for example a link-sharing channel).
 
 > [!TIP]
-> Désactiver le module met en pause les règles créées par Kron. Le réactiver remet en marche exactement les mêmes.
+> Turning the module off pauses the rules Kron created. Turning it back on resumes exactly those.
