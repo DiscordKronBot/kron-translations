@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "name": "Polls"
+  },
+  "commands": {
+    "sondage": {
+      "description": "Create a poll",
+      "name": "poll"
+    },
+    "options": {
+      "question": {
+        "description": "The question"
+      },
+      "choices": {
+        "description": "Choices, separated by | (e.g. Pizza | Sushi | Tacos)",
+        "name": "choices"
+      },
+      "duration": {
+        "description": "Duration in minutes (empty = until closed)",
+        "name": "duration"
+      },
+      "multi": {
+        "description": "Allow several choices"
+      },
+      "hidden": {
+        "description": "Hide results until the end",
+        "name": "hidden"
+      }
+    }
+  },
+  "bot": {
+    "voters": "{count} voter(s)",
+    "multi": "several choices",
+    "ended": "ended",
+    "endsAt": "ends {time}",
+    "hidden": "results hidden until the end",
+    "endButton": "End",
+    "noRight": "You can’t manage polls.",
+    "needTwo": "Give at least 2 choices separated by |.",
+    "closed": "This poll is over.",
+    "voted": "✅ Your vote: {options}",
+    "unvoted": "Vote removed."
+  },
+  "web": {
+    "rolesTitle": "Who can create polls",
+    "roles": "Allowed roles",
+    "rolesHint": "Empty = members who can manage messages.",
+    "usage": "Command: /poll question:… choices:Pizza | Sushi | Tacos duration:60 multiple:true hidden:false",
+    "recentTitle": "Recent polls",
+    "empty": "No poll yet.",
+    "ended": "Ended",
+    "open": "Open",
+    "voters": "{count} voter(s)"
+  }
+}

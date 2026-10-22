@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Temporary voice"
+  },
+  "web": {
+    "title": "Settings",
+    "hint": "Members join the hub channel: Kron creates their own voice channel and moves them in. They can rename it, limit the slots or lock it. The channel disappears once empty.",
+    "hub": "Hub channel (“Join to create”)",
+    "category": "Category of new channels",
+    "categoryHint": "Empty = the hub’s category.",
+    "name": "Channel name",
+    "nameHint": "{nickname} = nickname, {username} = username, {count} = number.",
+    "limit": "Slots (0 = unlimited)"
+  }
+}

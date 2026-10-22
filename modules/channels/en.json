@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "name": "Channel builder"
+  },
+  "web": {
+    "title": "Your server",
+    "hint": "Drag channels to reorder them, click a name to rename it (emoji, separator, font). Nothing is sent to Discord before “Review and apply”.",
+    "addCategory": "Category",
+    "addChannel": "Add a channel ({type})",
+    "channelType": "Type of new channels",
+    "newCategory": "📁┆new category",
+    "newChannel": "💬┆new-channel",
+    "new": "new",
+    "up": "Move up",
+    "down": "Move down",
+    "restore": "Restore",
+    "separator": "Separator",
+    "font": "Font",
+    "fonts": {
+      "normal": "Normal",
+      "bold": "Bold",
+      "italic": "Italic",
+      "sans": "Sans",
+      "mono": "Mono",
+      "double": "Double",
+      "smallcaps": "Small caps"
+    },
+    "types": {
+      "text": "text",
+      "voice": "voice",
+      "announcement": "announcement",
+      "forum": "forum",
+      "stage": "stage"
+    },
+    "review": "Review and apply",
+    "apply": "Apply to Discord",
+    "applied": "Applied: {roles} roles, {created} created, {renamed} renamed, {moved} moved, {removed} deleted.",
+    "summary": {
+      "title": "Summary of changes",
+      "nothing": "No changes to apply.",
+      "create": "{count} to create",
+      "rename": "{count} to rename",
+      "move": "{count} to move",
+      "remove": "{count} to delete",
+      "confirm": "I confirm deleting {count} channel(s) and their messages.",
+      "roles": "{count} role(s) to create"
+    },
+    "errors": {
+      "module_disabled": "Turn the module on to apply changes.",
+      "missing_permissions": "Kron can't manage some channels. Part of the changes may have been applied.",
+      "too_many_channels": "Discord limits a server to 500 channels.",
+      "unknown_channel": "A channel changed meanwhile. The page was reloaded.",
+      "discord_error": "Discord refused part of the changes. The page was reloaded.",
+      "no_backup": "No previous names to restore.",
+      "unknown_role": "A chosen role no longer exists. The page was reloaded.",
+      "remove_not_confirmed": "Tick the confirmation to delete channels."
+    },
+    "beautify": {
+      "title": "✨ Beautify names",
+      "hint": "Give every channel and category the same style: an emoji (kept when there is one, otherwise picked from the name), a separator and a font. The result shows in the tree below; nothing reaches Discord before “Review and apply”, and “Cancel” at the bottom puts everything back.",
+      "sample": "rules",
+      "preview": "Preview on the whole server",
+      "previewed": "Preview applied to the tree. Review it, then apply or cancel.",
+      "addEmojis": "Add an emoji to names that have none",
+      "addEmojisHint": "Picked from the name: rules → 📜, tickets → 🎫, general → 💬…",
+      "backup": "The original names of {count} channel(s) can be restored until {until}.",
+      "restore": "Restore previous names",
+      "restoreSure": "Confirm: restore previous names",
+      "restored": "{count} channel(s) got their previous name back.",
+      "badSeparators": "{count} name(s) use another separator than « {separator} » (e.g. 💭-discussion).",
+      "fixSeparators": "Fix the separators only",
+      "restoreSkipped": "{count} channel(s) are out of Kron’s reach and kept their name."
+    },
+    "packs": {
+      "title": "📦 Server packs",
+      "hint": "Add ready-made categories, channels and roles for your kind of server in one click. They join the tree above: what already exists (same name) is kept, nothing is deleted. Rename or remove anything, then “Review and apply”. 🔒 categories are private: only their roles and Kron see them.",
+      "counts": "{categories} categories · {channels} channels · {roles} roles",
+      "added": "Pack added to the tree. Review, adjust, then apply or cancel.",
+      "pendingRoles": "{count} role(s) to create",
+      "fivem": {
+        "name": "FiveM RP server",
+        "hint": "Info, whitelist, community, in the city, private services (police, EMS, mechanic), support, voice and staff."
+      },
+      "gaming": {
+        "name": "Gaming",
+        "hint": "Rules, clips, memes, looking for group, tournaments, squad voice channels and staff."
+      },
+      "streamer": {
+        "name": "Streamer",
+        "hint": "Live announcements, clips, fan art, a private lounge for VIPs and subscribers, watch party."
+      },
+      "community": {
+        "name": "Community",
+        "hint": "Welcome, introductions, roles, events, polls, support and voice."
+      }
+    },
+    "skipped": "Skipped {count} channel(s) Kron cannot access: {names}.",
+    "locked": {
+      "access": "Kron cannot see or manage this channel: it cannot rename it.",
+      "accessBadge": "no access",
+      "counter": "A channel stats counter names this channel itself.",
+      "counterBadge": "counter",
+      "note": "{count} channel(s) are hidden from Kron (🔒): it cannot rename or move them. To include them, add the Kron role to those channels or their category (View Channel + Manage Channels), then reload this page."
+    }
+  }
+}

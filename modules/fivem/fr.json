@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "name": "Pont FiveM"
+  },
+  "commands": {
+    "fivem": {
+      "description": "Outils FiveM pour le staff",
+      "profil": {
+        "description": "Voir le profil FiveM d’un membre"
+      },
+      "debloquer": {
+        "description": "Débloquer le personnage d’un membre"
+      },
+      "garage": {
+        "description": "Rapatrier un véhicule d’un membre au garage"
+      },
+      "options": {
+        "membre": {
+          "description": "Le membre Discord"
+        }
+      }
+    },
+    "fiche": {
+      "description": "Voir la fiche RP d’un membre",
+      "options": {
+        "membre": {
+          "description": "Le membre (toi par défaut)"
+        }
+      }
+    }
+  },
+  "errors": {
+    "offline": "🔴 Le serveur FiveM n’est pas connecté à Kron en ce moment.",
+    "timeout": "⏳ Le serveur FiveM n’a pas répondu à temps. Réessaie.",
+    "not_linked": "Ce membre ne s’est jamais connecté en ville avec Discord ouvert : aucun compte FiveM lié.",
+    "unsupported": "Cette action n’est pas encore supportée par le framework du serveur.",
+    "not_found": "Introuvable en ville.",
+    "failed": "Le serveur FiveM a refusé l’action.",
+    "staffOnly": "Réservé au staff.",
+    "disabled": "Cette fonction est désactivée dans le dashboard.",
+    "reportClosed": "Ce report est déjà fermé."
+  },
+  "done": {
+    "unstuck": {
+      "online": "📍 Joueur téléporté au point sécuritaire.",
+      "offline": "📍 Position remise au point sécuritaire : le joueur y apparaîtra à sa prochaine connexion."
+    },
+    "noVehicles": "Aucun véhicule pour ce personnage.",
+    "pickVehicle": "Choisis le véhicule à rapatrier :",
+    "garage": "🚗 Véhicule {plate} rapatrié au garage."
+  },
+  "vehicleState": {
+    "out": "Sorti",
+    "garaged": "Au garage",
+    "impound": "Fourrière"
+  },
+  "report": {
+    "closed": "🔒 Report fermé par {user}."
+  },
+  "web": {
+    "download": "Télécharger le script",
+    "copy": "Copier",
+    "status": {
+      "online": "🟢 Serveur FiveM connecté",
+      "waiting": "🟠 En attente du serveur",
+      "notLinked": "Aucun serveur lié",
+      "hint": "Génère un token, installe la ressource, puis redémarre ton serveur."
+    },
+    "players": "{count} joueur(s) en ville",
+    "lastSeen": "Dernier contact : {date}",
+    "generate": "Générer un token",
+    "rotate": "Nouveau token",
+    "tokenTitle": "Ton token",
+    "tokenHint": "Copie-le maintenant : il ne sera plus affiché. Garde-le secret (comme un mot de passe). Générer un nouveau token désactive l’ancien.",
+    "tokenPlaceholder": "TON_TOKEN",
+    "install": {
+      "title": "Installer la ressource Kron",
+      "s1": "1. Télécharge la ressource",
+      "s2": "2. Décompresse-la dans le dossier resources de ton serveur",
+      "s3": "3. Ajoute ces lignes dans ton server.cfg (après oxmysql et ton framework)",
+      "tokenHint": "Génère d’abord un token sur cette page, puis remplace TON_TOKEN.",
+      "s4": "4. Redémarre le serveur",
+      "s4hint": "Le statut passe au vert en moins d’une minute.",
+      "requirements": "Requis : OneSync, oxmysql, et QBCore ou Qbox (ESX bientôt). Les joueurs doivent avoir Discord ouvert pour que leur compte soit lié."
+    },
+    "featuresTitle": "Fonctions",
+    "featuresHint": "Choisis ce que Kron peut faire avec les infos de ton serveur.",
+    "features": {
+      "tickets": {
+        "name": "Profil FiveM dans les tickets",
+        "hint": "L’en-tête de chaque ticket montre les personnages du joueur."
+      },
+      "reports": {
+        "name": "/report en ville",
+        "hint": "Les /report du jeu arrivent dans Discord, le staff répond dans le fil. Désactivé : la ressource n’ajoute pas de /report, celui de ton serveur reste."
+      },
+      "unstuck": {
+        "name": "Débloquer un joueur",
+        "hint": "Bouton staff : téléporte le personnage au point sécuritaire."
+      },
+      "garage": {
+        "name": "Rapatrier un véhicule",
+        "hint": "Bouton staff : remet un véhicule au garage."
+      },
+      "jobs": {
+        "name": "Salons de jobs",
+        "hint": "Désactivé par défaut. Demande la ressource 1.2.0 ou plus."
+      },
+      "board": {
+        "name": "Tableau des joueurs",
+        "hint": "Un message toujours à jour : joueurs en ligne, places, jobs en service. Demande la ressource 1.4.0."
+      },
+      "sheets": {
+        "name": "Fiches RP",
+        "hint": "Le staff écrit une fiche par personnage (bouton 📜 du profil). Tout le monde peut la lire avec /fiche."
+      }
+    },
+    "fieldsTitle": "Infos affichées",
+    "fieldsHint": "Montre seulement ce dont ton staff a besoin (Loi 25).",
+    "fields": {
+      "job": "💼 Emploi",
+      "phone": "📱 Téléphone",
+      "money": "💵 Argent liquide",
+      "bank": "🏦 Banque"
+    },
+    "staffTitle": "Staff FiveM",
+    "staffHint": "Ces rôles peuvent voir les profils et utiliser Débloquer / Garage. La permission Exclure des membres suffit aussi.",
+    "reportsTitle": "Reports en ville",
+    "reportsHint": "Chaque /report crée un fil dans ce salon. Écris dans le fil : le joueur reçoit ta réponse en jeu.",
+    "reportsCreate": "Créer le salon pour moi",
+    "reportsCreated": "Salon des reports créé !",
+    "reportsChannelName": "reports-ville",
+    "reportPing": "Rôles à mentionner",
+    "reportsUsage": "En jeu : /report <message>. Tant que le report est ouvert, les nouveaux /report s’ajoutent au même fil.",
+    "jobsTitle": "Jobs et gangs",
+    "jobsHint": "Une catégorie JOBS avec un salon privé par job ou gang du serveur FiveM : le staff le voit, et les membres qui ont le rôle Discord du job aussi. Un « ticket permanent » par job.",
+    "jobsLoad": "Charger les jobs du serveur",
+    "jobsCreate": "Créer {count} salon(s)",
+    "jobsCreated": "{count} salon(s) de jobs créés.",
+    "jobsCategoryName": "JOBS",
+    "jobsRoleSet": "rôle du job",
+    "jobsNoRole": "staff seulement",
+    "boardTitle": "Tableau en direct",
+    "boardHint": "Kron publie un message dans ce salon et le met à jour chaque minute avec les infos du serveur FiveM.",
+    "boardCreate": "Créer le salon pour moi",
+    "boardCreated": "Salon créé : le tableau apparaît dans la prochaine minute.",
+    "boardChannelName": "ville-en-direct",
+    "boardName": "Titre (vide = nom du serveur)",
+    "boardConnect": "Lien « Rejoindre » (https, optionnel)",
+    "boardUsage": "Les jobs viennent du framework (QBCore/Qbox) : policiers et ambulanciers en service sont aussi dans les tags {fivem.police} et {fivem.ems}.",
+    "sheetsTitle": "Fiches de personnages",
+    "sheetsHint": "Une fiche par personnage : nom, âge, métier, histoire, image. Le staff la crée depuis le profil FiveM d’un membre (/fivem profil ou en-tête de ticket).",
+    "sheetsEmpty": "Aucune fiche pour le moment. Ouvre le profil d’un membre et clique sur 📜 Fiche RP.",
+    "sheetsSearch": "Chercher un personnage…",
+    "sheetSave": "Enregistrer",
+    "sheetSaved": "Fiche enregistrée.",
+    "sheetInvalid": "Fiche refusée : vérifie le nom et l’URL de l’image (https seulement).",
+    "sheetDelete": "Supprimer",
+    "sheetDeleteConfirm": "Confirmer la suppression",
+    "sheet": {
+      "name": "Nom du personnage",
+      "age": "Âge",
+      "occupation": "Métier",
+      "story": "Histoire",
+      "image": "Image (URL https)"
+    }
+  },
+  "board": {
+    "online": "En ligne",
+    "offline": "Serveur hors ligne",
+    "players": "joueurs",
+    "onDuty": "en service",
+    "offDuty": "hors service",
+    "footer": "Mis à jour chaque minute par Kron",
+    "join": "Rejoindre la ville"
+  },
+  "sheet": {
+    "age": "Âge",
+    "occupation": "Métier",
+    "name": "Nom du personnage",
+    "story": "Histoire",
+    "image": "Image (URL https)",
+    "edit": "Modifier",
+    "modalTitle": "Fiche RP",
+    "noStory": "Pas encore d’histoire.",
+    "updated": "Mise à jour {date}",
+    "none": "Aucune fiche RP pour {user}.",
+    "pick": "Choisir un personnage",
+    "invalid": "Fiche refusée : vérifie le nom et l’URL de l’image (https seulement)."
+  }
+}

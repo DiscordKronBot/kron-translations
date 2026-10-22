@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "name": "Starboard"
+  },
+  "web": {
+    "title": "Réglages",
+    "hint": "Un message qui reçoit assez de réactions est republié dans le salon starboard, avec son auteur, son image et un lien. Le compte se met à jour en direct.",
+    "channel": "Salon starboard",
+    "emoji": "Emoji",
+    "threshold": "Réactions nécessaires",
+    "selfStar": "Compter la réaction de l’auteur",
+    "ignored": "Salons ignorés"
+  }
+}

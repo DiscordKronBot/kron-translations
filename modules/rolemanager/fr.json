@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Gestion des rôles"
+  },
+  "commands": {
+    "role": {
+      "name": "role",
+      "description": "Appliquer une action de rôles à un membre"
+    },
+    "options": {
+      "member": {
+        "name": "membre",
+        "description": "Le membre visé"
+      }
+    }
+  },
+  "bot": {
+    "noAction": "Tu n’as aucune action de rôles sur ce serveur.",
+    "notMember": "Ce membre n’est pas sur le serveur.",
+    "self": "Impossible sur toi-même ou sur un bot.",
+    "higher": "Ce membre gère le serveur : seul un membre qui gère le serveur peut changer ses rôles.",
+    "pick": "Quelle action pour {member} ?",
+    "dangerous": "Un des rôles donne des droits de modération : action bloquée. Vérifie-la dans le dashboard.",
+    "failed": "Kron n’a pas pu changer ces rôles : place le rôle Kron au-dessus d’eux.",
+    "nothing": "Aucun changement (le membre avait déjà ces rôles).",
+    "done": "✅ {action} appliquée à {member}\n{changes}",
+    "log": "{staff} a appliqué **{action}** à {member}"
+  },
+  "web": {
+    "intro": "Ton staff applique des actions de rôles avec /role, sans la permission « Gérer les rôles » : avec elle, un membre pourrait aussi supprimer ou modifier ces rôles.",
+    "actionsTitle": "Actions",
+    "actionsHint": "Chaque action ajoute et retire des rôles d’un coup. Les membres qui gèrent le serveur peuvent toutes les utiliser.",
+    "newAction": "Nouvelle action",
+    "template": "Exemple RP : douane",
+    "templateName": "Valider le passeport",
+    "name": "Nom",
+    "allowed": "Qui peut l’utiliser",
+    "add": "Rôles ajoutés",
+    "remove": "Rôles retirés",
+    "remove2": "Supprimer l’action",
+    "summary": "{who} peut : {changes}",
+    "dangerous": "⚠️ {role} donne des droits de modération : il ne peut pas être donné par une action.",
+    "logTitle": "Salon de suivi",
+    "logHint": "Chaque action appliquée y est notée : qui, à qui, quels rôles.",
+    "howTitle": "Utilisation",
+    "how": "Sur Discord : /role membre:@joueur, puis clique l’action. Seules les actions permises à ton rôle apparaissent.",
+    "empty": "Aucune action pour l’instant.",
+    "errors": {
+      "invalid_role": "Un rôle choisi n’existe plus.",
+      "role_too_high": "Kron doit être au-dessus des rôles ajoutés ou retirés (Paramètres du serveur → Rôles).",
+      "dangerous_role": "Une action donne un rôle avec des droits de modération : retire-le."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "name": "Commandes personnalisées"
+  },
+  "bot": {
+    "disabled": "Les commandes personnalisées sont désactivées sur ce serveur.",
+    "noAccess": "Tu n’as pas accès à cette commande.",
+    "roleReason": "Commande personnalisée /{name}"
+  },
+  "web": {
+    "listHintOff": "Le module est désactivé : les commandes sont gardées, mais retirées de Discord jusqu’à sa réactivation.",
+    "uses": "{count} utilisations",
+    "live": "En ligne",
+    "offline": "Hors ligne",
+    "name": "Nom",
+    "nameHint": "Minuscules, chiffres, - et _ (32 caractères max).",
+    "description": "Description",
+    "descriptionHint": "Affichée dans le menu des commandes de Discord.",
+    "ephemeral": "Réponse privée",
+    "ephemeralHint": "Seul le membre qui utilise la commande voit la réponse.",
+    "accessTitle": "Accès et rôles",
+    "allowedRoles": "Rôles autorisés",
+    "allowedRolesHint": "Vide = tout le monde.",
+    "addRole": "Donner un rôle",
+    "addRoleHint": "Par exemple, un rôle « Règlement lu ».",
+    "removeRole": "Retirer un rôle",
+    "vars": {
+      "user": "Mention du membre",
+      "username": "Pseudo du membre",
+      "server": "Nom du serveur",
+      "channel": "Salon",
+      "memberCount": "Nombre de membres",
+      "user_avatar": "Avatar du membre"
+    },
+    "starter": {
+      "description": "Le règlement du serveur",
+      "title": "📜 Règlement",
+      "text": "- Respecte tout le monde\n- Pas de spam\n- Amuse-toi !",
+      "name": "regles"
+    },
+    "errors": {
+      "limit_reached": "Le plan gratuit permet 5 commandes. Passe en Pro pour en avoir plus.",
+      "reserved_name": "Ce nom est déjà une commande de Kron.",
+      "duplicate_name": "Une autre commande porte déjà ce nom.",
+      "invalid_role": "Choisis des rôles de ce serveur.",
+      "role_too_high": "Kron ne peut pas donner ou retirer ce rôle (place son rôle plus haut).",
+      "not_found": "Cette commande n’existe plus."
+    },
+    "kinds": {
+      "slash": "⚡ Commande slash",
+      "text": "🏷️ Tag (texte)"
+    },
+    "kindHints": {
+      "slash": "Une vraie commande /, dans le menu de Discord.",
+      "text": "Kron répond quand un message est exactement le déclencheur (ex. !regles, $ip ou juste regles)."
+    },
+    "prefix": "Préfixe",
+    "noPrefix": "(aucun)",
+    "preview": "Déclencheur",
+    "reply": "Répondre au message",
+    "replyHint": "Sinon, un message simple dans le salon.",
+    "deleteTrigger": "Supprimer le message déclencheur",
+    "deleteTriggerHint": "Garde le salon propre.",
+    "pages": {
+      "slash": {
+        "tab": "⚡ Commandes",
+        "title": "Commandes slash",
+        "hint": "De vraies commandes / dans le menu de Discord, avec ta réponse en texte ou en embed.",
+        "new": "Nouvelle commande",
+        "all": "Toutes les commandes",
+        "emptyTitle": "Aucune commande",
+        "emptyText": "Crée /regles, /ip, /boutique… en quelques secondes."
+      },
+      "text": {
+        "tab": "🏷️ Tags",
+        "title": "Tags texte",
+        "hint": "Kron répond quand un message est exactement le déclencheur : !regles, $ip ou juste regles.",
+        "new": "Nouveau tag",
+        "all": "Tous les tags",
+        "emptyTitle": "Aucun tag",
+        "emptyText": "Crée !regles, $ip, ?boutique… avec le préfixe de ton choix."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Voice support"
+  },
+  "web": {
+    "placeTitle": "Location",
+    "placeHint": "The category where Kron creates the waiting room and the support rooms.",
+    "category": "Category",
+    "suggest": "Use {name} (tickets category)",
+    "accessTitle": "Access",
+    "members": "Who can wait",
+    "membersHint": "Empty: everyone. Otherwise only these roles see the waiting room.",
+    "staff": "Support staff",
+    "staffHint": "They see the support rooms and move members. The Move Members permission also counts.",
+    "waitingTitle": "Waiting room",
+    "waitingHint": "Total silence: nobody talks, no screen share, no text, GIFs, emojis or reactions in the voice chat. Staff can talk there.",
+    "deafen": "Deafen members while they wait",
+    "deafenHint": "Kron gives the sound back as soon as a member is moved out of the waiting room.",
+    "roomsTitle": "Support rooms",
+    "roomsHint": "Only staff see them. A member moved into a room can talk without push-to-talk and share their screen, until they leave it.",
+    "count": "Number of rooms",
+    "separator": "Separator",
+    "font": "Font",
+    "saveCreates": "Saving creates the waiting room and the rooms on Discord.",
+    "saveUpdates": "Saving updates the rooms on Discord (names, category, access). A room removed from the list is deleted."
+  }
+}

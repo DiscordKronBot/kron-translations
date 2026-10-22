@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "name": "Niveaux et économie"
+  },
+  "commands": {
+    "rank": {
+      "description": "Ton niveau et ton XP (ou ceux d’un membre)"
+    },
+    "top": {
+      "description": "Le classement du serveur"
+    },
+    "balance": {
+      "description": "Ton solde (ou celui d’un membre)"
+    },
+    "daily": {
+      "description": "Récupérer ta récompense quotidienne"
+    },
+    "pay": {
+      "description": "Donner des pièces à un membre"
+    },
+    "xp": {
+      "description": "Gérer l’XP des membres",
+      "give": {
+        "description": "Donner de l’XP"
+      },
+      "remove": {
+        "description": "Retirer de l’XP"
+      },
+      "reset": {
+        "description": "Remettre un membre à zéro"
+      }
+    },
+    "options": {
+      "member": {
+        "description": "Le membre"
+      },
+      "amount": {
+        "description": "Le montant"
+      },
+      "board": {
+        "description": "XP ou pièces"
+      },
+      "bankAction": {
+        "description": "Que faire ?"
+      }
+    },
+    "work": {
+      "description": "Travailler pour gagner de l’argent",
+      "name": "travail"
+    },
+    "rob": {
+      "description": "Tenter de voler un membre",
+      "name": "voler"
+    },
+    "bank": {
+      "description": "Ta banque : déposer, retirer ou voir",
+      "name": "banque"
+    },
+    "shop": {
+      "description": "La boutique du serveur",
+      "name": "boutique"
+    },
+    "inventory": {
+      "description": "Ton inventaire (ou celui d’un membre)",
+      "name": "inventaire"
+    }
+  },
+  "bot": {
+    "levelUp": "🎉 GG {user}, tu passes au **niveau {level}** !",
+    "rewardReason": "Niveaux : récompense du niveau {level}",
+    "rankTitle": "Niveau {level}",
+    "position": "Rang",
+    "messages": "Messages",
+    "levelShort": "Niv.",
+    "topXp": "Classement XP",
+    "topCoins": "Classement des {name}",
+    "empty": "Personne n’a encore d’XP. Écrivez !",
+    "noBots": "Les bots n’ont pas de niveau.",
+    "economyOff": "L’économie n’est pas activée sur ce serveur.",
+    "balance": "{user} a {amount}.",
+    "dailyOk": "Tu reçois {amount}. Reviens demain !",
+    "dailyWait": "Déjà récupéré. Prochaine récompense {time}.",
+    "payInvalid": "Choisis un autre membre (pas un bot, pas toi).",
+    "payPoor": "Tu n’as pas assez de {name}.",
+    "payOk": "{from} donne {amount} à {to}.",
+    "xpDone": "{user} : niveau {level}, {xp} XP.",
+    "balanceBank": "{user} a {amount} en poche et {bank} à la banque.",
+    "cooldown": "Pas si vite ! Réessaie {time}.",
+    "worked": "💼 Tu as {job} et gagné {amount}.",
+    "robOff": "Le vol est désactivé sur ce serveur.",
+    "robPoor": "{user} n’a presque rien sur lui, ça ne vaut pas le coup.",
+    "robOk": "🦹 Tu as volé {amount} à {user} !",
+    "robFail": "🚓 Raté ! Tu paies une amende de {amount} à {user}.",
+    "bankAmount": "Indique un montant.",
+    "bankView": "👛 En poche : {wallet}\n🏦 À la banque : {bank}\n-# L’argent à la banque ne peut pas être volé.",
+    "shopTitle": "Boutique",
+    "shopEmpty": "La boutique est vide pour l’instant.",
+    "buyPlaceholder": "Acheter un article…",
+    "itemGone": "Cet article n’est plus en vente.",
+    "alreadyHave": "Tu as déjà ce rôle.",
+    "bought": "✅ Tu as acheté {item} pour {amount}.",
+    "shopReason": "Boutique : achat",
+    "inventoryTitle": "Inventaire de {user}",
+    "inventoryEmpty": "Rien pour l’instant.",
+    "jobs": {
+      "0": "livré des pizzas",
+      "1": "réparé un serveur",
+      "2": "promené des chiens",
+      "3": "vendu des limonades",
+      "4": "codé un bot Discord",
+      "5": "tondu des pelouses",
+      "6": "lavé des autos",
+      "7": "fait du gardiennage",
+      "8": "monté des meubles",
+      "9": "animé un stream"
+    }
+  },
+  "web": {
+    "tabs": {
+      "settings": "Réglages",
+      "board": "Classement"
+    },
+    "xpTitle": "Gain d’XP",
+    "xpHint": "Chaque message donne une quantité d’XP au hasard entre le minimum et le maximum, une fois par délai.",
+    "xpMin": "XP minimum",
+    "xpMax": "XP maximum",
+    "cooldown": "Délai (secondes)",
+    "cooldownHint": "Contre le spam : 60 s, c’est le standard.",
+    "noXpChannels": "Salons sans XP",
+    "noXpChannelsHint": "Une catégorie compte pour tous ses salons.",
+    "noXpRoles": "Rôles sans XP",
+    "levelUpTitle": "Passage de niveau",
+    "levelUpHint": "Le message envoyé quand un membre monte de niveau.",
+    "levelUpMode": "Où l’annoncer",
+    "modes": {
+      "current": "Dans le salon du message",
+      "channel": "Dans un salon dédié",
+      "dm": "En message privé",
+      "off": "Ne pas annoncer"
+    },
+    "levelUpChannel": "Salon des niveaux",
+    "levelUpChannelHint": "Un salon de « spam » de niveaux garde les autres propres.",
+    "levelUpMessage": "Message",
+    "levelUpMessageHint": "Variables : {user} (mention), {username}, {level}. Vide = message par défaut.",
+    "rewardsTitle": "Récompenses de rôles",
+    "rewardsHint": "Un rôle donné automatiquement à un niveau. Le rôle de Kron doit être au-dessus.",
+    "atLevel": "Niveau",
+    "addReward": "Ajouter une récompense",
+    "stack": "Garder les anciens rôles",
+    "stackHint": "Désactivé : seul le rôle du plus haut niveau atteint est gardé.",
+    "economyTitle": "Économie",
+    "economyHint": "Une monnaie gagnée en discutant, avec une récompense quotidienne et les dons entre membres.",
+    "economyEnabled": "Activer l’économie",
+    "currencyName": "Nom de la monnaie",
+    "currencyEmoji": "Emoji",
+    "perMessage": "Pièces par message (avec l’XP)",
+    "daily": "Récompense de /daily",
+    "commandsHint": "Commandes : /rank, /top, /balance, /daily, /pay, /travail, /voler, /banque, /boutique, /inventaire, et /xp pour le staff.",
+    "boardTitle": "Classement",
+    "boardHint": "{count} membres classés.",
+    "boardEmpty": "Classement vide",
+    "boardEmptyText": "L’XP arrive dès que les membres écrivent (module activé).",
+    "coins": "Pièces",
+    "level": "Niv.",
+    "reset": "Remettre à zéro",
+    "workTitle": "Travail",
+    "workMin": "Gain minimum",
+    "workMax": "Gain maximum",
+    "cooldownMin": "Délai (minutes)",
+    "robTitle": "Vol",
+    "robEnabled": "Autoriser /voler",
+    "robChance": "Chance de réussite (%)",
+    "robMax": "Vol maximum (% du portefeuille)",
+    "robFine": "Amende en cas d’échec (% du portefeuille)",
+    "shopTitle": "Boutique",
+    "shopHint": "Des rôles et des objets à acheter avec /boutique. Le rôle de Kron doit être au-dessus des rôles vendus.",
+    "itemName": "Nom",
+    "itemPrice": "Prix",
+    "itemDesc": "Description",
+    "itemRole": "Rôle donné (optionnel)",
+    "addItem": "Ajouter un article"
+  }
+}

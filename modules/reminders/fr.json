@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "name": "Rappels"
+  },
+  "commands": {
+    "remind": {
+      "description": "Tes rappels",
+      "me": {
+        "description": "Créer un rappel"
+      },
+      "list": {
+        "description": "Voir tes rappels"
+      },
+      "delete": {
+        "description": "Supprimer un rappel"
+      },
+      "options": {
+        "when": {
+          "description": "Dans combien de temps, ex. 10m, 2h, 1d"
+        },
+        "text": {
+          "description": "De quoi te rappeler"
+        },
+        "repeat": {
+          "description": "Répéter (none, daily, weekly, monthly)"
+        },
+        "id": {
+          "description": "Numéro du rappel"
+        }
+      }
+    }
+  },
+  "bot": {
+    "badWhen": "Délai invalide : entre 1 minute et 1 an (ex. 10m, 2h, 3d).",
+    "tooMany": "Tu as déjà {max} rappels sur ce serveur.",
+    "set": "⏰ Rappel #{id} programmé {time}.",
+    "none": "Aucun rappel.",
+    "deleted": "Rappel supprimé.",
+    "notFound": "Rappel introuvable.",
+    "ping": "⏰ {user}, rappel : {text}"
+  },
+  "web": {
+    "title": "Rappels des membres",
+    "hint": "Chaque membre gère ses rappels avec la commande /remind.",
+    "usage": "Rappels uniques ou répétés (chaque jour, semaine, mois).",
+    "dm": "Envoyer les rappels en MP",
+    "dmHint": "Sinon, Kron mentionne le membre dans le salon où le rappel a été créé.",
+    "max": "Rappels maximum par membre"
+  }
+}

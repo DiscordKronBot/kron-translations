@@ -1,0 +1,1463 @@
+{
+  "meta": {
+    "language": "Français"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue. Réessaie dans un instant.",
+    "saved": "Enregistré",
+    "logout": "Déconnexion",
+    "language": "Langue",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "notFound": "Page introuvable.",
+    "dashboard": "Dashboard",
+    "addToDiscord": "Ajouter à Discord",
+    "login": "Se connecter",
+    "soon": "Bientôt"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "premium": "Pro",
+    "support": "Support",
+    "contact": "Contact",
+    "docs": "Docs",
+    "myTickets": "Mes tickets",
+    "servers": "Serveurs",
+    "tools": "Outils"
+  },
+  "mock": {
+    "time": "Aujourd'hui à 21:47",
+    "title": "🎫┆Support",
+    "text": "Besoin d'aide ? Ouvre un ticket et l'équipe te répond au plus vite.",
+    "field1": "⏱️ Réponse",
+    "value1": "~ 10 minutes",
+    "field2": "🌐 Langues",
+    "value2": "Français, English",
+    "field3": "📋 Avant d’ouvrir",
+    "value3": "Tape $debug si le bot ne répond pas : on verra exactement ce que tu vois.",
+    "field4": "🔒 Confidentiel",
+    "value4": "Seule l’équipe voit ton ticket",
+    "footer": "Kron · Tickets",
+    "accept": "Ouvrir un ticket",
+    "deny": "Signaler",
+    "interview": "FAQ"
+  },
+  "landing": {
+    "eyebrow": "Bot Discord tout-en-un",
+    "titleStart": "Gère ton serveur",
+    "titleAccent": "simplement.",
+    "lead": "Tickets, whitelist, logs, rôles et plus. Tout se configure depuis le dashboard.",
+    "proof": "serveurs utilisent déjà Kron",
+    "featuresTitle": "Un module pour chaque besoin",
+    "featuresLead": "Chaque module s'active en un clic et se personnalise entièrement : textes, embeds, couleurs, images, salons, rôles.",
+    "premiumTitle": "Un prix qui ne fait pas mal",
+    "premiumLead": "L'essentiel est gratuit. Le reste coûte à peine plus qu'un café par mois.",
+    "ctaTitle": "Prêt à essayer Kron ?",
+    "ctaText": "Ajoute-le à ton serveur en 30 secondes. Aucune carte requise.",
+    "scroll": "Défiler",
+    "trust": {
+      "servers": "serveurs",
+      "modules": "modules",
+      "free": "pour commencer"
+    },
+    "bento": {
+      "tickets": "Panels à boutons ou menu|Questions avant l’ouverture|Transcriptions HTML",
+      "forms": "Formulaire web, connexion Discord|Rôles qui changent à chaque étape|Accepter ou refuser dans Discord"
+    },
+    "allModules": "Tous les modules",
+    "stepsTitle": "Prêt en 3 minutes",
+    "steps": {
+      "s1": {
+        "title": "Ajoute Kron",
+        "text": "Un clic sur « Ajouter à Discord », puis choisis ton serveur."
+      },
+      "s2": {
+        "title": "Active tes modules",
+        "text": "Une switch par module, seulement ce dont ton serveur a besoin."
+      },
+      "s3": {
+        "title": "Personnalise tout",
+        "text": "Textes, embeds, couleurs, rôles et salons, avec un aperçu en direct."
+      }
+    },
+    "fivemDocs": "Découvrir le module FiveM",
+    "popular": "Populaire",
+    "allPlans": "Voir toutes les offres"
+  },
+  "plans": {
+    "free": {
+      "name": "Gratuit",
+      "price": "0 $",
+      "period": "pour toujours",
+      "text": "Tous les modules de base, sans limite de temps.",
+      "items": [
+        "Tickets, embeds, rôles",
+        "Concours, rappels, anniversaires",
+        "Statistiques de salons",
+        "Support communautaire"
+      ]
+    },
+    "vip": {
+      "name": "Pro",
+      "price": "dès 0,82 $",
+      "period": "USD / mois (Pass 5 ans)",
+      "text": "Les modules avancés pour un serveur.",
+      "items": [
+        "Tout le plan Gratuit",
+        "Module FiveM (profils, jobs, /report)",
+        "Alertes Twitch et Kick",
+        "Formulaires illimités + passage rapide Tebex",
+        "Retirer la signature Kron des embeds",
+        "Support prioritaire"
+      ]
+    },
+    "whitelabel": {
+      "name": "Whitelabel",
+      "price": "+3 $",
+      "period": "USD / mois au mensuel et à l'annuel, 99 $ pour 5 ans",
+      "text": "Ton propre bot, avec ton nom et ton avatar.",
+      "items": [
+        "Tout le plan Pro",
+        "Nom, avatar et branding à toi",
+        "Tutoriel de configuration",
+        "Mensuel, annuel ou Pass 5 ans"
+      ]
+    }
+  },
+  "catalog": {
+    "groups": {
+      "essentials": "Essentiels",
+      "support": "Support",
+      "utilities": "Outils",
+      "community": "Communauté",
+      "social": "Alertes",
+      "fivem": "FiveM",
+      "members": "Membres",
+      "safety": "Sécurité",
+      "gaming": "Jeux"
+    },
+    "embeds": {
+      "name": "Embeds",
+      "text": "Éditeur visuel : titre, couleur, champs, images, auteur, footer. Bibliothèque et envois programmés."
+    },
+    "tickets": {
+      "name": "Tickets",
+      "text": "Panels à boutons, formulaires avant ouverture, prise en charge, transcriptions. Tout est personnalisable."
+    },
+    "forms": {
+      "name": "Whitelist & formulaires",
+      "text": "Formulaires web (whitelist, staff…) : connexion Discord, rôles par étape, accepter ou refuser depuis Discord."
+    },
+    "autoroles": {
+      "name": "Rôles automatiques",
+      "text": "Donne des rôles à l'arrivée des membres, avec délai et conditions."
+    },
+    "reactionroles": {
+      "name": "Rôles par réaction",
+      "text": "Les membres choisissent leurs rôles avec des boutons ou des menus."
+    },
+    "welcome": {
+      "name": "Bienvenue",
+      "text": "Messages et images de bienvenue et d'au revoir, en embed ou en MP."
+    },
+    "levels": {
+      "name": "Niveaux et économie",
+      "text": "XP en discutant, niveaux, rôles en récompense, classement et monnaie du serveur."
+    },
+    "giveaways": {
+      "name": "Concours",
+      "text": "Concours avec conditions, plusieurs gagnants et relance en un clic."
+    },
+    "customcommands": {
+      "name": "Commandes personnalisées",
+      "text": "Tes propres commandes slash : réponse en texte ou en embed, rôles donnés ou retirés."
+    },
+    "reminders": {
+      "name": "Rappels",
+      "text": "Rappels ponctuels ou récurrents, pour toi ou pour tout le serveur."
+    },
+    "birthdays": {
+      "name": "Anniversaires",
+      "text": "Souhaite les anniversaires automatiquement, avec un rôle du jour."
+    },
+    "chanstats": {
+      "name": "Statistiques de salons",
+      "text": "Compteurs de membres, boosts et plus, mis à jour dans le nom des salons."
+    },
+    "channels": {
+      "name": "Constructeur de salons",
+      "text": "Réorganise ton serveur par glisser-déposer : noms, emojis, séparateurs et polices, appliqués en un clic."
+    },
+    "moderation": {
+      "name": "Modération",
+      "text": "Sanctions, historique, sanctions temporaires et anti-spam."
+    },
+    "automod": {
+      "name": "AutoMod",
+      "text": "Mots interdits, regex, spam et mentions de masse, bloqués par Discord avant même d’être envoyés."
+    },
+    "antiraid": {
+      "name": "Anti-raid",
+      "text": "Détecte les vagues d’arrivées, met les invitations en pause et surveille les comptes récents."
+    },
+    "logs": {
+      "name": "Logs",
+      "text": "Messages supprimés ou modifiés, arrivées, départs, rôles, répartis par salon."
+    },
+    "twitch": {
+      "name": "Twitch",
+      "text": "Alertes instantanées quand tes streamers passent en live."
+    },
+    "kick": {
+      "name": "Kick",
+      "text": "Alertes instantanées pour les streams Kick."
+    },
+    "github": {
+      "name": "GitHub",
+      "text": "Les pushes de tes dépôts en embeds propres : une section par commit, liens et auteurs."
+    },
+    "fivem": {
+      "name": "Pont FiveM",
+      "text": "Relie ton serveur FiveM : infos des personnages dans les tickets, whitelist synchronisée en jeu."
+    },
+    "honeypot": {
+      "name": "Honeypot",
+      "text": "Un salon piège qui attrape les spambots : ils écrivent, Kron les bannit ou les expulse."
+    },
+    "games": {
+      "name": "Jeux",
+      "text": "Morpion, puissance 4, pendu, Wordle, blackjack, quiz et plus, avec mises et classement."
+    },
+    "polls": {
+      "name": "Sondages",
+      "text": "Sondages avec durée, choix multiples, résultats cachés et barres de résultats."
+    },
+    "verification": {
+      "name": "Vérification",
+      "text": "Bouton ou code à l’arrivée, âge minimum du compte, rôle vérifié."
+    },
+    "tempvoice": {
+      "name": "Vocaux temporaires",
+      "text": "Rejoins pour créer : chaque membre a son salon vocal, supprimé une fois vide."
+    },
+    "site": {
+      "name": "Page du serveur",
+      "text": "Une page publique pour ton serveur : description, invitation et formulaires ouverts."
+    },
+    "starboard": {
+      "name": "Starboard",
+      "text": "Les meilleurs messages republiés dans un salon dès qu’ils ont assez d’étoiles."
+    },
+    "esport": {
+      "name": "Équipe esport",
+      "text": "Gère tes équipes : joueurs, capitaines, staff, identité visuelle, et un organigramme publié dans Discord qui se met à jour tout seul."
+    },
+    "rocketleague": {
+      "name": "Rocket League",
+      "text": "Rangs 1v1/2v2/3v3, historique des matchs, victoires et évolution du rang dans une carte interactive."
+    },
+    "voicesupport": {
+      "name": "Soutien vocal",
+      "text": "Salle d’attente silencieuse et salons de soutien privés : le staff déplace les membres, qui peuvent parler et partager leur écran."
+    },
+    "rolemanager": {
+      "name": "Gestion des rôles",
+      "text": "Ton staff donne et retire des rôles avec /role, sans la permission Gérer les rôles."
+    },
+    "rolebackup": {
+      "name": "Sauvegarde des rôles",
+      "text": "Instantanés des rôles, de leurs permissions et de qui les a ; répare un serveur abîmé en un clic."
+    },
+    "invites": {
+      "name": "Suivi des invitations",
+      "text": "Qui a invité qui, message d’arrivée avec le nombre d’invitations, logs du staff et classement."
+    }
+  },
+  "login": {
+    "title": "Connexion",
+    "text": "Une vérification rapide, puis Discord prend le relais.",
+    "checking": "Vérification en cours…",
+    "redirecting": "Redirection vers Discord…",
+    "scopes": "Kron demande seulement ton profil et la liste de tes serveurs. Aucun accès à tes messages.",
+    "errors": {
+      "auth": "La connexion a échoué. Réessaie.",
+      "turnstile": "La vérification anti-robot a échoué. Recharge la page.",
+      "unavailable": "Service momentanément indisponible.",
+      "link": "Ce lien est invalide ou a expiré."
+    }
+  },
+  "footer": {
+    "tagline": "Bot Discord modulaire",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "contact": "Contact"
+  },
+  "dashboard": {
+    "title": "Tes serveurs",
+    "subtitle": "Les serveurs où tu peux gérer Kron.",
+    "refresh": "Actualiser",
+    "members": "{count} membres",
+    "inviteTitle": "Ajouter Kron",
+    "invite": "Inviter",
+    "emptyTitle": "Aucun serveur avec Kron",
+    "emptyText": "Invite Kron sur un serveur que tu gères pour commencer."
+  },
+  "guild": {
+    "back": "Tous les serveurs",
+    "switch": "Changer de serveur",
+    "nav": {
+      "overview": "Vue d'ensemble",
+      "settings": "Général",
+      "premium": "Pro"
+    },
+    "stats": {
+      "modules": "Modules actifs",
+      "members": "Membres",
+      "language": "Langue",
+      "plan": "Offre"
+    },
+    "modulesTitle": "Modules",
+    "modulesEmptyTitle": "Les modules arrivent",
+    "modulesEmptyText": "Les premiers modules seront bientôt disponibles ici.",
+    "languageLabel": "Langue du bot",
+    "languageHint": "Tout ce que Kron écrit sur ce serveur : messages, réponses aux commandes, boutons, logs. Les noms des commandes / suivent la langue Discord de chaque membre (règle de Discord).",
+    "vipRequired": "Ce module fait partie de l'offre Pro.",
+    "notFoundTitle": "Serveur inaccessible",
+    "notFoundText": "Kron n'est pas sur ce serveur, ou tu n'as pas la permission de le gérer.",
+    "retry": "Réessayer",
+    "upgrade": "Passer à Pro",
+    "allModules": "Tous les modules",
+    "configure": "Configurer",
+    "enable": "Activer",
+    "brandingLabel": "Retirer la signature Kron",
+    "brandingHint": "Enlève le pied de page « Kron · kronbot.xyz » des embeds envoyés par Kron.",
+    "brandingFree": "Les embeds de Kron ont un petit pied de page « Kron · kronbot.xyz ». L’offre Pro permet de le retirer.",
+    "searchModules": "Chercher un module…",
+    "menu": "Menu",
+    "general": {
+      "intro": "Les réglages de tout le serveur : chaque module les suit.",
+      "basics": "Langue et signature",
+      "namingTitle": "Style des noms de salons",
+      "namingHint": "Chaque catégorie et salon que Kron crée (configurations, boutons « Créer », packs) est nommé ainsi. « Embellir les noms » du constructeur de salons l’utilise aussi.",
+      "separator": "Séparateur",
+      "font": "Police",
+      "exampleCategory": "Support",
+      "exampleVoice": "Gaming",
+      "prefixTitle": "Commandes texte",
+      "prefixHint": "Les préfixes des tags créés dans Commandes personnalisées (!règles, ?aide…).",
+      "defaultPrefix": "Préfixe par défaut",
+      "defaultPrefixHint": "Utilisé pour les nouveaux tags.",
+      "tags": "{count} tag(s) sur ce serveur",
+      "applyPrefix": "Mettre « {prefix} » partout",
+      "noPrefix": "(aucun)",
+      "debugNote": "$debug reste la commande de support de Kron et garde son $.",
+      "logsTitle": "Catégorie des logs",
+      "logsHint": "Chaque module met ses salons de logs ici (modération, tickets, anti-raid…), pour qu’ils restent ensemble. Kron la règle quand il crée sa première catégorie de logs ; conseil : configure le module Logs en premier.",
+      "tourTitle": "Visite du dashboard",
+      "tourHint": "Un petit tour du dashboard, étape par étape.",
+      "tourStart": "Lancer la visite"
+    },
+    "tour": {
+      "next": "Suivant",
+      "back": "Retour",
+      "skip": "Passer",
+      "done": "C’est parti",
+      "steps": {
+        "welcome": {
+          "title": "Bienvenue sur Kron 👋",
+          "text": "Une minute pour te retrouver. Tu peux relancer cette visite dans la page Général."
+        },
+        "switch": {
+          "title": "Tes serveurs",
+          "text": "Change de serveur ici. Chacun a ses propres modules et réglages."
+        },
+        "general": {
+          "title": "Général",
+          "text": "Langue, style des noms de salons, préfixes texte et catégorie des logs : des réglages que tous les modules suivent."
+        },
+        "search": {
+          "title": "Trouver un module",
+          "text": "Tape un nom (tickets, niveaux, logs…) pour y aller."
+        },
+        "modules": {
+          "title": "Les modules",
+          "text": "Classés par usage. Un point vert veut dire que le module est actif. Chaque page a son interrupteur en haut et s’enregistre avec la barre du bas."
+        },
+        "premium": {
+          "title": "Pro",
+          "text": "Les modules Pro (👑) et des limites plus hautes. Ton offre et tes clés sont ici."
+        },
+        "start": {
+          "title": "Par où commencer",
+          "text": "1. Général : le style des noms. 2. Logs : un clic crée la catégorie des logs. 3. Tickets, Bienvenue, Vérification… chaque bouton « Créer » fait son salon dans ton style."
+        }
+      }
+    }
+  },
+  "legal": {
+    "updated": "En vigueur le 18 octobre 2026",
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "sections": [
+        {
+          "title": "1. Objet",
+          "body": [
+            "Les présentes conditions encadrent l'utilisation de Kron : le bot Discord, le panel web kronbot.xyz et les services associés (le « Service »). Le Service est exploité par l'équipe Kron (« nous »). En ajoutant Kron à un serveur Discord, en utilisant ses commandes, en remplissant un formulaire ou en vous connectant au panel, vous acceptez ces conditions. Si vous ne les acceptez pas, n'utilisez pas le Service."
+          ]
+        },
+        {
+          "title": "2. Définitions",
+          "body": [
+            "« Serveur » : un serveur Discord où Kron est ajouté. « Administrateur » : une personne qui ajoute ou configure Kron sur un Serveur (permission Gérer le serveur ou Administrateur). « Membre » : toute personne qui interagit avec Kron sur un Serveur ou par un formulaire. « Module » : une fonctionnalité de Kron activable par Serveur (tickets, whitelist, logs, etc.)."
+          ]
+        },
+        {
+          "title": "3. Admissibilité",
+          "body": [
+            "Vous devez respecter l'âge minimal exigé par Discord dans votre pays et détenir un compte Discord en règle. Au Québec, une personne de moins de 14 ans ne peut fournir de renseignements personnels au Service (par exemple en remplissant un formulaire) sans le consentement de son parent ou tuteur.",
+            "Si vous utilisez le Service au nom d'une organisation, vous déclarez être autorisé à l'engager."
+          ]
+        },
+        {
+          "title": "4. Relation avec Discord",
+          "body": [
+            "Kron est un produit indépendant. Il n'est ni affilié, ni approuvé, ni commandité par Discord Inc. Votre utilisation de Discord demeure soumise aux Conditions d'utilisation, aux Règles de la communauté et à la Politique pour les développeurs de Discord. Le Service dépend de Discord : une panne ou un changement de Discord peut l'affecter sans que nous en soyons responsables."
+          ]
+        },
+        {
+          "title": "5. Responsabilités des Administrateurs",
+          "body": [
+            "Les Administrateurs choisissent les Modules activés et leur configuration. Ils sont responsables :",
+            "• de la conformité de leur Serveur aux règles de Discord et aux lois applicables;",
+            "• des questions posées dans leurs formulaires et de l'usage qu'ils font des réponses : ils doivent informer leurs Membres des fins de la collecte, obtenir leur consentement lorsque requis et ne demander que les renseignements nécessaires;",
+            "• de ne jamais demander, par un formulaire, un ticket ou tout autre Module, des mots de passe, des données bancaires, des pièces d'identité ou des renseignements de santé;",
+            "• des décisions prises sur leur Serveur (acceptation ou refus d'une candidature, sanctions, attribution de rôles, etc.).",
+            "Pour les renseignements recueillis auprès de leurs Membres, l'Administrateur détermine les fins et nous agissons comme fournisseur de service pour son compte."
+          ]
+        },
+        {
+          "title": "6. Utilisation acceptable",
+          "body": [
+            "Il est interdit d’utiliser le Service pour :",
+            "• enfreindre une loi ou les règles de Discord, ou porter atteinte aux droits d’autrui;",
+            "• harceler, menacer, diffuser des contenus haineux, sexuels impliquant des mineurs ou incitant à la violence;",
+            "• envoyer du pourriel, des messages non sollicités en masse ou des liens malveillants;",
+            "• usurper l’identité d’une personne, de Kron ou de Discord, ou hameçonner des utilisateurs;",
+            "• contourner les limites, la sécurité ou la facturation du Service, l’attaquer, le surcharger ou en extraire des données de façon automatisée;",
+            "• décompiler ou copier le Service, sauf dans la mesure permise par la loi.",
+            "Nous pouvons limiter, suspendre ou retirer Kron d’un Serveur ou bloquer un utilisateur qui ne respecte pas ces règles, avec ou sans préavis selon la gravité."
+          ]
+        },
+        {
+          "title": "7. Contenu",
+          "body": [
+            "Vous conservez vos droits sur le contenu que vous fournissez (messages configurés, réponses aux formulaires, etc.). Vous nous accordez une licence limitée, non exclusive et gratuite pour héberger, traiter et afficher ce contenu, uniquement afin de fournir le Service. Vous déclarez avoir le droit de fournir ce contenu. Nous ne surveillons pas le contenu des Serveurs, mais nous pouvons retirer un contenu qui enfreint ces conditions."
+          ]
+        },
+        {
+          "title": "8. Offres payantes",
+          "body": [
+            "Certaines fonctionnalités sont offertes par abonnement : Pro et Whitelabel, par Serveur, au mois, à l’année ou une seule fois à vie, aux prix affichés sur le Site au moment de l’achat. Les prix sont en dollars américains; les taxes applicables s’ajoutent. Le paiement est traité par Stripe; nous ne conservons pas vos données de carte.",
+            "Les abonnements se renouvellent automatiquement à la fin de chaque période, au même prix, sauf annulation. Vous pouvez annuler en tout temps : l'annulation prend effet à la fin de la période payée et vous conservez l'accès jusque-là.",
+            "Toute hausse de prix vous sera annoncée au moins 30 jours à l'avance et ne s'appliquera qu'à la période suivante. Sauf lorsque la loi l'exige, les périodes commencées ne sont pas remboursables.",
+            "À la fin d’un abonnement Whitelabel, le Serveur revient à la version standard de Kron après 7 jours de grâce; les configurations sont conservées."
+          ]
+        },
+        {
+          "title": "9. Disponibilité et évolution",
+          "body": [
+            "Le Service est fourni « tel quel » et « selon sa disponibilité ». Nous faisons des efforts raisonnables pour qu'il fonctionne de façon continue, mais nous ne garantissons pas l'absence d'interruptions ou d'erreurs. Nous pouvons modifier, ajouter ou retirer des fonctionnalités. Si une fonctionnalité payante est retirée, nous offrirons une solution équivalente ou un remboursement proportionnel."
+          ]
+        },
+        {
+          "title": "10. Fin d’utilisation",
+          "body": [
+            "Vous pouvez cesser d'utiliser le Service en tout temps, notamment en retirant Kron de votre Serveur. Nous pouvons mettre fin à l'accès d'un Serveur ou d'un utilisateur qui enfreint ces conditions. Les données sont alors conservées et détruites selon la Politique de confidentialité; vous pouvez demander leur suppression à tout moment."
+          ]
+        },
+        {
+          "title": "11. Propriété intellectuelle",
+          "body": [
+            "Le nom Kron, le logo, le code, le design et la documentation nous appartiennent. Ces conditions ne vous transfèrent aucun droit sur eux, sauf le droit d'utiliser le Service conformément à celles-ci."
+          ]
+        },
+        {
+          "title": "12. Limitation de responsabilité",
+          "body": [
+            "Dans la mesure permise par la loi, nous ne sommes pas responsables des dommages indirects, de la perte de données, de profits ou de clientèle, ni des actions des Administrateurs, des Membres ou de Discord. Notre responsabilité totale est limitée aux sommes que vous nous avez payées au cours des 12 derniers mois.",
+            "Rien dans ces conditions ne limite les droits que vous accorde la Loi sur la protection du consommateur du Québec ou toute autre loi d'ordre public."
+          ]
+        },
+        {
+          "title": "13. Confidentialité",
+          "body": [
+            "La collecte et l'utilisation des renseignements personnels sont décrites dans notre Politique de confidentialité, qui fait partie de ces conditions."
+          ]
+        },
+        {
+          "title": "14. Modifications",
+          "body": [
+            "Nous pouvons modifier ces conditions. Un changement important sera annoncé au moins 30 jours à l'avance sur kronbot.xyz et sur notre serveur Discord de support. Continuer à utiliser le Service après l'entrée en vigueur vaut acceptation; sinon, vous pouvez cesser de l'utiliser et annuler votre abonnement."
+          ]
+        },
+        {
+          "title": "15. Droit applicable et langue",
+          "body": [
+            "Ces conditions sont régies par les lois du Québec et les lois fédérales du Canada qui s'y appliquent. Tout litige relève des tribunaux du Québec, sous réserve des droits du consommateur d'agir devant le tribunal de son domicile. La version française prévaut sur toute traduction."
+          ]
+        },
+        {
+          "title": "16. Nous joindre",
+          "body": [
+            "Le plus rapide : ouvrez un ticket sur notre serveur Discord (kronbot.xyz/support). Par courriel : dev@kronbot.xyz."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "sections": [
+        {
+          "title": "1. Notre engagement",
+          "body": [
+            "Cette politique explique quels renseignements personnels Kron recueille, pourquoi, comment ils sont protégés et quels sont vos droits. Elle est rédigée pour respecter la Loi sur la protection des renseignements personnels dans le secteur privé du Québec (Loi 25) et la LPRPDE fédérale."
+          ]
+        },
+        {
+          "title": "2. Responsable de la protection des renseignements personnels",
+          "body": [
+            "La personne responsable de la protection des renseignements personnels est le propriétaire de Kron. Pour toute question, demande ou plainte : dev@kronbot.xyz, en indiquant « Confidentialité » dans l'objet."
+          ]
+        },
+        {
+          "title": "3. Renseignements recueillis",
+          "body": [
+            "Compte du panel (connexion Discord) : votre identifiant Discord, nom d'utilisateur, nom affiché, avatar et langue préférée. Vos jetons d'accès Discord, chiffrés.",
+            "Sécurité des sessions : adresse IP et navigateur (user-agent) associés à votre session, et journaux techniques du serveur.",
+            "Serveurs Discord : identifiant, nom, langue et configuration des Modules de chaque Serveur où Kron est présent.",
+            "Données des Modules, seulement si l'Administrateur les active : réponses aux formulaires (whitelist, recrutement), réponses aux questions des tickets, date d'anniversaire, rappels, historique des sanctions de modération, participations aux concours, suivi des invitations (qui a invité qui), sauvegardes des rôles (quels rôles a chaque membre, les 80 dernières sauvegardes).",
+            "Pont FiveM, si un Administrateur l’installe : licence FiveM, nom de joueur et identifiant Discord des joueurs connectés; à la demande du staff, nom, emploi, téléphone et argent des personnages (chaque champ peut être désactivé); messages envoyés avec /report.",
+            "Rocket League, si un membre utilise /rl lier : plateforme et nom ou identifiant du compte de jeu, liés à son identifiant Discord, jusqu’à ce qu’il fasse /rl delier. Kron garde aussi des relevés de ses rangs, MMR et stats de carrière (lus sur l’API rocket-league10) pour afficher l’historique, pendant 60 jours.",
+            "Diagnostic : la commande $debug produit un rapport (noms et identifiants du serveur, du salon et de l'utilisateur, permissions du bot) transmis à notre serveur de support.",
+            "Paiement : les informations de carte sont recueillies directement par Stripe; nous ne recevons qu'un identifiant de client et l'état de l'abonnement."
+          ]
+        },
+        {
+          "title": "4. Ce que nous ne recueillons pas",
+          "body": [
+            "Nous ne demandons pas votre adresse courriel à Discord, nous n'avons pas accès à vos messages privés, et nous n'enregistrons pas la liste de vos serveurs (elle est lue chez Discord au besoin). Le module Logs affiche dans les salons du Serveur le contenu des messages supprimés ou modifiés : ce contenu est gardé en mémoire vive au plus 1 heure et n'est pas enregistré dans notre base de données."
+          ]
+        },
+        {
+          "title": "5. Fins de l’utilisation",
+          "body": [
+            "Nous utilisons ces renseignements uniquement pour : fournir et sécuriser le Service; vous authentifier et vérifier vos permissions; exécuter les Modules activés par les Administrateurs; offrir le soutien technique; gérer la facturation; prévenir les abus et respecter nos obligations légales. Nous ne vendons pas vos renseignements et nous ne faisons pas de publicité ciblée."
+          ]
+        },
+        {
+          "title": "6. Consentement",
+          "body": [
+            "Vous consentez à la collecte au moment de vous connecter au panel, d'utiliser une commande ou d'envoyer un formulaire. Vous pouvez retirer votre consentement en tout temps (voir section 11); certaines fonctionnalités pourraient alors ne plus être disponibles. Un mineur de moins de 14 ans ne peut fournir de renseignements sans le consentement de son parent ou tuteur."
+          ]
+        },
+        {
+          "title": "7. Communication à des tiers",
+          "body": [
+            "Les renseignements sont communiqués seulement dans la mesure nécessaire :",
+            "• aux Administrateurs du Serveur concerné (par exemple, les réponses à un formulaire sont visibles par l'équipe qui les examine);",
+            "• à nos fournisseurs : Discord (fonctionnement du bot et connexion), Cloudflare (protection du site, vérification anti-robot), notre hébergeur infonuagique et Stripe (paiements);",
+            "• aux autorités, lorsque la loi l'exige.",
+            "Nos fournisseurs sont tenus contractuellement de protéger les renseignements et ne peuvent les utiliser à d'autres fins."
+          ]
+        },
+        {
+          "title": "8. Hébergement et transferts hors du Québec",
+          "body": [
+            "Nos serveurs sont hébergés par un fournisseur infonuagique aux États-Unis, et Discord, Cloudflare et Stripe traitent des données à l'extérieur du Québec. Avant tout transfert, nous évaluons si les renseignements bénéficieront d'une protection adéquate, conformément à la loi."
+          ]
+        },
+        {
+          "title": "9. Conservation et destruction",
+          "body": [
+            "Sessions : 7 jours d’inactivité. Journaux techniques : 7 jours. Cache des messages (module Logs) : 1 heure, en mémoire seulement.",
+            "Rapports $debug : 90 jours, consultables par lien unique (kronbot.xyz/d/…), puis supprimés automatiquement.",
+            "Compte du panel : tant que vous l’utilisez; la déconnexion révoque vos jetons Discord. Données des Modules : tant que l’Administrateur les conserve ou jusqu’à une demande de suppression.",
+            "Données d'un Serveur dont Kron a été retiré : supprimées automatiquement 30 jours après le retrait, ou avant sur demande. Le plan Pro payé du Serveur est conservé. Données de facturation : la durée exigée par les lois fiscales.",
+            "À la fin de la conservation, les renseignements sont détruits ou anonymisés de façon sécuritaire."
+          ]
+        },
+        {
+          "title": "10. Sécurité",
+          "body": [
+            "Nous protégeons les renseignements par des mesures raisonnables : chiffrement des communications (HTTPS), chiffrement des jetons Discord (AES-256-GCM), sessions stockées sous forme hachée, accès aux serveurs restreint, protection contre les robots et les attaques. Aucun système n'est parfaitement sûr; en cas d'incident de confidentialité présentant un risque de préjudice sérieux, nous aviserons la Commission d'accès à l'information et les personnes concernées, et nous tenons un registre des incidents."
+          ]
+        },
+        {
+          "title": "11. Vos droits",
+          "body": [
+            "Vous pouvez demander l'accès à vos renseignements, leur rectification, leur suppression, leur communication dans un format technologique structuré et couramment utilisé (portabilité), et retirer votre consentement. Écrivez-nous à dev@kronbot.xyz; nous répondrons dans un délai de 30 jours. Nous pourrions vérifier votre identité (par exemple, depuis votre compte Discord). Pour des données recueillies par un Serveur, nous pourrions vous diriger vers son Administrateur.",
+            "Si vous êtes insatisfait de notre réponse, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec (cai.gouv.qc.ca)."
+          ]
+        },
+        {
+          "title": "12. Témoins et stockage local",
+          "body": [
+            "Nous utilisons seulement des témoins essentiels : un témoin de session et un témoin temporaire pendant la connexion. Votre thème et votre langue sont gardés dans votre navigateur. Nous n'utilisons aucun témoin publicitaire, de mesure d'audience ou de pistage."
+          ]
+        },
+        {
+          "title": "13. Modifications",
+          "body": [
+            "Nous pouvons mettre à jour cette politique. La date d'entrée en vigueur est indiquée en haut; un changement important sera annoncé sur kronbot.xyz et sur notre serveur Discord."
+          ]
+        }
+      ]
+    }
+  },
+  "ui": {
+    "today": "Aujourd'hui à {time}",
+    "remove": "Retirer",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "disabledNote": "Ce module est désactivé : tu peux le configurer, il fonctionnera dès que tu l’activeras.",
+    "none": "— Aucun —",
+    "addRole": "Ajouter un rôle",
+    "addChannel": "Ajouter un salon",
+    "roleTooHigh": "Ce rôle est au-dessus de Kron : déplace le rôle de Kron plus haut pour qu’il puisse le gérer.",
+    "unsaved": "Modifications non enregistrées",
+    "reset": "Annuler",
+    "save": "Enregistrer",
+    "limit": "{used}/{max}",
+    "vipLimit": "Limite du plan gratuit atteinte. Passe en Pro pour en avoir plus.",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "confirmDelete": "Cliquer encore pour confirmer",
+    "channel": "Salon",
+    "category": "Catégorie",
+    "roles": "Rôles",
+    "name": "Nom",
+    "embed": {
+      "content": "Message (hors embed)",
+      "variables": "Variables",
+      "embed": "Embed {n}",
+      "authorName": "Auteur",
+      "authorIcon": "Icône de l’auteur (URL)",
+      "title": "Titre",
+      "url": "Lien du titre (URL)",
+      "description": "Description",
+      "color": "Couleur",
+      "noColor": "Aucune",
+      "fields": "Champs",
+      "fieldName": "Nom du champ",
+      "fieldValue": "Valeur",
+      "inline": "En ligne",
+      "addField": "Ajouter un champ",
+      "image": "Image (URL)",
+      "thumbnail": "Miniature (URL)",
+      "footer": "Pied de page",
+      "footerIcon": "Icône du pied (URL)",
+      "timestamp": "Afficher l’heure d’envoi",
+      "addEmbed": "Ajouter un embed",
+      "total": "Total",
+      "linkButtons": "Boutons-liens",
+      "buttonLabel": "Texte du bouton",
+      "addButton": "Ajouter un bouton",
+      "import": "Importer du JSON",
+      "export": "Copier le JSON",
+      "importApply": "Importer",
+      "importError": "JSON invalide (format Discord ou Discohook attendu).",
+      "preview": "Aperçu",
+      "issues": {
+        "too_long": "Les embeds dépassent 6000 caractères au total.",
+        "empty": "Le message est vide : ajoute du texte ou un embed.",
+        "field_empty": "Chaque champ doit avoir un nom et une valeur.",
+        "invalid_url": "Une URL est invalide (elle doit commencer par https://).",
+        "required": "Un champ obligatoire est vide."
+      }
+    },
+    "leave": {
+      "title": "Modifications non enregistrées",
+      "text": "Tu as des changements qui ne sont pas enregistrés. Que veux-tu faire ?",
+      "stay": "Rester",
+      "discard": "Quitter sans enregistrer",
+      "save": "Enregistrer et continuer"
+    },
+    "plan": {
+      "title": "Sera créé",
+      "hint": "Clique sur une ligne pour changer son emoji, son nom ou qui peut la voir.",
+      "existing": "catégorie existante réutilisée",
+      "emoji": "Emoji",
+      "name": "Nom",
+      "access": "Visible par",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "public": "visible par tout le monde",
+      "private": "staff seulement",
+      "roles": "{count} rôle(s)"
+    },
+    "copy": "Copier",
+    "copied": "Copié",
+    "emoji": {
+      "pick": "Choisir un emoji",
+      "type": "Tape ou colle un emoji",
+      "none": "Aucun",
+      "groups": {
+        "info": "Infos",
+        "chat": "Discussion",
+        "voice": "Vocal et jeux",
+        "staff": "Staff",
+        "rp": "RP",
+        "misc": "Divers"
+      }
+    },
+    "vars": {
+      "server": "Nom du serveur",
+      "server_id": "ID du serveur",
+      "server_icon": "Icône du serveur (URL)",
+      "memberCount": "Nombre de membres",
+      "date": "Date du jour",
+      "time": "Heure",
+      "fivem_server": "Nom du serveur FiveM",
+      "fivem_players": "Joueurs en ligne (FiveM)",
+      "fivem_status": "État du serveur FiveM (🟢/🔴)",
+      "fivem_maxPlayers": "Places maximum (FiveM)",
+      "fivem_police": "Policiers en service (FiveM)",
+      "fivem_ems": "Ambulanciers en service (FiveM)",
+      "fivem_jobs": "Jobs en service (FiveM)"
+    },
+    "newChannel": {
+      "create": "Créer",
+      "submit": "Créer le salon",
+      "preview": "Sera créé :",
+      "atTop": "tout en haut du serveur",
+      "inLogs": "dans la catégorie de logs du serveur",
+      "privateHint": "Caché aux autres membres. Kron le voit toujours.",
+      "created": "{name} créé.",
+      "errors": {
+        "missing_permissions": "Il manque à Kron la permission Gérer les salons.",
+        "too_many_channels": "Discord limite un serveur à 500 salons.",
+        "invalid_channel": "La catégorie de logs n’existe plus : choisis-en une autre dans la page Général.",
+        "invalid_role": "Un rôle choisi n’existe plus."
+      },
+      "names": {
+        "verification": "vérification",
+        "welcome": "bienvenue",
+        "goodbye": "au-revoir",
+        "birthdays": "anniversaires",
+        "starboard": "starboard",
+        "levelUp": "niveaux",
+        "giveaways": "giveaways",
+        "roles": "rôles",
+        "github": "github",
+        "announcements": "annonces",
+        "modLogs": "logs-modération",
+        "raidAlerts": "alertes-raid",
+        "automodAlerts": "alertes-automod",
+        "honeypotLogs": "logs-honeypot",
+        "ticketLogs": "logs-ticket",
+        "transcripts": "transcripts-ticket",
+        "tickets": "tickets",
+        "ticketCategory": "Support",
+        "reviews": "candidatures",
+        "interview": "Entretien",
+        "tempHub": "Créer un salon",
+        "tempCategory": "Salons temporaires",
+        "voiceSupport": "Support vocal",
+        "logs": "Logs",
+        "roleLogs": "logs-rôles",
+        "backupAlerts": "alertes-rôles",
+        "inviteLogs": "logs-invitations",
+        "arrivals": "arrivées",
+        "counting": "comptage"
+      },
+      "category": "Catégorie",
+      "inCategory": "dans 📁 {name}",
+      "suggested": "Suggérée : {name}",
+      "suggestedTag": "suggérée",
+      "noSuggestion": "Aucune catégorie de jeux trouvée : le salon ira tout en haut, ou choisis-en une."
+    }
+  },
+  "contact": {
+    "title": "Nous joindre",
+    "lead": "Kron est un produit Discord : le soutien se fait d’abord sur Discord, où notre équipe et la communauté répondent beaucoup plus vite.",
+    "discordTitle": "🎫 Ouvrir un ticket sur Discord",
+    "discordText": "Le moyen le plus rapide et le plus simple. Rejoins notre serveur de support et ouvre un ticket : tu peux joindre des captures d’écran et le lien de ton $debug.",
+    "discordButton": "Rejoindre le serveur de support",
+    "debugTip": "Astuce : tape $debug dans ton serveur, puis colle le lien dans ton ticket. On verra exactement ce que tu vois.",
+    "emailTitle": "✉️ Par courriel",
+    "emailText": "Pour les questions d’affaires, de facturation ou de confidentialité (Loi 25 : accès, rectification, suppression de tes renseignements).",
+    "emailDelay": "Réponse en quelques jours ouvrables. Les demandes de confidentialité sont traitées dans un délai de 30 jours.",
+    "note": "Kron est un produit indépendant, non affilié à Discord Inc.",
+    "email": "dev@kronbot.xyz"
+  },
+  "fivemPromo": {
+    "badge": "Une première",
+    "title": "Module FiveM, jamais vu ailleurs",
+    "text": "Installe la ressource Kron sur ton serveur FiveM et relie-le à Discord. Une seule switch dans le dashboard, et les autres modules affichent les infos du joueur en ville.",
+    "points": {
+      "tickets": "🎫 Tickets : les personnages du joueur en en-tête, dès l’ouverture",
+      "whitelist": "📝 Whitelist synchronisée : refusé sur Discord = refusé en jeu",
+      "moderation": "🛡️ Modération : identifiants, temps de jeu et sanctions au même endroit"
+    },
+    "soon": "Bientôt disponible",
+    "mockLabel": "Aperçu : en-tête de ticket avec les infos FiveM du joueur",
+    "cardTitle": "Profil FiveM",
+    "cardText": "Ticket ouvert par **@Alex** · license:3f9a…c21",
+    "status": "Statut",
+    "online": "En ville (2 h 14)",
+    "characters": "Personnages",
+    "jobs": {
+      "mechanic": "🔧 Mécanicien",
+      "ems": "🚑 Ambulancière"
+    }
+  },
+  "docs": {
+    "eyebrow": "Documentation",
+    "title": "Documentation Kron",
+    "lead": "Tout ce qu’il faut savoir pour installer, configurer et tirer le maximum de Kron, module par module.",
+    "search": "Rechercher dans la doc…",
+    "searchAll": "Rechercher un module, une commande, une question…",
+    "noResult": "Aucun article trouvé.",
+    "results": "{count} résultat(s)",
+    "popular": "Les plus consultés",
+    "categories": {
+      "start": "Bien démarrer",
+      "modules": "Modules",
+      "fivem": "FiveM",
+      "premium": "Premium & Whitelabel",
+      "help": "Aide"
+    },
+    "callouts": {
+      "note": "ℹ️ Note",
+      "tip": "💡 Astuce",
+      "important": "⚠️ Important",
+      "warning": "🚫 Attention"
+    },
+    "prev": "Précédent",
+    "next": "Suivant",
+    "helpTitle": "Besoin d’aide ?",
+    "helpText": "Ouvre un ticket sur notre serveur Discord : l’équipe répond vite.",
+    "fallback": "Cet article n’est pas encore traduit : voici la version française.",
+    "articles": "Articles"
+  },
+  "mockWl": {
+    "title": "📝┆Candidature whitelist",
+    "text": "Candidature de **@Alex**",
+    "field1": "🎂 Âge",
+    "value1": "24 ans",
+    "field2": "🎮 Expérience RP",
+    "value2": "3 ans",
+    "accept": "Accepter",
+    "deny": "Refuser"
+  },
+  "mockLog": {
+    "title": "🗑️ Message supprimé",
+    "text": "Est-ce que quelqu’un a vu mon auto ?",
+    "author": "Auteur",
+    "channel": "Salon"
+  },
+  "cookies": {
+    "label": "Témoins",
+    "text": "Kron utilise seulement des témoins essentiels (session et connexion). Aucun pistage ni publicité.",
+    "more": "En savoir plus",
+    "ok": "Compris"
+  },
+  "premium": {
+    "title": "Offre",
+    "freeText": "Ton serveur est sur l’offre gratuite.",
+    "until": "Actif jusqu’au {date}.",
+    "lifetime": "Actif à vie.",
+    "seePlans": "Voir les offres",
+    "redeemTitle": "Activer une clé",
+    "redeemText": "Tu as reçu une clé Kron ? Entre-la ici pour activer l’offre sur ce serveur. Une clé ne sert qu’une fois.",
+    "redeem": "Activer",
+    "redeemed": "Clé activée. Merci !",
+    "errors": {
+      "key_invalid": "Clé invalide.",
+      "key_used": "Cette clé a déjà été utilisée.",
+      "key_revoked": "Cette clé a été désactivée.",
+      "rate": "Trop d’essais. Réessaie dans une minute.",
+      "unknown": "Erreur. Réessaie plus tard."
+    },
+    "launch": "Débloqué gratuitement pendant le lancement. Tes réglages seront gardés quand les paiements ouvriront.",
+    "billing": {
+      "title": "Abonnement",
+      "staffPreview": "Période de lancement : tout est gratuit. Ces boutons ne sont visibles que par le staff, pour tester les paiements.",
+      "renewsOn": "se renouvelle le {date}",
+      "endsOn": "annulé, actif jusqu’au {date}",
+      "pastDue": "paiement en échec, mets ta carte à jour",
+      "manage": "Gérer l’abonnement",
+      "notMine": "Un autre gestionnaire du serveur paie cet abonnement : lui seul peut le modifier.",
+      "secure": "Paiement sécurisé par Stripe (carte, Apple Pay, Google Pay). Kron ne voit jamais tes données de carte. Annulable en tout temps.",
+      "thanks": "Merci ! Ton abonnement est activé dans quelques secondes.",
+      "errors": {
+        "billing_off": "Les paiements ne sont pas encore ouverts.",
+        "already_subscribed": "Ce serveur a déjà un abonnement actif.",
+        "plan_unavailable": "Cette offre n’est pas disponible pour l’instant.",
+        "no_subscription": "Aucun abonnement à ton nom pour ce serveur."
+      },
+      "lifetime": "À vie : rien à renouveler.",
+      "prepaid": "Pass payé, actif jusqu’au {date}",
+      "upgrade": "Passe à une durée plus longue : {amount} déjà payés ce mois-ci seront déduits, et ton abonnement mensuel s’arrêtera tout seul."
+    }
+  },
+  "admin": {
+    "title": "Dashboard staff",
+    "short": "Staff",
+    "level": "Accès : {level}",
+    "levels": {
+      "owner": "Propriétaire",
+      "admin": "Admin",
+      "dev": "Dev",
+      "modo": "Modo"
+    },
+    "tabs": {
+      "premium": "Serveurs premium",
+      "keys": "Clés",
+      "overview": "Vue d’ensemble",
+      "servers": "Serveurs",
+      "journal": "Journal",
+      "finance": "Finances"
+    },
+    "stats": {
+      "guilds": "Serveurs",
+      "activeGrants": "Premium actifs",
+      "unusedKeys": "Clés disponibles",
+      "members": "Membres (total)",
+      "left": "Serveurs quittés",
+      "live": "Lives en cours"
+    },
+    "grantTitle": "Donner l’offre à un serveur",
+    "guildId": "ID du serveur",
+    "note": "Note (optionnel)",
+    "grant": "Donner",
+    "noGrants": "Aucun serveur premium.",
+    "left": "Quitté",
+    "expired": "Expiré",
+    "until": "jusqu’au {date}",
+    "lifetime": "À vie",
+    "days": "{n} jours",
+    "revoke": "Retirer",
+    "sources": {
+      "key": "Clé",
+      "manual": "Manuel",
+      "stripe": "Stripe"
+    },
+    "keysTitle": "Générer des clés",
+    "count": "Nombre",
+    "keyNote": "Pour qui ? (ex. partenaire, staff)",
+    "generate": "Générer",
+    "createdTitle": "Copie ces clés maintenant",
+    "createdText": "Elles ne seront plus jamais affichées : on garde seulement une empreinte.",
+    "copy": "Copier",
+    "done": "J’ai copié",
+    "noKeys": "Aucune clé.",
+    "redeemedOn": "utilisée sur {guild}",
+    "status": {
+      "available": "Disponible",
+      "used": "Utilisée",
+      "revoked": "Désactivée"
+    },
+    "bot": {
+      "status": "Bot",
+      "online": "En ligne",
+      "offline": "Hors ligne",
+      "ping": "Latence",
+      "memory": "Mémoire",
+      "uptime": "En ligne depuis",
+      "version": "Kron v{version} · {guilds} serveurs en cache"
+    },
+    "topModules": "Modules les plus utilisés",
+    "searchGuilds": "Chercher un serveur (nom ou ID)…",
+    "membersCount": "{count} membres",
+    "modulesCount": "{count} modules",
+    "allGuilds": "Tous les serveurs",
+    "leave": "Faire quitter Kron",
+    "leaveConfirm": "Confirmer : Kron quitte ce serveur",
+    "leftDone": "Kron a quitté le serveur. Ses données seront supprimées dans 30 jours.",
+    "facts": {
+      "owner": "Propriétaire",
+      "members": "Membres",
+      "online": "{count} en ligne",
+      "locale": "Langue",
+      "joined": "Arrivée de Kron",
+      "leftAt": "Départ",
+      "grant": "Premium"
+    },
+    "permsTitle": "Permissions de Kron",
+    "adminWarning": "Kron a Administrateur sur ce serveur (via un rôle). Ce n’est pas recommandé : les permissions précises suffisent.",
+    "permsOk": "Toutes les permissions nécessaires sont là.",
+    "permsMissing": "{count} permission(s) manquante(s) :",
+    "botRole": "Rôle le plus haut de Kron : {role} · {above} rôle(s) au-dessus de lui (sur {total}) qu’il ne peut pas gérer.",
+    "modulesTitle": "Modules",
+    "reportsTitle": "Rapports $debug",
+    "noReports": "Aucun rapport $debug récent.",
+    "reportBy": "demandé par {user}",
+    "reportsHint": "Demande à l’équipe du serveur de taper $debug dans le salon qui pose problème : le rapport apparaît ici.",
+    "liveTitle": "Alertes de live en cours",
+    "journalTitle": "Journal du staff",
+    "journalEmpty": "Aucune action du staff pour l’instant.",
+    "actions": {
+      "grant.create": "a donné un plan Premium",
+      "grant.revoke": "a retiré un plan Premium",
+      "key.create": "a créé des clés Premium",
+      "key.revoke": "a révoqué une clé",
+      "module.toggle": "a activé / désactivé un module",
+      "guild.leave": "a fait quitter Kron d’un serveur"
+    },
+    "errors": {
+      "no_access": "Kron n’a plus accès à ce serveur.",
+      "discord_error": "Discord n’a pas répondu.",
+      "note_required": "Une note est obligatoire (ex. « Concours du 20 octobre »)."
+    },
+    "permNames": {
+      "ViewChannel": "Voir les salons",
+      "SendMessages": "Envoyer des messages",
+      "EmbedLinks": "Intégrer des liens",
+      "AttachFiles": "Joindre des fichiers",
+      "ManageRoles": "Gérer les rôles",
+      "ManageChannels": "Gérer les salons",
+      "ManageMessages": "Gérer les messages",
+      "ReadMessageHistory": "Voir l’historique des messages",
+      "KickMembers": "Expulser des membres",
+      "BanMembers": "Bannir des membres",
+      "ManageGuild": "Gérer le serveur",
+      "ViewAuditLog": "Voir les logs d’audit",
+      "ModerateMembers": "Exclure temporairement des membres"
+    },
+    "growth": {
+      "joined": "Arrivées (7 j)",
+      "left": "Départs (7 j)",
+      "d30": "en 30 j",
+      "tickets": "Tickets ouverts (7 j)",
+      "openTickets": "Tickets en cours"
+    },
+    "shardsTitle": "Shards",
+    "shardGuilds": "{count} serveurs",
+    "whitelabelTitle": "Bots Whitelabel",
+    "whitelabelEmpty": "Aucun bot Whitelabel connecté.",
+    "wlOff": "Désactivé",
+    "wlErrors": {
+      "token_invalid": "Token invalide",
+      "intents_missing": "Intents manquants"
+    },
+    "finance": {
+      "mrr": "Revenu mensuel (MRR)",
+      "arr": "Revenu annuel estimé",
+      "active": "Abonnements actifs",
+      "risk": "Annulés / paiement en échec",
+      "hint": "Montants avant taxes et frais Stripe (environ 2,9 % + 0,30 $ par paiement). Les abonnements annulés ne comptent plus dans le MRR.",
+      "subs": "Abonnements Stripe",
+      "none": "Aucun abonnement pour l’instant.",
+      "months": "mois",
+      "renews": "renouvelle le",
+      "ends": "se termine le"
+    },
+    "presets": {
+      "month": "1 mois Pro",
+      "monthWhitelabel": "1 mois Pro + Whitelabel",
+      "year": "1 an Pro",
+      "yearWhitelabel": "1 an Pro + Whitelabel",
+      "fiveYears": "5 ans Pro",
+      "fiveYearsWhitelabel": "5 ans Pro + Whitelabel"
+    },
+    "reveal": "Voir la clé",
+    "notStored": "Clé créée avant l’archivage : impossible de l’afficher.",
+    "editNote": "Modifier la note",
+    "addNote": "Ajouter une note",
+    "noteRequired": "Une note est obligatoire (ex. « Concours du 20 octobre »)."
+  },
+  "account": {
+    "menu": "Menu du compte",
+    "title": "Mon compte",
+    "preferences": "Préférences",
+    "preferencesHint": "Langue du site et des messages privés de Kron, et thème clair ou sombre.",
+    "shortcutsTitle": "Raccourcis",
+    "shortcuts": {
+      "dashboard": "Tes serveurs et leurs modules",
+      "tickets": "Tes tickets dans tous les serveurs",
+      "staff": "Clés, offres et serveurs premium",
+      "docs": "Guides et réponses"
+    },
+    "privacy": "Confidentialité",
+    "privacyText": "Kron garde seulement ce qu’il faut pour fonctionner (profil Discord, serveurs gérés, tickets). Tu peux demander une copie ou la suppression de tes données.",
+    "privacyPolicy": "Politique de confidentialité",
+    "deleteData": "Demander la suppression"
+  },
+  "fivemPage": {
+    "install": "Guide d’installation",
+    "functions": "Toutes les fonctions",
+    "featuresTitle": "Ce que le module fait",
+    "features": {
+      "tickets": {
+        "title": "🎫 Profil dans les tickets",
+        "text": "Personnages, job, argent et téléphone du joueur sous chaque ticket."
+      },
+      "whitelist": {
+        "title": "📝 Whitelist synchronisée",
+        "text": "Les candidatures acceptées sur Discord donnent les bons rôles."
+      },
+      "moderation": {
+        "title": "🛡️ Modération",
+        "text": "Identifiants, temps de jeu et sanctions au même endroit."
+      },
+      "actions": {
+        "title": "🔧 Actions rapides",
+        "text": "Débloquer un joueur ou renvoyer un véhicule au garage depuis Discord."
+      },
+      "reports": {
+        "title": "📣 Reports en jeu",
+        "text": "Chaque /report ouvre un fil Discord où le staff répond au joueur."
+      },
+      "jobs": {
+        "title": "💼 Salons de jobs",
+        "text": "Une catégorie JOBS avec un salon privé par job ou gang, visible par le staff et le rôle du job."
+      }
+    },
+    "stepsTitle": "Installation en 3 étapes",
+    "steps": {
+      "s1": {
+        "title": "Télécharge la ressource",
+        "text": "Décompresse kronbot_bridge dans le dossier resources de ton serveur."
+      },
+      "s2": {
+        "title": "Ajoute le jeton",
+        "text": "Copie le jeton du dashboard dans server.cfg et ajoute ensure kronbot_bridge."
+      },
+      "s3": {
+        "title": "Redémarre",
+        "text": "Le dashboard affiche « Connecté » : les fonctions sont prêtes."
+      }
+    }
+  },
+  "liveUi": {
+    "notConfigured": "Les alertes {platform} ne sont pas encore branchées sur Kron (clés API manquantes). Tu peux préparer ta liste : les alertes partiront dès que ce sera fait.",
+    "addTitle": "Suivre une chaîne",
+    "addHint": "Dès que la chaîne passe en live sur {platform}, Kron publie une alerte (vérifié chaque minute).",
+    "loginPlaceholder": "nom de la chaîne",
+    "add": "Ajouter",
+    "notFound": "Aucune chaîne « {login} » sur {platform}.",
+    "listTitle": "Chaînes suivies",
+    "emptyTitle": "Aucune chaîne",
+    "emptyText": "Ajoute une chaîne {platform} ci-dessus.",
+    "liveNow": "en live",
+    "pingRoles": "Rôles à mentionner",
+    "pingEveryone": "Mentionner @everyone",
+    "message": "Message",
+    "messageHint": "Variables : {streamer}, {title}, {game}, {url}. Vide = message par défaut.",
+    "defaultMessage": "🔴 {streamer} est en live : {title}",
+    "endTitle": "Fin du live",
+    "endHint": "Ce que devient l’alerte quand le live se termine.",
+    "onEnd": {
+      "edit": "Marquer « live terminé » (gris, avec la durée)",
+      "delete": "Supprimer l’alerte",
+      "keep": "Laisser l’alerte telle quelle"
+    },
+    "errors": {
+      "not_configured": "Les clés API de cette plateforme ne sont pas encore configurées.",
+      "platform_error": "La plateforme n’a pas répondu. Réessaie dans un instant."
+    }
+  },
+  "whitelabel": {
+    "title": "Whitelabel : ton propre bot",
+    "intro": "Toutes les fonctions de Kron sous ton nom et ton avatar, avec ta propre application Discord.",
+    "notAvailable": "Le Whitelabel fait partie de l’offre Whitelabel.",
+    "seePlans": "Voir les offres",
+    "online": "En ligne dans ton serveur",
+    "starting": "Démarrage en cours (moins d’une minute)…",
+    "invite": "Inviter ton bot",
+    "name": "Nom du bot",
+    "nameHint": "Discord limite les changements de nom à environ 2 par heure.",
+    "avatar": "Avatar",
+    "avatarHint": "PNG, JPG, GIF ou WebP, 1 Mo maximum.",
+    "status": "Statut",
+    "statusPlaceholder": "ex. Support du serveur · kronbot.xyz",
+    "apply": "Appliquer",
+    "connectTitle": "Connecter ton bot",
+    "replaceToken": "Remplacer le token",
+    "stepPortal": "Ouvre le portail développeur Discord",
+    "stepCreate": "Crée ton application",
+    "stepCreateValue": "clique sur New Application, donne-lui un nom et accepte les conditions.",
+    "stepInstall": "Onglet Installation",
+    "stepInstallValue": "dans Default Install Settings, choisis :",
+    "userInstall": "User Install, scopes :",
+    "guildInstall": "Guild Install, scopes :",
+    "permissions": "Guild Install, permissions :",
+    "stepBot": "Onglet Bot",
+    "stepBotValue": "clique sur Reset Token et copie le token. Dans Privileged Gateway Intents, active :",
+    "on": "activé",
+    "stepProfile": "Onglet General Information",
+    "stepProfileValue": "choisis l’avatar, le nom et la description de ton bot, puis Save Changes (sur chaque onglet modifié).",
+    "stepToken": "Colle le token ci-dessous",
+    "stepTokenValue": "puis Connecter, et invite ton bot avec le bouton qui apparaît. Kron l’héberge : il reste en ligne 24 h/24.",
+    "tokenPlaceholder": "Token du bot",
+    "connect": "Connecter",
+    "tokenSafe": "Le token est vérifié auprès de Discord, puis chiffré. Il n’est jamais réaffiché ni partagé.",
+    "takeover": "Quand ton bot est en ligne dans le serveur, Kron le quitte automatiquement : ton bot prend le relais avec toute ta configuration.",
+    "remove": "Déconnecter le bot",
+    "removeConfirm": "Confirmer (réinvite Kron ensuite)",
+    "connected": "Bot connecté : invite-le maintenant dans ton serveur.",
+    "saved": "Enregistré.",
+    "removed": "Bot déconnecté. Réinvite Kron pour continuer.",
+    "intents": {
+      "members": "Server Members Intent",
+      "content": "Message Content Intent"
+    },
+    "errors": {
+      "token_invalid": "Token invalide : copie-le à nouveau (Reset Token).",
+      "not_a_bot": "Ce token n’est pas celui d’un bot.",
+      "intents_missing": "Active ces intents dans l’onglet Bot : {missing}",
+      "app_in_use": "Cette application est déjà utilisée par un autre serveur.",
+      "whitelabel_required": "Ce serveur n’a pas l’offre Whitelabel.",
+      "discord_error": "Discord n’a pas répondu. Réessaie dans un instant.",
+      "rate_limited": "Discord limite les changements de nom : réessaie dans une heure.",
+      "profile_rejected": "Discord a refusé ce nom ou cet avatar.",
+      "avatar_too_big": "Image trop lourde (1 Mo maximum)."
+    }
+  },
+  "statusPage": {
+    "title": "État de Kron",
+    "lead": "L’état du bot en direct, shard par shard. Mis à jour chaque minute.",
+    "up": "Tout fonctionne",
+    "degraded": "Service perturbé",
+    "down": "Hors ligne",
+    "loading": "Chargement…",
+    "error": "Impossible de joindre l’API de Kron.",
+    "servers": "Serveurs",
+    "ping": "Latence",
+    "uptime": "En ligne depuis",
+    "version": "Version",
+    "shards": "Shards",
+    "shardsHint": "Discord répartit les serveurs entre des connexions appelées shards.",
+    "shard": "Shard {id}",
+    "online": "En ligne",
+    "connecting": "Connexion",
+    "offline": "Hors ligne",
+    "checked": "Vérifié {time}",
+    "help": "Un problème qui ne vient pas d’ici ? Ouvre un ticket sur notre serveur.",
+    "pill": "Statut",
+    "footer": "Statut"
+  },
+  "pro": {
+    "eyebrow": "👑 Kron Pro",
+    "title": "Passe ton serveur au niveau supérieur",
+    "lead": "Tout l’essentiel reste gratuit. Pro débloque FiveM, les alertes de live, les flux GitHub, les équipes esport et retire toutes les limites. Whitelabel te donne ton propre bot.",
+    "forever": "pour toujours",
+    "month": "/ mois",
+    "unlimited": "Illimité",
+    "choose": "Choisir {plan}",
+    "compareTitle": "Comparer les offres",
+    "pickTitle": "Pour quel serveur ?",
+    "pickText": "L’offre {plan} s’applique à un serveur. Choisis-le, puis paie en toute sécurité avec Stripe.",
+    "signIn": "Se connecter avec Discord",
+    "noServer": "Kron n’est sur aucun serveur que tu gères.",
+    "faqTitle": "Questions fréquentes",
+    "more": "Plus de détails dans",
+    "docsLink": "la doc Premium",
+    "rows": {
+      "coreModules": "Tickets, logs, rôles, bienvenue, AutoMod, niveaux…",
+      "fivem": "Module FiveM (profils, jobs, /report)",
+      "streams": "Alertes Twitch et Kick",
+      "github": "Flux GitHub",
+      "esport": "Équipes esport",
+      "branding": "Sans la signature « Kron »",
+      "support": "Support prioritaire",
+      "ownBot": "Ton propre bot (nom, avatar, statut)"
+    },
+    "limits": {
+      "embeds": "Embeds sauvegardés",
+      "ticketPanels": "Panels de tickets",
+      "forms": "Formulaires",
+      "reactionMenus": "Menus de rôles",
+      "customCommands": "Commandes et tags",
+      "giveawaysActive": "Concours actifs",
+      "counters": "Compteurs de salons",
+      "levelRewards": "Récompenses de niveaux",
+      "scheduledMessages": "Envois programmés"
+    },
+    "faq": [
+      {
+        "q": "L’abonnement est pour un serveur ou pour mon compte ?",
+        "a": "Pour un serveur. Chaque serveur a son propre abonnement, payé par n’importe quel gestionnaire du serveur."
+      },
+      {
+        "q": "Je peux annuler quand je veux ?",
+        "a": "Oui, depuis la page Premium du serveur (portail Stripe). L’accès reste actif jusqu’à la fin de la période payée."
+      },
+      {
+        "q": "Je commence au mensuel : je perds ce que j’ai payé si je passe à l’annuel ?",
+        "a": "Non. Ce que tu as payé dans les 60 derniers jours est déduit du prix de l’annuel ou du Pass 5 ans, et ton abonnement mensuel s’arrête tout seul."
+      },
+      {
+        "q": "Qu’arrive-t-il à ma config si j’arrête ?",
+        "a": "Rien n’est supprimé. Ce qui dépasse les limites gratuites reste en place, mais tu ne peux plus en créer de nouveaux, et les modules Pro se mettent en pause."
+      },
+      {
+        "q": "Quels moyens de paiement ?",
+        "a": "Carte de crédit ou de débit, Apple Pay et Google Pay, par Stripe. Kron ne voit jamais tes données de carte."
+      },
+      {
+        "q": "C’est quoi le Whitelabel ?",
+        "a": "Ton serveur utilise ton propre bot Discord (ton nom, ton avatar, ton statut) avec toutes les fonctions Pro. Tu crées l’application, Kron fait le reste."
+      }
+    ],
+    "offers": {
+      "monthly": {
+        "name": "Mensuel",
+        "note": "Pro, facturé chaque mois",
+        "per": "/ mois"
+      },
+      "monthlyWhitelabel": {
+        "name": "Mensuel + Whitelabel",
+        "note": "Pro + ton propre bot, facturé chaque mois",
+        "per": "/ mois"
+      },
+      "yearly": {
+        "name": "Annuel",
+        "note": "Pro, facturé chaque année ({monthly} / mois)",
+        "per": "/ an",
+        "billed": "{amount} facturé chaque année"
+      },
+      "yearlyWhitelabel": {
+        "name": "Annuel + Whitelabel",
+        "note": "Pro + ton propre bot, facturé chaque année ({monthly} / mois)",
+        "per": "/ an"
+      },
+      "fiveYears": {
+        "name": "Pass 5 ans",
+        "note": "Payé une seule fois, 5 ans de Pro ({monthly} / mois)",
+        "per": "une fois"
+      },
+      "fiveYearsWhitelabel": {
+        "name": "Pass 5 ans + Whitelabel",
+        "note": "Payé une seule fois, 5 ans de Pro + ton propre bot ({monthly} / mois)",
+        "per": "une fois"
+      }
+    },
+    "cards": {
+      "monthly": [
+        "Tous les modules Pro (FiveM, Twitch, Kick, GitHub, esport)",
+        "Aucune limite",
+        "Sans la signature Kron",
+        "Annulable en tout temps"
+      ],
+      "yearly": [
+        "Tout le Mensuel",
+        "Le prix par mois le plus bas avec renouvellement",
+        "Ton dernier mois payé déduit si tu passes du mensuel",
+        "Support prioritaire"
+      ],
+      "fiveYears": [
+        "Tout l’Annuel",
+        "Payé une seule fois, rien à renouveler",
+        "Toutes les nouvelles fonctions Pro pendant 5 ans",
+        "Tes paiements mensuels des 60 derniers jours déduits"
+      ]
+    },
+    "addon": "Ajouter le Whitelabel",
+    "once": "une fois",
+    "save": "−{pct} %",
+    "bestValue": "★ Top",
+    "taxes": "Prix en dollars américains (USD). Les taxes applicables s’ajoutent au paiement.",
+    "addonHint": "ton propre bot (nom, avatar), sur n’importe quelle durée",
+    "withWhitelabel": "Whitelabel : ton propre bot"
+  },
+  "tools": {
+    "title": "Outils Discord",
+    "lead": "Des outils gratuits pour tout le monde : IDs, timestamps, profils, invitations, emojis, permissions et polices.",
+    "search": "Chercher",
+    "errors": {
+      "not_found": "Introuvable : vérifie l’ID ou le lien.",
+      "discord_error": "Discord ne répond pas, réessaie dans un instant."
+    },
+    "snowflake": {
+      "name": "❄️ Décodeur d’ID",
+      "text": "Chaque ID Discord (snowflake) contient sa date de création. Colle un ID d’utilisateur, de serveur, de salon ou de message.",
+      "placeholder": "ex. 1376340570460393563",
+      "date": "Créé le",
+      "age": "Âge",
+      "timestamp": "Timestamp Discord"
+    },
+    "timestamp": {
+      "name": "🕒 Générateur de timestamps",
+      "text": "Choisis une date et une heure : copie le code, Discord l’affiche dans le fuseau horaire et la langue de chaque lecteur.",
+      "hint": "Colle le code dans n’importe quel message ou embed."
+    },
+    "user": {
+      "name": "👤 Recherche d’utilisateur",
+      "text": "Profil public d’un compte Discord à partir de son ID : avatar, bannière, badges, date de création.",
+      "placeholder": "ID de l’utilisateur",
+      "hint": "Mode développeur de Discord → clic droit sur un membre → Copier l’identifiant.",
+      "created": "Compte créé le",
+      "badges": "Badges",
+      "avatar": "Avatar",
+      "banner": "Bannière"
+    },
+    "server": {
+      "name": "🏠 Recherche de serveur",
+      "text": "Infos publiques d’un serveur à partir d’une invitation : nom, icône, bannière, membres, boosts, fonctionnalités.",
+      "placeholder": "discord.gg/… ou le code",
+      "hint": "Fonctionne avec toute invitation valide.",
+      "id": "ID du serveur",
+      "members": "Membres",
+      "boosts": "Boosts",
+      "vanity": "Lien personnalisé",
+      "channel": "Salon de l’invitation",
+      "inviter": "Créée par",
+      "expires": "Expire",
+      "never": "Jamais"
+    },
+    "media": {
+      "name": "🖼️ Emojis et stickers",
+      "text": "Télécharge un emoji ou un sticker en haute résolution.",
+      "placeholder": "<:nom:123…>, un ID ou un lien",
+      "hint": "Dans Discord, envoie \\:emoji: pour obtenir son code <:nom:id>.",
+      "emoji": "Emoji (PNG/GIF)",
+      "emojiWebp": "Emoji (WebP)",
+      "sticker": "Sticker",
+      "open": "Ouvrir"
+    },
+    "permissions": {
+      "name": "🔐 Calculateur de permissions",
+      "text": "Coche des permissions pour obtenir leur valeur, ou colle une valeur pour voir ce qu’elle contient. Génère aussi un lien d’invitation de bot.",
+      "value": "Valeur des permissions",
+      "clear": "Tout décocher",
+      "clientId": "ID de l’application (optionnel, pour le lien d’invitation)"
+    },
+    "fonts": {
+      "name": "🔤 Polices Unicode",
+      "text": "Écris en gras, italique, mono, petites capitales… et colle-le dans un pseudo, un salon ou un message.",
+      "placeholder": "Ton texte"
+    },
+    "badges": {
+      "staff": "Staff Discord",
+      "partner": "Partenaire",
+      "hypesquad": "HypeSquad Events",
+      "bugHunter": "Chasseur de bugs",
+      "bravery": "Bravery",
+      "brilliance": "Brilliance",
+      "balance": "Balance",
+      "earlySupporter": "Soutien de la première heure",
+      "bugHunter2": "Chasseur de bugs (or)",
+      "verifiedBot": "Bot vérifié",
+      "earlyDev": "Développeur de bot vérifié",
+      "certifiedMod": "Modérateur certifié",
+      "activeDev": "Développeur actif"
+    }
+  },
+  "gamesStrip": {
+    "title": "Des modules pour tes jeux",
+    "text": "FiveM reste notre spécialité, et d’autres jeux arrivent : stats, rangs et historiques directement dans Discord.",
+    "soon": "D’autres jeux bientôt",
+    "tags": {
+      "fivem": "Profils, jobs, /report, tableau en direct",
+      "rocketleague": "Rangs, historique, évolution du MMR",
+      "soon": "Dis-nous lesquels sur Discord"
+    },
+    "disclaimer": "Les marques et logos appartiennent à leurs propriétaires respectifs. Kron n’est ni affilié, ni approuvé par eux : c’est un outil Discord."
+  }
+}

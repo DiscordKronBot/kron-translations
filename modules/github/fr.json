@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "name": "GitHub"
+  },
+  "web": {
+    "newTitle": "Suivre un dépôt",
+    "newHint": "Chaque push devient un embed propre dans le salon choisi : un message par push, une section par commit, comme le #github de Kron.",
+    "repo": "Dépôt",
+    "repoHint": "propriétaire/nom, par exemple octocat/hello-world",
+    "branch": "Branche (optionnel)",
+    "branchHint": "Vide = toutes les branches.",
+    "create": "Créer le flux",
+    "listTitle": "Flux",
+    "emptyTitle": "Aucun dépôt suivi",
+    "emptyText": "Ajoute un dépôt ci-dessus, puis colle l’URL et le secret dans GitHub.",
+    "noPush": "en attente du premier push",
+    "rotate": "Nouveau secret",
+    "setupTitle": "Dernière étape, dans GitHub",
+    "step1": "Ouvre ton dépôt → Settings → Webhooks → Add webhook.",
+    "step5": "Enregistre. GitHub envoie un ping, puis chaque push arrive dans ton salon.",
+    "secretOnce": "Le secret n’est affiché qu’une fois. Perdu ? Génère-en un nouveau.",
+    "copy": "Copier",
+    "done": "C’est fait",
+    "errors": {
+      "invalid_channel": "Choisis un salon textuel de ce serveur.",
+      "too_many": "10 dépôts maximum par serveur.",
+      "vip_required": "Le module GitHub fait partie de Pro.",
+      "exists": "Ce dépôt est déjà relié à ce salon (même branche)."
+    },
+    "offWarning": "Le module GitHub est désactivé : les pushes sont reçus mais pas publiés. Active la switch à côté du titre.",
+    "test": "Tester",
+    "lastEvent": "dernier push reçu : {date}",
+    "sampleSent": "(exemple, aucun push reçu de GitHub pour l’instant)",
+    "results": {
+      "posted": "✅ Publié dans le salon.",
+      "disabled": "⚠️ Ignoré : module désactivé.",
+      "other_repo": "⚠️ Ignoré : autre dépôt que celui du flux.",
+      "other_branch": "⚠️ Ignoré : autre branche que celle choisie.",
+      "no_commits": "Ignoré : push sans commit."
+    },
+    "stepUrl": "Payload URL",
+    "stepType": "Content type",
+    "stepSecret": "Secret",
+    "stepEvents": "Which events would you like to trigger this webhook?",
+    "stepEventsValue": "choisis « Just the push event »."
+  }
+}

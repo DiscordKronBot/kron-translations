@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "name": "Giveaways"
+  },
+  "commands": {
+    "giveaway": {
+      "description": "Manage giveaways",
+      "start": {
+        "description": "Start a giveaway"
+      },
+      "end": {
+        "description": "End a giveaway now"
+      },
+      "reroll": {
+        "description": "Draw new winners"
+      },
+      "options": {
+        "prize": {
+          "description": "The prize"
+        },
+        "duration": {
+          "description": "Duration, e.g. 30m, 2h, 1d, 1w"
+        },
+        "winners": {
+          "description": "Number of winners (default 1)"
+        },
+        "channel": {
+          "description": "Giveaway channel (this one by default)"
+        },
+        "role": {
+          "description": "Role required to enter"
+        },
+        "id": {
+          "description": "Giveaway number"
+        }
+      }
+    }
+  },
+  "msg": {
+    "howTo": "Click 🎉 to enter!",
+    "ends": "⏰ Ends {time}",
+    "ended": "🏁 Ended {time}",
+    "count": "🏆 Winners: **{count}**",
+    "host": "🎙️ Hosted by {host}",
+    "role": "🔒 Only for {role}",
+    "enter": "Enter ({count})",
+    "winners": "🏆 Winner(s): {winners}",
+    "noWinner": "Nobody entered. No winner.",
+    "announce": "🎉 Congratulations {winners}! You won **{prize}**!"
+  },
+  "bot": {
+    "badDuration": "Invalid duration: between 1 minute and 30 days (e.g. 30m, 2h, 1d).",
+    "limit": "Free plan active giveaway limit reached.",
+    "started": "🎉 Giveaway #{id} started in {channel}.",
+    "notFound": "Giveaway not found.",
+    "alreadyEnded": "This giveaway has ended.",
+    "notEnded": "This giveaway hasn't ended yet.",
+    "done": "Done: {count} winner(s) drawn.",
+    "needRole": "This giveaway is only for {role}.",
+    "entered": "🎉 You're in! Good luck.",
+    "left": "You left the giveaway."
+  },
+  "web": {
+    "newTitle": "New giveaway",
+    "newHint": "Members enter with a button. Winners are drawn at random at the end.",
+    "prize": "Prize",
+    "winners": "Winners",
+    "duration": "Duration",
+    "durations": {
+      "60": "1 hour",
+      "360": "6 hours",
+      "1440": "1 day",
+      "4320": "3 days",
+      "10080": "1 week"
+    },
+    "requiredRole": "Required role (optional)",
+    "commandTip": "Tip: /giveaway start in Discord for any duration.",
+    "start": "Start giveaway",
+    "started": "Giveaway started!",
+    "listTitle": "Giveaways",
+    "empty": "No giveaways yet.",
+    "ended": "Ended",
+    "running": "Running",
+    "entries": "{count} entr(ies)",
+    "end": "End",
+    "reroll": "Reroll",
+    "done": "Done!"
+  }
+}

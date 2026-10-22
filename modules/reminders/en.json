@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "name": "Reminders"
+  },
+  "commands": {
+    "remind": {
+      "description": "Your reminders",
+      "me": {
+        "description": "Create a reminder"
+      },
+      "list": {
+        "description": "List your reminders"
+      },
+      "delete": {
+        "description": "Delete a reminder"
+      },
+      "options": {
+        "when": {
+          "description": "In how long, e.g. 10m, 2h, 1d"
+        },
+        "text": {
+          "description": "What to remind you about"
+        },
+        "repeat": {
+          "description": "Repeat (none, daily, weekly, monthly)"
+        },
+        "id": {
+          "description": "Reminder number"
+        }
+      }
+    }
+  },
+  "bot": {
+    "badWhen": "Invalid delay: between 1 minute and 1 year (e.g. 10m, 2h, 3d).",
+    "tooMany": "You already have {max} reminders on this server.",
+    "set": "⏰ Reminder #{id} set {time}.",
+    "none": "No reminders.",
+    "deleted": "Reminder deleted.",
+    "notFound": "Reminder not found.",
+    "ping": "⏰ {user}, reminder: {text}"
+  },
+  "web": {
+    "title": "Member reminders",
+    "hint": "Each member manages their reminders with /remind.",
+    "usage": "One-time or repeating reminders (daily, weekly, monthly).",
+    "dm": "Send reminders by DM",
+    "dmHint": "Otherwise Kron mentions the member in the channel where the reminder was created.",
+    "max": "Maximum reminders per member"
+  }
+}

@@ -1,0 +1,8 @@
+# Crowdin configuration (GitHub integration). English is the source language.
+files:
+  - source: /locales/en/*.json
+    translation: /locales/%two_letters_code%/%original_file_name%
+  - source: /modules/*/en.json
+    translation: /modules/*/%two_letters_code%.json
+  - source: /docs/en/*.md
+    translation: /docs/%two_letters_code%/%original_file_name%

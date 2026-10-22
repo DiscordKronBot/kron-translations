@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Auto roles"
+  },
+  "web": {
+    "title": "Roles given on join",
+    "hint": "Perfect for a whitelist: give @newcomer to every new member.",
+    "humans": "Members",
+    "humansHint": "E.g. @newcomer. The whitelist form removes it on acceptance.",
+    "bots": "Bots",
+    "timing": "When",
+    "delay": "Delay (seconds)",
+    "delayHint": "0 = immediately. Up to 1 hour.",
+    "screening": "Wait for rules acceptance",
+    "screeningHint": "If your server uses Discord membership screening, the role is given once the rules are accepted."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "Role backup"
+  },
+  "bot": {
+    "deletedTitle": "🛟 Role deleted",
+    "deleted": "{role} was deleted by {by}.\nIt can be created again, with its members and channel permissions, in the dashboard: **Role backup**.",
+    "unknown": "an unknown member"
+  },
+  "web": {
+    "howTitle": "How it works",
+    "how": "Every hour, Kron notes the server’s roles (name, colour, permissions, place), who has them, and the roles’ permissions in each channel. Nothing is stored when nothing changed.",
+    "ownerHint": "Server owner only: a staff member who damaged the roles can neither turn this module off nor restore over it.",
+    "ownerOnly": "This page is for the server owner (or Administrators, when the owner allows it).",
+    "snapshotsTitle": "Backups",
+    "snapshotsHint": "Pick a backup from before the problem, then “Compare”: Kron shows what it would repair, without changing anything.",
+    "snapshotNow": "Back up now",
+    "taken": "Backup done.",
+    "unchanged": "Backup done.",
+    "empty": "No backup yet: turn the module on, the first one comes within a minute, or click “Back up now”.",
+    "kinds": {
+      "auto": "auto",
+      "manual": "manual"
+    },
+    "counts": "{roles} roles · {members} members",
+    "compare": "Compare",
+    "planTitle": "Restore the backup of {date}",
+    "nothing": "Nothing to repair: the server is as in this backup.",
+    "missing": "{count} deleted role(s) to create again",
+    "membersHad": "{count} member(s) had it",
+    "changed": "{count} edited role(s) to set back",
+    "nowNamed": "now called {name}",
+    "permissions": "permissions",
+    "memberFixes": "{members} member(s) get back {roles} lost role(s).",
+    "overwrites": "{count} channel permission(s) to set back.",
+    "left": "{count} member(s) of this backup left the server: Discord cannot bring them back.",
+    "steps": {
+      "recreate": "Create deleted roles again",
+      "repair": "Set edited roles back",
+      "members": "Give members their roles back",
+      "overwrites": "Set channel permissions back",
+      "done": "Done"
+    },
+    "safe": "A restore never removes anything: it creates, repairs and gives back. A backup of the current state is made just before. Kron settings that pointed at a deleted role follow the new role.",
+    "confirm": "I want to restore this backup",
+    "restore": "Restore",
+    "restored": "Restore done: {created} role(s) created, {repaired} repaired, {members} member(s), {overwrites} channel permission(s). Failures: {failed}.",
+    "restoreFailed": "The restore failed: check the Kron role is at the very top and try again.",
+    "settingsTitle": "Settings",
+    "alertChannel": "Alert channel",
+    "alertHint": "When a role is deleted, Kron writes there who did it.",
+    "allowAdmins": "Server Administrators can use this page too",
+    "allowAdminsHint": "Only the owner can change this.",
+    "errors": {
+      "already_running": "A restore is already running.",
+      "owner_only": "Server owner only."
+    }
+  }
+}

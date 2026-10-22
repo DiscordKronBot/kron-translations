@@ -1,0 +1,22 @@
+{
+  "started": "Kron démarré",
+  "guildLeft": "Retiré d'un serveur",
+  "commandError": "Erreur dans /{command}",
+  "dropped": "{count} log(s) ignoré(s) (limite de débit)",
+  "fields": {
+    "guild": "Serveur",
+    "guilds": "Serveurs",
+    "modules": "Modules",
+    "user": "Utilisateur",
+    "environment": "Environnement"
+  },
+  "channels": {
+    "category": "Logs Kron",
+    "bot": "bot",
+    "errors": "erreurs",
+    "guilds": "serveurs",
+    "modules": "modules",
+    "billing": "facturation",
+    "debug": "debug"
+  }
+}

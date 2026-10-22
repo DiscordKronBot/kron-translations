@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "name": "Whitelist & formulaires"
+  },
+  "review": {
+    "applicant": "Candidature de {user} (`{username}`)",
+    "accepted": "✅ **Acceptée** par {reviewer}",
+    "denied": "❌ **Refusée** par {reviewer}",
+    "reason": "**Raison :** {reason}",
+    "noAnswer": "Pas de réponse",
+    "footer": "Candidature #{id}",
+    "accept": "Accepter",
+    "deny": "Refuser",
+    "interview": "Entrevue"
+  },
+  "dm": {
+    "onSubmit": "📨 Ta candidature **{form}** sur **{server}** a bien été reçue. Le staff va l'examiner sous peu.",
+    "onAccept": "✅ Bonne nouvelle ! Ta candidature **{form}** sur **{server}** a été acceptée. Bienvenue !",
+    "onDeny": "❌ Ta candidature **{form}** sur **{server}** a été refusée.\nRaison : {reason}",
+    "onInterview": "🎙️ Le staff de **{server}** t'invite à une entrevue vocale pour ta candidature **{form}** : rejoins {channel}."
+  },
+  "bot": {
+    "notFound": "Cette candidature n'existe plus.",
+    "notReviewer": "Tu n'as pas la permission de traiter les candidatures.",
+    "accepted": "✅ Candidature acceptée.",
+    "denied": "❌ Candidature refusée.",
+    "already": "Cette candidature a déjà été traitée.",
+    "denyTitle": "Refuser la candidature",
+    "denyReason": "Raison (envoyée au joueur)",
+    "interviewSent": "🎙️ Invitation à l'entrevue envoyée en MP."
+  },
+  "public": {
+    "loginTitle": "Formulaire",
+    "loginText": "Connecte-toi avec Discord pour remplir ce formulaire. Ton compte est identifié automatiquement, pas besoin de taper ton ID.",
+    "notFound": "Ce formulaire n'existe pas ou est fermé.",
+    "agree": "Oui, j'accepte",
+    "submit": "Envoyer ma candidature",
+    "signedAs": "Envoyé en tant que {name}.",
+    "doneTitle": "Candidature envoyée !",
+    "doneText": "Le staff va l'examiner. Tu recevras la réponse en message privé sur Discord.",
+    "alreadyAccepted": "Tu as déjà été accepté avec ce formulaire. Tu peux quand même en envoyer une nouvelle.",
+    "blocked": {
+      "notMember": {
+        "title": "Rejoins d'abord le serveur",
+        "text": "Tu dois être membre du serveur Discord pour envoyer ce formulaire."
+      },
+      "pending": {
+        "title": "Candidature en cours d'examen",
+        "text": "Tu as déjà une candidature en attente. Le staff te répondra en MP."
+      },
+      "cooldown": {
+        "title": "Patiente un peu",
+        "text": "Ta dernière candidature a été refusée. Tu pourras réessayer le {date}."
+      }
+    },
+    "errors": {
+      "required": "Cette réponse est obligatoire.",
+      "too_short": "Ta réponse est trop courte.",
+      "too_long": "Ta réponse est trop longue.",
+      "range": "Ce nombre n'est pas dans les limites permises.",
+      "number": "Entre un nombre.",
+      "choice": "Choisis une option.",
+      "turnstile_failed": "La vérification anti-robot a échoué. Réessaie.",
+      "not_member": "Tu dois être membre du serveur.",
+      "pending": "Tu as déjà une candidature en attente.",
+      "cooldown": "Tu dois attendre avant de renvoyer une candidature.",
+      "invalid_answers": "Certaines réponses ne sont pas valides."
+    }
+  },
+  "web": {
+    "mainTabs": {
+      "forms": "📝 Formulaires",
+      "submissions": "📥 Candidatures"
+    },
+    "formsTitle": "Formulaires",
+    "formsHint": "Whitelist, recrutement staff, développeurs… Chaque formulaire a son lien public.",
+    "newForm": "Nouveau formulaire",
+    "allForms": "Formulaires",
+    "emptyTitle": "Aucun formulaire",
+    "emptyText": "Crée ta whitelist : un modèle FiveM est prêt, il ne reste qu'à l'ajuster.",
+    "closed": "Fermé",
+    "tabs": {
+      "general": "Général",
+      "questions": "Questions",
+      "review": "Révision",
+      "roles": "Rôles",
+      "messages": "Messages"
+    },
+    "nameHint": "Visible seulement par le staff.",
+    "color": "Couleur",
+    "open": "Formulaire ouvert (accepte de nouvelles candidatures)",
+    "title": "Titre affiché",
+    "description": "Description",
+    "descriptionHint": "Markdown accepté : **gras**, listes, liens…",
+    "cooldown": "Délai après un refus (heures)",
+    "cooldownHint": "Temps avant de pouvoir renvoyer une candidature. 0 = aucun délai.",
+    "publicLink": "Lien public",
+    "copy": "Copier",
+    "types": {
+      "short": "Texte court",
+      "paragraph": "Paragraphe",
+      "choice": "Choix",
+      "number": "Nombre",
+      "checkbox": "Case à cocher"
+    },
+    "required": "Obligatoire",
+    "question": "Question",
+    "help": "Aide (optionnel)",
+    "minLength": "Caractères minimum",
+    "maxLength": "Caractères maximum",
+    "minValue": "Valeur minimum",
+    "maxValue": "Valeur maximum",
+    "options": "Options",
+    "optionsHint": "Une option par ligne (2 minimum).",
+    "addQuestion": "Ajouter une question",
+    "reviewChannel": "Salon des candidatures",
+    "reviewChannelHint": "Les candidatures y arrivent avec les boutons Accepter / Refuser / Entrevue.",
+    "pingRoles": "Rôles à mentionner à chaque candidature",
+    "reviewerRoles": "Rôles qui peuvent accepter ou refuser",
+    "reviewerRolesHint": "Les membres avec la permission Gérer le serveur le peuvent toujours.",
+    "interviewChannel": "Salon vocal d'entrevue (optionnel)",
+    "interviewChannelHint": "Active le bouton Entrevue : le joueur reçoit une invitation en MP.",
+    "joinRoleTip": "💡 Pour donner un rôle comme @nouveau dès l'arrivée sur le serveur, utilise le module Rôles automatiques.",
+    "flow": {
+      "submit": "Formulaire envoyé",
+      "accept": "Accepté",
+      "deny": "Refusé",
+      "add": "Ajouter les rôles",
+      "remove": "Retirer les rôles"
+    },
+    "messagesHint": "Messages privés envoyés au joueur. Sans personnalisation, Kron envoie le texte par défaut ci-dessous.",
+    "dm": {
+      "onSubmit": "📨 Candidature reçue",
+      "onAccept": "✅ Acceptée",
+      "onDeny": "❌ Refusée",
+      "onInterview": "🎙️ Invitation à l'entrevue"
+    },
+    "customize": "Personnaliser",
+    "vars": {
+      "user": "Mention du joueur",
+      "username": "Nom du joueur",
+      "server": "Nom du serveur",
+      "form": "Titre du formulaire",
+      "reason": "Raison du refus",
+      "channel": "Salon vocal d'entrevue"
+    },
+    "submissionsTitle": "Candidatures",
+    "status": {
+      "pending": "⏳ En attente",
+      "accepted": "✅ Acceptées",
+      "denied": "❌ Refusées"
+    },
+    "noSubmissions": "Aucune candidature ici.",
+    "view": "Voir",
+    "accept": "Accepter",
+    "deny": "Refuser",
+    "denyReason": "Raison du refus (envoyée au joueur)",
+    "reasonLabel": "Raison",
+    "decided": {
+      "accepted": "Candidature acceptée",
+      "denied": "Candidature refusée"
+    },
+    "errors": {
+      "limit_reached": "Le plan gratuit permet 1 formulaire. Passe en Pro pour des formulaires illimités.",
+      "invalid_channel": "Un salon choisi n'existe pas ou n'est pas du bon type.",
+      "already": "Cette candidature a déjà été traitée.",
+      "not_found": "Introuvable."
+    },
+    "templatesTitle": "Choisis un modèle",
+    "templatesHint": "Un formulaire prêt à l’emploi, que tu pourras modifier ensuite. Choisis aussi sa langue.",
+    "templateLang": "Langue du modèle",
+    "templateQuestions": "{count} questions",
+    "blank": "Formulaire vide",
+    "blankHint": "Pars de zéro.",
+    "blankName": "Nouveau formulaire",
+    "langs": {
+      "fr": "🇫🇷 Français",
+      "en": "🇬🇧 English"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "name": "Invite tracker"
+  },
+  "commands": {
+    "invites": {
+      "name": "invites",
+      "description": "Members’ invites"
+    },
+    "view": {
+      "name": "view",
+      "description": "How many people a member invited"
+    },
+    "top": {
+      "name": "top",
+      "description": "Members who invited the most people"
+    },
+    "options": {
+      "member": {
+        "name": "member",
+        "description": "The member (you by default)"
+      }
+    }
+  },
+  "bot": {
+    "announce": "👋 {user} joined the server, invited by **{inviter.name}** who now has **{invites}** invite(s)!",
+    "announceVanity": "👋 {user} joined the server through the custom link.",
+    "announceUnknown": "👋 {user} joined the server.",
+    "vanity": "the custom link",
+    "unknown": "unknown",
+    "logJoin": "📥 {user} joined, invited by {inviter}",
+    "logFake": "⚠️ Account created less than {days} day(s) ago: counted as fake.",
+    "logLeave": "📤 {user} left (invited by {inviter})",
+    "fieldCode": "Invite",
+    "fieldInvites": "Inviter’s invites",
+    "fieldAccount": "Account created",
+    "countsShort": "{valid} valid · {left} left · {fake} fake",
+    "view": "{user} invited **{valid}** member(s) still on the server.",
+    "valid": "Valid",
+    "left": "Left",
+    "fake": "Fake",
+    "topTitle": "🏆 Top inviters",
+    "topEmpty": "No invite tracked yet."
+  },
+  "web": {
+    "howTitle": "How it works",
+    "how": "On every join, Kron finds the invite used and who created it. A member counts as valid while they stay; if they leave, they move to “left”; an account that is too new counts as “fake”.",
+    "announceTitle": "Public message",
+    "announceHint": "For example in the welcome channel: “@Bob joined the server, invited by Bill who now has 25 invites!”",
+    "announceEnabled": "Announce joins",
+    "channel": "Channel",
+    "customMessage": "Customize the message",
+    "defaultMessage": "Kron’s default message",
+    "logTitle": "Staff logs",
+    "logHint": "Every join and leave with the invite, the inviter and the account age. Placed in the server’s logs category.",
+    "fakeDays": "“Fake” accounts: created less than (days) ago",
+    "fakeHint": "0 = never.",
+    "boardTitle": "Leaderboard",
+    "boardEmpty": "No invite tracked yet.",
+    "counts": "{valid} valid · {left} left · {fake} fake",
+    "firstJoin": "After turning it on, the very first join can stay “unknown”: Kron learns the server’s invites then.",
+    "vars": {
+      "inviter": "Inviter mention",
+      "inviter_name": "Inviter name",
+      "invites": "Valid invites count",
+      "code": "Invite code"
+    }
+  }
+}

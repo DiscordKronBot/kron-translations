@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "name": "Page du serveur"
+  },
+  "errors": {
+    "slug_taken": "Cette adresse est déjà prise.",
+    "invalid_input": "Un champ est invalide : vérifie le lien d’invitation (discord.gg/...) et l’adresse courte."
+  },
+  "web": {
+    "title": "Page publique",
+    "hint": "Une page à partager avec ta description, ton invitation et tes formulaires ouverts. Active le module pour la mettre en ligne.",
+    "link": "Lien de la page",
+    "slug": "Adresse courte (Pro)",
+    "slugHint": "3 à 32 caractères : lettres, chiffres et tirets.",
+    "invite": "Lien d’invitation",
+    "inviteHint": "Un lien discord.gg ou discord.com/invite qui n’expire pas.",
+    "description": "Description",
+    "descriptionHint": "Markdown Discord accepté : règles, liens, présentation.",
+    "showMembers": "Afficher le nombre de membres",
+    "showForms": "Afficher les formulaires ouverts",
+    "staff": "Équipe",
+    "staffHint": "Les membres de ces rôles apparaissent sur la page avec leur avatar, sous leur rôle le plus haut (10 rôles, 50 membres par rôle).",
+    "directoryTitle": "Annuaire des serveurs",
+    "directoryHint": "Fais découvrir ton serveur sur kronbot.xyz/servers. Gratuit pour tous ; les serveurs Pro ont une étoile.",
+    "listed": "Afficher mon serveur dans l’annuaire",
+    "category": "Type de serveur",
+    "tags": "Tags",
+    "tagsHint": "Jusqu’à 5, séparés par des virgules."
+  },
+  "public": {
+    "notFound": "Cette page n’existe pas ou n’est pas activée.",
+    "online": "{n} en ligne",
+    "members": "{n} membres",
+    "join": "Rejoindre le serveur",
+    "forms": "Formulaires",
+    "staff": "Équipe"
+  },
+  "directory": {
+    "title": "Serveurs",
+    "intro": "Trouve une communauté qui utilise Kron : RP FiveM, gaming, streamers et plus.",
+    "search": "Rechercher un serveur, un tag…",
+    "all": "Tous",
+    "allPlans": "Tous les plans",
+    "free": "Gratuit",
+    "empty": "Aucun serveur ne correspond.",
+    "categories": {
+      "fivem": "FiveM RP",
+      "gaming": "Gaming",
+      "community": "Communauté",
+      "streamer": "Streamer",
+      "dev": "Développement",
+      "other": "Autre"
+    },
+    "noSummary": "Communauté {category} sur Discord. Viens faire un tour!"
+  }
+}

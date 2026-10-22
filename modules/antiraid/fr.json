@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "name": "Anti-raid"
+  },
+  "bot": {
+    "raidTitle": "Raid détecté",
+    "raidText": "Plus de **{count} arrivées en {seconds} s**. Le mode raid reste actif tant que les arrivées continuent.",
+    "raidEndedTitle": "Raid terminé",
+    "raidEndedText": "Mode raid terminé par {by}.",
+    "auto": "inactivité (plus aucune arrivée)",
+    "joiners": "Arrivées",
+    "since": "Début",
+    "action": "Action",
+    "invites": "Invitations",
+    "invitesPaused": "⏸️ En pause",
+    "invitesResumed": "▶️ Rétablies",
+    "latest": "Dernières arrivées",
+    "end": "Terminer le raid",
+    "banAll": "Bannir les {count} arrivées",
+    "actions": {
+      "none": "Alerte seulement",
+      "kick": "Expulser",
+      "ban": "Bannir"
+    },
+    "raidReason": "Anti-raid : arrivé pendant un raid",
+    "banReason": "Anti-raid : arrivées du raid bannies par {user}",
+    "banned": "{count} membres bannis sur {total}.",
+    "expired": "La liste de ce raid n’est plus disponible (Kron a redémarré ou elle a déjà été traitée).",
+    "noPermission": "Tu n’as pas la permission nécessaire.",
+    "youngTitle": "Compte récent",
+    "member": "Membre",
+    "created": "Compte créé",
+    "ageReason": "Anti-raid : compte créé il y a moins de {days} jours",
+    "ageActions": {
+      "alert": "Alerte seulement",
+      "kick": "Expulser",
+      "role": "Rôle de quarantaine",
+      "failed": "⚠️ Action impossible (rôle de Kron trop bas ?)"
+    }
+  },
+  "web": {
+    "detectTitle": "Détection",
+    "detectHint": "Un raid, c’est une vague d’arrivées en peu de temps.",
+    "joinCount": "Nombre d’arrivées",
+    "joinSeconds": "En combien de secondes",
+    "detectSummary": "Mode raid si {count} membres arrivent en {seconds} secondes.",
+    "raidTitle": "Pendant un raid",
+    "raidHint": "Kron alerte le staff avec des boutons pour terminer le raid ou bannir toutes les arrivées.",
+    "raidAction": "Action sur les arrivées",
+    "raidActionHint": "S’applique aussi aux membres qui ont déclenché le raid.",
+    "quietMinutes": "Fin automatique après (minutes)",
+    "quietMinutesHint": "Sans nouvelle arrivée.",
+    "pauseInvites": "Mettre les invitations en pause",
+    "pauseInvitesHint": "Action de sécurité de Discord : personne ne peut rejoindre par invitation jusqu’à la fin du raid.",
+    "ageTitle": "Comptes récents",
+    "ageHint": "Les comptes tout neufs sont souvent des comptes jetables. Vérifié à chaque arrivée, hors raid.",
+    "ageEnabled": "Surveiller les comptes récents",
+    "ageDays": "Compte créé il y a moins de (jours)",
+    "ageAction": "Action",
+    "ageRole": "Rôle de quarantaine",
+    "ageRoleHint": "Un rôle qui ne voit qu’un salon de vérification, par exemple.",
+    "alertTitle": "Alertes",
+    "alertHint": "Les raids et les comptes récents sont signalés ici. Choisis un salon réservé au staff.",
+    "pingRoles": "Rôles à mentionner pendant un raid"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Rôles automatiques"
+  },
+  "web": {
+    "title": "Rôles donnés à l'arrivée",
+    "hint": "Parfait pour la whitelist : donne @nouveau à chaque nouveau membre.",
+    "humans": "Membres",
+    "humansHint": "Ex. @nouveau. Le formulaire de whitelist le retirera à l'acceptation.",
+    "bots": "Bots",
+    "timing": "Quand",
+    "delay": "Délai (secondes)",
+    "delayHint": "0 = immédiatement. Maximum 1 heure.",
+    "screening": "Attendre l'acceptation du règlement",
+    "screeningHint": "Si ton serveur utilise le filtrage d'adhésion de Discord, le rôle est donné une fois le règlement accepté."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Honeypot"
+  },
+  "bot": {
+    "caught": {
+      "ban": "Spammer banned",
+      "softban": "Spammer kicked (messages deleted)",
+      "kick": "Spammer kicked"
+    },
+    "failed": "Honeypot triggered, action failed",
+    "user": "Member",
+    "account": "Account created",
+    "joined": "Joined",
+    "message": "Message",
+    "noText": "(no text)",
+    "unban": "Unban",
+    "reason": "Honeypot: wrote in the trap channel",
+    "unbanReason": "Honeypot: unbanned by {user}",
+    "unbannedBy": "Unbanned by {user}",
+    "noPermission": "You need the Ban Members permission.",
+    "topic": "⛔ Never write here. This channel catches spambots: any message is punished right away.",
+    "warnTitle": "HONEYPOT CHANNEL · DO NOT WRITE HERE",
+    "warnLead": "This channel only exists to catch spambots. If you write here, you will be punished automatically, without warning.",
+    "warnNothing": "There is nothing for you here.",
+    "warnText": "To chat, ask a question or get help, use the other channels. Do not test the system and do not reply here.",
+    "warnThanks": "Thanks for understanding."
+  },
+  "web": {
+    "setupTitle": "Trap channel",
+    "setupHint": "Kron creates the channel, lets @everyone write in it and posts the warning. Spam bots write everywhere: they get caught here.",
+    "name": "Channel name",
+    "category": "Category",
+    "noCategory": "None (no category)",
+    "bottomTip": "Tip: put it at the very bottom of the list, away from the channels people use.",
+    "create": "Create the channel",
+    "created": "Honeypot channel created.",
+    "current": "Current channel",
+    "missing": "The channel was deleted in Discord. Create a new one.",
+    "recreate": "Create another channel",
+    "actionTitle": "Action",
+    "actionHint": "What happens to someone who writes in the channel. Staff (Manage Messages permission) and the owner are never caught.",
+    "actions": {
+      "ban": "Ban (Unban button in the report)",
+      "softban": "Kick and delete their messages",
+      "kick": "Kick only"
+    },
+    "deleteMessages": "Delete their messages from the last hour",
+    "logTitle": "Report",
+    "logHint": "Channel where Kron explains each action: member, account age, message and a button to unban in case of a mistake.",
+    "logChannel": "Report channel",
+    "defaultName": "🍯┆honeypot"
+  }
+}

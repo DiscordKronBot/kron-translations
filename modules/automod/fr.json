@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "name": "AutoMod"
+  },
+  "web": {
+    "templatesTitle": "Règles prêtes à l’emploi",
+    "templatesHint": "Un clic ouvre la règle déjà remplie : tu peux tout ajuster avant d’enregistrer. Rien n’est créé tant que tu n’enregistres pas.",
+    "templates": {
+      "invites": {
+        "emoji": "🔗",
+        "name": "Invitations Discord",
+        "hint": "Bloque les liens d’invitation vers d’autres serveurs (discord.gg, discord.com/invite)."
+      },
+      "links": {
+        "emoji": "🌐",
+        "name": "Tous les liens",
+        "hint": "Bloque les liens http(s). Exempte tes salons de partage ou tes rôles de confiance."
+      },
+      "scam": {
+        "emoji": "🎣",
+        "name": "Arnaques Nitro et Steam",
+        "hint": "Faux « Nitro gratuit », faux cadeaux Steam et faux domaines Discord. Exclut l’auteur 1 heure."
+      },
+      "iploggers": {
+        "emoji": "🕵️",
+        "name": "Capteurs d’IP",
+        "hint": "Bloque les raccourcisseurs qui enregistrent l’adresse IP de ceux qui cliquent (Grabify, IPLogger…)."
+      },
+      "promo": {
+        "emoji": "📣",
+        "name": "Autopromo",
+        "hint": "« Abonne-toi », « rejoins mon serveur », « follow me »… en français et en anglais."
+      },
+      "swearsFr": {
+        "emoji": "🤐",
+        "name": "Sacres et jurons (FR)",
+        "hint": "Sacres québécois et jurons de France. Les filtres de Discord ne couvrent que l’anglais."
+      },
+      "zalgo": {
+        "emoji": "👾",
+        "name": "Texte zalgo",
+        "hint": "Bloque le texte surchargé de signes (z̷̢a̵l̶g̸o̷) qui déborde sur les messages."
+      },
+      "insults": {
+        "emoji": "🤬",
+        "name": "Insultes et contenu sexuel (EN)",
+        "hint": "Les listes intégrées de Discord : grossièretés, contenu sexuel, insultes (anglais)."
+      },
+      "spam": {
+        "emoji": "📨",
+        "name": "Spam",
+        "hint": "Le filtre anti-spam de Discord : messages suspects et répétitifs."
+      },
+      "mentions": {
+        "emoji": "📢",
+        "name": "Mentions de masse",
+        "hint": "Bloque à 5 mentions par message et exclut l’auteur 10 minutes."
+      },
+      "names": {
+        "emoji": "🪪",
+        "name": "Pseudos de faux staff",
+        "hint": "Empêche les pseudos qui imitent le staff ou Discord (admin, modérateur, support…)."
+      }
+    },
+    "rulesTitle": "Règles du serveur",
+    "rulesHint": "Les règles sont appliquées par Discord lui-même : elles fonctionnent même si Kron est hors ligne. Celles créées dans Discord apparaissent aussi.",
+    "newRule": "Nouvelle règle",
+    "allRules": "Toutes les règles",
+    "emptyTitle": "Aucune règle",
+    "emptyText": "Commence par une règle prête à l’emploi ci-dessus.",
+    "triggers": {
+      "keyword": {
+        "name": "Mots-clés",
+        "hint": "Bloque les messages qui contiennent ces mots ou correspondent à ces regex."
+      },
+      "preset": {
+        "name": "Listes de Discord",
+        "hint": "Les listes de mots maintenues par Discord."
+      },
+      "spam": {
+        "name": "Spam",
+        "hint": "Le filtre anti-spam de Discord. Il n’a pas de réglage."
+      },
+      "mention": {
+        "name": "Mentions de masse",
+        "hint": "Bloque les messages avec trop de mentions (membres et rôles)."
+      },
+      "profile": {
+        "name": "Pseudos",
+        "hint": "Vérifie le pseudo et le profil des membres à l’arrivée et à chaque changement."
+      }
+    },
+    "name": "Nom de la règle",
+    "ruleEnabled": "Règle active",
+    "keywords": "Mots interdits (un par ligne)",
+    "keywordsHint": "* = n’importe quoi avant ou après : *chat* attrape « achats ». Jusqu’à 1000 mots de 60 caractères.",
+    "regex": "Expressions régulières (une par ligne)",
+    "regexHint": "Syntaxe Rust, jusqu’à 10 regex de 260 caractères. Discord refuse les regex invalides.",
+    "presets": "Listes",
+    "presetNames": {
+      "profanity": "Grossièretés",
+      "sexual": "Contenu sexuel",
+      "slurs": "Insultes"
+    },
+    "allowList": "Exceptions (un mot par ligne)",
+    "allowListHint": "Ces mots ne déclenchent jamais la règle.",
+    "mentionLimit": "Mentions maximum par message",
+    "mentionLimitHint": "Entre 1 et 50.",
+    "raidProtection": "Détection des raids de mentions",
+    "raidProtectionHint": "Discord repère aussi les vagues de mentions réparties sur plusieurs messages.",
+    "actionsTitle": "Actions",
+    "block": "Bloquer le message",
+    "blockHint": "Le message n’est jamais publié.",
+    "blockMessage": "Message montré à l’auteur (optionnel)",
+    "alert": "Alerter le staff",
+    "alertHint": "Discord publie une alerte avec le message dans ce salon.",
+    "timeout": "Exclure temporairement l’auteur",
+    "timeoutHint": "Possible seulement pour les mots-clés et les mentions.",
+    "durations": {
+      "60": "1 minute",
+      "300": "5 minutes",
+      "600": "10 minutes",
+      "3600": "1 heure",
+      "86400": "1 jour",
+      "604800": "1 semaine"
+    },
+    "profileAction": "Discord empêche le membre d’écrire et d’utiliser le serveur tant que son pseudo enfreint la règle.",
+    "exemptTitle": "Exemptions",
+    "exemptRoles": "Rôles exemptés",
+    "exemptRolesHint": "Jusqu’à 20. Le staff, en général.",
+    "exemptChannels": "Salons exemptés",
+    "problems": {
+      "empty": "Ajoute au moins un mot, une regex ou une liste.",
+      "too_many": "100 exceptions maximum pour ce type de règle.",
+      "channel": "Choisis le salon des alertes.",
+      "trigger": "L’exclusion n’est possible que pour les mots-clés et les mentions.",
+      "no_action": "Active au moins une action.",
+      "custom": "Vérifie le champ {field}."
+    },
+    "errors": {
+      "module_disabled": "Active le module AutoMod pour modifier les règles.",
+      "missing_permissions": "Kron a besoin de la permission « Gérer le serveur » pour gérer AutoMod.",
+      "type_limit": "Discord limite le nombre de règles de ce type (6 mots-clés, 1 pour les autres).",
+      "invalid_channel": "Choisis des salons et des rôles de ce serveur.",
+      "trigger_changed": "Le type d’une règle ne peut pas changer : crée une nouvelle règle.",
+      "not_found": "Cette règle n’existe plus dans Discord.",
+      "discord_rejected": "Discord a refusé la règle : {detail}"
+    },
+    "langs": {
+      "all": "🌐 Toutes langues",
+      "fr": "🇫🇷 Français",
+      "en": "🇬🇧 Anglais",
+      "fren": "🇫🇷🇬🇧 FR + EN"
+    },
+    "templateBlocked": {
+      "off": "Module désactivé",
+      "full": "Limite Discord atteinte"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Soutien vocal"
+  },
+  "web": {
+    "placeTitle": "Emplacement",
+    "placeHint": "La catégorie où Kron crée la salle d’attente et les salons de soutien.",
+    "category": "Catégorie",
+    "suggest": "Utiliser {name} (catégorie des tickets)",
+    "accessTitle": "Accès",
+    "members": "Qui peut attendre",
+    "membersHint": "Vide : tout le monde. Sinon, seuls ces rôles voient la salle d’attente.",
+    "staff": "Staff du soutien",
+    "staffHint": "Ils voient les salons de soutien et déplacent les membres. La permission Déplacer des membres suffit aussi.",
+    "waitingTitle": "Salle d’attente",
+    "waitingHint": "Silence total : personne ne parle, pas de partage d’écran, aucun texte, GIF, emoji ni réaction dans le chat du vocal. Le staff peut y parler.",
+    "deafen": "Mettre en sourdine les membres qui attendent",
+    "deafenHint": "Kron rend le son dès qu’un membre est déplacé hors de la salle d’attente.",
+    "roomsTitle": "Salons de soutien",
+    "roomsHint": "Visibles seulement par le staff. Un membre déplacé dans un salon peut y parler sans appuyer pour parler et partager son écran, jusqu’à ce qu’il en sorte.",
+    "count": "Nombre de salons",
+    "separator": "Séparateur",
+    "font": "Police",
+    "saveCreates": "Enregistrer crée la salle d’attente et les salons sur Discord.",
+    "saveUpdates": "Enregistrer met à jour les salons sur Discord (noms, catégorie, accès). Un salon retiré de la liste est supprimé."
+  }
+}

@@ -1,0 +1,1463 @@
+{
+  "meta": {
+    "language": "English"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Try again in a moment.",
+    "saved": "Saved",
+    "logout": "Log out",
+    "language": "Language",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "notFound": "Page not found.",
+    "dashboard": "Dashboard",
+    "addToDiscord": "Add to Discord",
+    "login": "Log in",
+    "soon": "Soon"
+  },
+  "nav": {
+    "features": "Features",
+    "premium": "Pro",
+    "support": "Support",
+    "contact": "Contact",
+    "docs": "Docs",
+    "myTickets": "My tickets",
+    "servers": "Servers",
+    "tools": "Tools"
+  },
+  "mock": {
+    "time": "Today at 9:47 PM",
+    "title": "🎫┆Support",
+    "text": "Need help? Open a ticket and the team will get back to you shortly.",
+    "field1": "⏱️ Response",
+    "value1": "~ 10 minutes",
+    "field2": "🌐 Languages",
+    "value2": "English, Français",
+    "field3": "📋 Before opening",
+    "value3": "Type $debug if the bot doesn’t answer: we’ll see exactly what you see.",
+    "field4": "🔒 Private",
+    "value4": "Only the team sees your ticket",
+    "footer": "Kron · Tickets",
+    "accept": "Open a ticket",
+    "deny": "Report",
+    "interview": "FAQ"
+  },
+  "landing": {
+    "eyebrow": "All-in-one Discord bot",
+    "titleStart": "Run your server",
+    "titleAccent": "simply.",
+    "lead": "Tickets, whitelist, logs, roles and more. Everything is set up from the dashboard.",
+    "proof": "servers already use Kron",
+    "featuresTitle": "A module for every need",
+    "featuresLead": "Every module turns on in one click and is fully customizable: text, embeds, colors, images, channels, roles.",
+    "premiumTitle": "Pricing that doesn't hurt",
+    "premiumLead": "The essentials are free. The rest costs about a coffee a month.",
+    "ctaTitle": "Ready to try Kron?",
+    "ctaText": "Add it to your server in 30 seconds. No card required.",
+    "scroll": "Scroll",
+    "trust": {
+      "servers": "servers",
+      "modules": "modules",
+      "free": "to get started"
+    },
+    "bento": {
+      "tickets": "Button or menu panels|Questions before opening|HTML transcripts",
+      "forms": "Web form, Discord login|Roles that change at each step|Accept or deny in Discord"
+    },
+    "allModules": "All modules",
+    "stepsTitle": "Ready in 3 minutes",
+    "steps": {
+      "s1": {
+        "title": "Add Kron",
+        "text": "One click on “Add to Discord”, then pick your server."
+      },
+      "s2": {
+        "title": "Turn on modules",
+        "text": "One switch per module, only what your server needs."
+      },
+      "s3": {
+        "title": "Customize everything",
+        "text": "Text, embeds, colors, roles and channels, with a live preview."
+      }
+    },
+    "fivemDocs": "Discover the FiveM module",
+    "popular": "Popular",
+    "allPlans": "See every plan"
+  },
+  "plans": {
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "forever",
+      "text": "Every core module, no time limit.",
+      "items": [
+        "Tickets, embeds, roles",
+        "Giveaways, reminders, birthdays",
+        "Channel statistics",
+        "Community support"
+      ]
+    },
+    "vip": {
+      "name": "Pro",
+      "price": "from $0.82",
+      "period": "USD / month (5-year pass)",
+      "text": "Advanced modules for one server.",
+      "items": [
+        "Everything in Free",
+        "FiveM module (profiles, jobs, /report)",
+        "Twitch and Kick alerts",
+        "Unlimited forms + Tebex fast-track",
+        "Remove the Kron signature from embeds",
+        "Priority support"
+      ]
+    },
+    "whitelabel": {
+      "name": "Whitelabel",
+      "price": "+$3",
+      "period": "USD / month on monthly and yearly, $99 for 5 years",
+      "text": "Your own bot, with your name and avatar.",
+      "items": [
+        "Everything in Pro",
+        "Your own name, avatar and branding",
+        "Setup tutorial",
+        "Monthly, yearly or 5-year pass"
+      ]
+    }
+  },
+  "catalog": {
+    "groups": {
+      "essentials": "Essentials",
+      "support": "Support",
+      "utilities": "Utilities",
+      "community": "Community",
+      "social": "Alerts",
+      "fivem": "FiveM",
+      "members": "Members",
+      "safety": "Safety",
+      "gaming": "Games"
+    },
+    "embeds": {
+      "name": "Embeds",
+      "text": "Visual editor: title, color, fields, images, author, footer. Library and scheduled sends."
+    },
+    "tickets": {
+      "name": "Tickets",
+      "text": "Button panels, pre-ticket forms, claiming, transcripts. Everything is customizable."
+    },
+    "forms": {
+      "name": "Whitelist & forms",
+      "text": "Web forms (whitelist, staff…): Discord login, step-by-step roles, accept or deny from Discord."
+    },
+    "autoroles": {
+      "name": "Auto roles",
+      "text": "Give roles to new members, with delays and conditions."
+    },
+    "reactionroles": {
+      "name": "Reaction roles",
+      "text": "Members pick their roles with buttons or menus."
+    },
+    "welcome": {
+      "name": "Welcome",
+      "text": "Welcome and goodbye messages and images, as embeds or DMs."
+    },
+    "levels": {
+      "name": "Levels and economy",
+      "text": "XP for chatting, levels, role rewards, leaderboard and a server currency."
+    },
+    "giveaways": {
+      "name": "Giveaways",
+      "text": "Giveaways with requirements, multiple winners and one-click rerolls."
+    },
+    "customcommands": {
+      "name": "Custom commands",
+      "text": "Your own slash commands: text or embed answers, roles given or removed."
+    },
+    "reminders": {
+      "name": "Reminders",
+      "text": "One-time or recurring reminders, for you or the whole server."
+    },
+    "birthdays": {
+      "name": "Birthdays",
+      "text": "Celebrate birthdays automatically, with a role for the day."
+    },
+    "chanstats": {
+      "name": "Channel stats",
+      "text": "Member, boost and other counters, updated in channel names."
+    },
+    "channels": {
+      "name": "Channel builder",
+      "text": "Rearrange your server with drag and drop: names, emojis, separators and fonts, applied in one click."
+    },
+    "moderation": {
+      "name": "Moderation",
+      "text": "Punishments, history, timed sanctions and anti-spam."
+    },
+    "automod": {
+      "name": "AutoMod",
+      "text": "Banned words, regex, spam and mass mentions, blocked by Discord before they are even sent."
+    },
+    "antiraid": {
+      "name": "Anti-raid",
+      "text": "Spots waves of joins, pauses invites and watches brand-new accounts."
+    },
+    "logs": {
+      "name": "Logs",
+      "text": "Deleted or edited messages, joins, leaves, roles, split by channel."
+    },
+    "twitch": {
+      "name": "Twitch",
+      "text": "Instant alerts when your streamers go live."
+    },
+    "kick": {
+      "name": "Kick",
+      "text": "Instant alerts for Kick streams."
+    },
+    "github": {
+      "name": "GitHub",
+      "text": "Your repositories’ pushes as clean embeds: one section per commit, with links and authors."
+    },
+    "fivem": {
+      "name": "FiveM bridge",
+      "text": "Link your FiveM server: character info in tickets, whitelist synced in game."
+    },
+    "honeypot": {
+      "name": "Honeypot",
+      "text": "A trap channel that catches spam bots: they write, Kron bans or kicks them."
+    },
+    "games": {
+      "name": "Games",
+      "text": "Tic-tac-toe, connect four, hangman, Wordle, blackjack, trivia and more, with bets and a leaderboard."
+    },
+    "polls": {
+      "name": "Polls",
+      "text": "Polls with an end time, several choices, hidden results and result bars."
+    },
+    "verification": {
+      "name": "Verification",
+      "text": "Button or code on join, minimum account age, verified role."
+    },
+    "tempvoice": {
+      "name": "Temporary voice",
+      "text": "Join to create: every member gets a voice channel, deleted once empty."
+    },
+    "site": {
+      "name": "Server page",
+      "text": "A public page for your server: description, invite and open forms."
+    },
+    "starboard": {
+      "name": "Starboard",
+      "text": "The best messages reposted in a channel once they have enough stars."
+    },
+    "esport": {
+      "name": "Esport team",
+      "text": "Manage your teams: players, captains, staff, visual identity, and an org chart posted in Discord that updates itself."
+    },
+    "rocketleague": {
+      "name": "Rocket League",
+      "text": "1v1/2v2/3v3 ranks, match history, wins and rank progress in an interactive card."
+    },
+    "voicesupport": {
+      "name": "Voice support",
+      "text": "A silent waiting room and private support rooms: staff move members in, who can then talk and share their screen."
+    },
+    "rolemanager": {
+      "name": "Role management",
+      "text": "Your staff gives and removes roles with /role, without the Manage Roles permission."
+    },
+    "rolebackup": {
+      "name": "Role backup",
+      "text": "Snapshots of roles, their permissions and who has them; repair a damaged server in one click."
+    },
+    "invites": {
+      "name": "Invite tracker",
+      "text": "Who invited whom, a join message with the invite count, staff logs and a leaderboard."
+    }
+  },
+  "login": {
+    "title": "Log in",
+    "text": "A quick check, then Discord takes over.",
+    "checking": "Checking…",
+    "redirecting": "Redirecting to Discord…",
+    "scopes": "Kron only asks for your profile and your server list. No access to your messages.",
+    "errors": {
+      "auth": "Sign-in failed. Please try again.",
+      "turnstile": "The bot check failed. Reload the page.",
+      "unavailable": "Service temporarily unavailable.",
+      "link": "This link is invalid or has expired."
+    }
+  },
+  "footer": {
+    "tagline": "Modular Discord bot",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "dashboard": {
+    "title": "Your servers",
+    "subtitle": "Servers where you can manage Kron.",
+    "refresh": "Refresh",
+    "members": "{count} members",
+    "inviteTitle": "Add Kron",
+    "invite": "Invite",
+    "emptyTitle": "No server with Kron yet",
+    "emptyText": "Invite Kron to a server you manage to get started."
+  },
+  "guild": {
+    "back": "All servers",
+    "switch": "Switch server",
+    "nav": {
+      "overview": "Overview",
+      "settings": "General",
+      "premium": "Pro"
+    },
+    "stats": {
+      "modules": "Active modules",
+      "members": "Members",
+      "language": "Language",
+      "plan": "Plan"
+    },
+    "modulesTitle": "Modules",
+    "modulesEmptyTitle": "Modules are coming",
+    "modulesEmptyText": "The first modules will be available here soon.",
+    "languageLabel": "Bot language",
+    "languageHint": "Everything Kron writes on this server: messages, command answers, buttons, logs. Slash command names follow each member’s Discord language (a Discord rule).",
+    "vipRequired": "This module is part of the Pro plan.",
+    "notFoundTitle": "Server unavailable",
+    "notFoundText": "Kron is not in this server, or you are not allowed to manage it.",
+    "retry": "Try again",
+    "upgrade": "Upgrade to Pro",
+    "allModules": "All modules",
+    "configure": "Configure",
+    "enable": "Enable",
+    "brandingLabel": "Remove the Kron signature",
+    "brandingHint": "Removes the “Kron · kronbot.xyz” footer from the embeds Kron sends.",
+    "brandingFree": "Kron’s embeds have a small “Kron · kronbot.xyz” footer. The Pro plan lets you remove it.",
+    "searchModules": "Search a module…",
+    "menu": "Menu",
+    "general": {
+      "intro": "Settings that apply to the whole server: every module follows them.",
+      "basics": "Language and signature",
+      "namingTitle": "Channel naming style",
+      "namingHint": "Every category and channel Kron creates (setups, “Create” buttons, packs) is named this way. The channel builder’s “Beautify” uses it too.",
+      "separator": "Separator",
+      "font": "Font",
+      "exampleCategory": "Support",
+      "exampleVoice": "Gaming",
+      "prefixTitle": "Text commands",
+      "prefixHint": "Prefixes of the tags made in Custom commands (!rules, ?help…).",
+      "defaultPrefix": "Default prefix",
+      "defaultPrefixHint": "Used for new tags.",
+      "tags": "{count} tag(s) on this server",
+      "applyPrefix": "Use « {prefix} » for all",
+      "noPrefix": "(none)",
+      "debugNote": "$debug stays Kron’s support command and keeps its $.",
+      "logsTitle": "Logs category",
+      "logsHint": "Every module puts its log channels here (moderation, tickets, anti-raid…), so they stay together. Kron sets it when it creates its first logs category; tip: set up the Logs module first.",
+      "tourTitle": "Dashboard tour",
+      "tourHint": "A quick walk through the dashboard, step by step.",
+      "tourStart": "Start the tour"
+    },
+    "tour": {
+      "next": "Next",
+      "back": "Back",
+      "skip": "Skip",
+      "done": "Let’s go",
+      "steps": {
+        "welcome": {
+          "title": "Welcome to Kron 👋",
+          "text": "One minute to find your way around. You can restart this tour on the General page."
+        },
+        "switch": {
+          "title": "Your servers",
+          "text": "Switch server here. Each one has its own modules and settings."
+        },
+        "general": {
+          "title": "General",
+          "text": "Language, channel naming style, text prefixes and the logs category: settings every module follows."
+        },
+        "search": {
+          "title": "Find a module",
+          "text": "Type a name (tickets, levels, logs…) to jump to it."
+        },
+        "modules": {
+          "title": "Modules",
+          "text": "Grouped by use. A green dot means the module is on. Each page has its switch at the top and saves with the bar at the bottom."
+        },
+        "premium": {
+          "title": "Pro",
+          "text": "Pro modules (👑) and higher limits. Your plan and keys are here."
+        },
+        "start": {
+          "title": "Where to start",
+          "text": "1. General: naming style. 2. Logs: one click creates the logs category. 3. Tickets, Welcome, Verification… each “Create” button makes its channel in your style."
+        }
+      }
+    }
+  },
+  "legal": {
+    "updated": "Effective October 18, 2026",
+    "terms": {
+      "title": "Terms of Service",
+      "sections": [
+        {
+          "title": "1. Purpose",
+          "body": [
+            "These terms govern the use of Kron: the Discord bot, the kronbot.xyz web panel and related services (the “Service”), operated by the Kron team (“we”). By adding Kron to a Discord server, using its commands, filling in a form or logging in to the panel, you accept these terms. If you don't, do not use the Service."
+          ]
+        },
+        {
+          "title": "2. Definitions",
+          "body": [
+            "“Server”: a Discord server where Kron is added. “Administrator”: a person who adds or configures Kron on a Server (Manage Server or Administrator permission). “Member”: anyone interacting with Kron on a Server or through a form. “Module”: a Kron feature enabled per Server (tickets, whitelist, logs, etc.)."
+          ]
+        },
+        {
+          "title": "3. Eligibility",
+          "body": [
+            "You must meet Discord's minimum age in your country and hold a Discord account in good standing. In Québec, a person under 14 may not provide personal information to the Service (for example by filling in a form) without the consent of a parent or guardian.",
+            "If you use the Service on behalf of an organization, you represent that you may bind it."
+          ]
+        },
+        {
+          "title": "4. Relationship with Discord",
+          "body": [
+            "Kron is an independent product. It is not affiliated with, endorsed or sponsored by Discord Inc. Your use of Discord remains subject to Discord's Terms of Service, Community Guidelines and Developer Policy. The Service depends on Discord: an outage or change at Discord may affect it without liability on our part."
+          ]
+        },
+        {
+          "title": "5. Administrator responsibilities",
+          "body": [
+            "Administrators choose which Modules are enabled and how. They are responsible for:",
+            "• their Server complying with Discord rules and applicable laws;",
+            "• the questions in their forms and how they use the answers: they must tell Members why information is collected, obtain consent where required and only ask for what is necessary;",
+            "• never asking, through a form, ticket or any Module, for passwords, banking data, identity documents or health information;",
+            "• decisions made on their Server (accepting or denying applications, sanctions, role assignments, etc.).",
+            "For information collected from their Members, the Administrator determines the purposes and we act as a service provider on their behalf."
+          ]
+        },
+        {
+          "title": "6. Acceptable use",
+          "body": [
+            "You may not use the Service to:",
+            "• break any law or Discord rules, or infringe the rights of others;",
+            "• harass, threaten, share hateful content, sexual content involving minors or incitement to violence;",
+            "• send spam, mass unsolicited messages or malicious links;",
+            "• impersonate anyone, Kron or Discord, or phish users;",
+            "• circumvent the Service’s limits, security or billing, attack or overload it, or scrape data from it;",
+            "• decompile or copy the Service, except as permitted by law.",
+            "We may limit, suspend or remove Kron from a Server, or block a user, who breaks these rules, with or without notice depending on severity."
+          ]
+        },
+        {
+          "title": "7. Content",
+          "body": [
+            "You keep your rights in the content you provide (configured messages, form answers, etc.). You grant us a limited, non-exclusive, royalty-free licence to host, process and display it, solely to provide the Service. You represent that you have the right to provide it. We do not monitor Server content, but we may remove content that breaks these terms."
+          ]
+        },
+        {
+          "title": "8. Paid plans",
+          "body": [
+            "Some features are offered by subscription: Pro and Whitelabel, per Server, monthly, yearly or once for life, at the prices shown on the Site when you buy. Prices are in US dollars; applicable taxes are extra. Payments are processed by Stripe; we never store your card data.",
+            "Subscriptions renew automatically at the end of each term, at the same price, unless cancelled. You can cancel at any time: cancellation takes effect at the end of the paid term and you keep access until then.",
+            "Any price increase will be announced at least 30 days in advance and only applies to the next term. Except where required by law, started terms are not refundable.",
+            "When a Whitelabel subscription ends, the Server returns to the standard Kron after a 7-day grace period; configurations are kept."
+          ]
+        },
+        {
+          "title": "9. Availability and changes",
+          "body": [
+            "The Service is provided “as is” and “as available”. We make reasonable efforts to keep it running, but do not guarantee it will be uninterrupted or error-free. We may change, add or remove features. If a paid feature is removed, we will offer an equivalent solution or a prorated refund."
+          ]
+        },
+        {
+          "title": "10. Termination",
+          "body": [
+            "You may stop using the Service at any time, including by removing Kron from your Server. We may end access for a Server or user that breaks these terms. Data is then kept and destroyed according to the Privacy Policy; you can request deletion at any time."
+          ]
+        },
+        {
+          "title": "11. Intellectual property",
+          "body": [
+            "The Kron name, logo, code, design and documentation belong to us. These terms transfer no rights in them, except the right to use the Service in accordance with them."
+          ]
+        },
+        {
+          "title": "12. Limitation of liability",
+          "body": [
+            "To the extent permitted by law, we are not liable for indirect damages, loss of data, profits or goodwill, or for the actions of Administrators, Members or Discord. Our total liability is limited to the amounts you paid us in the last 12 months.",
+            "Nothing in these terms limits your rights under Québec's Consumer Protection Act or any other mandatory law."
+          ]
+        },
+        {
+          "title": "13. Privacy",
+          "body": [
+            "How we collect and use personal information is described in our Privacy Policy, which forms part of these terms."
+          ]
+        },
+        {
+          "title": "14. Changes",
+          "body": [
+            "We may change these terms. A material change will be announced at least 30 days in advance on kronbot.xyz and on our Discord support server. Continuing to use the Service after it takes effect means you accept it; otherwise you may stop using it and cancel your subscription."
+          ]
+        },
+        {
+          "title": "15. Governing law and language",
+          "body": [
+            "These terms are governed by the laws of Québec and the applicable federal laws of Canada. Disputes fall under the courts of Québec, subject to a consumer’s right to sue in their home district. The French version prevails over any translation."
+          ]
+        },
+        {
+          "title": "16. Contact",
+          "body": [
+            "Fastest: open a ticket on our Discord server (kronbot.xyz/support). By email: dev@kronbot.xyz."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "title": "1. Our commitment",
+          "body": [
+            "This policy explains what personal information Kron collects, why, how it is protected and what your rights are. It is written to comply with Québec's Act respecting the protection of personal information in the private sector (Law 25) and Canada's PIPEDA."
+          ]
+        },
+        {
+          "title": "2. Person in charge of personal information",
+          "body": [
+            "The person in charge of the protection of personal information is the owner of Kron. For any question, request or complaint: dev@kronbot.xyz, with “Privacy” in the subject."
+          ]
+        },
+        {
+          "title": "3. Information we collect",
+          "body": [
+            "Panel account (Discord login): your Discord ID, username, display name, avatar and preferred language. Your Discord access tokens, encrypted.",
+            "Session security: the IP address and browser (user agent) of your session, and server technical logs.",
+            "Discord servers: the ID, name, language and Module configuration of each Server Kron is in.",
+            "Module data, only if an Administrator enables it: form answers (whitelist, recruitment), ticket question answers, birthday date, reminders, moderation history, giveaway entries, invite tracking (who invited whom), role backups (which roles each member has, kept as the last 80 snapshots).",
+            "FiveM bridge, if an Administrator installs it: FiveM license, player name and Discord ID of connected players; on staff request, characters’ name, job, phone and money (each field can be turned off); messages sent with /report.",
+            "Rocket League, if a member uses /rl lier: the game account platform and name or ID, linked to their Discord ID, until they use /rl delier. Kron also keeps readings of their ranks, MMR and career stats (read from the rocket-league10 API) to show the history, for 60 days.",
+            "Diagnostics: the $debug command produces a report (server, channel and user names and IDs, bot permissions) sent to our support server.",
+            "Payments: card details are collected directly by Stripe; we only receive a customer ID and the subscription status."
+          ]
+        },
+        {
+          "title": "4. What we do not collect",
+          "body": [
+            "We do not ask Discord for your email address, we have no access to your private messages, and we do not store your server list (it is read from Discord when needed). The Logs module shows deleted or edited message content in the Server’s channels: that content is kept in memory for at most 1 hour and is never written to our database."
+          ]
+        },
+        {
+          "title": "5. Purposes",
+          "body": [
+            "We use this information only to: provide and secure the Service; authenticate you and check your permissions; run the Modules enabled by Administrators; provide support; handle billing; prevent abuse and meet our legal obligations. We do not sell your information and do not do targeted advertising."
+          ]
+        },
+        {
+          "title": "6. Consent",
+          "body": [
+            "You consent to collection when you log in to the panel, use a command or send a form. You may withdraw consent at any time (see section 11); some features may then become unavailable. A minor under 14 may not provide information without the consent of a parent or guardian."
+          ]
+        },
+        {
+          "title": "7. Sharing",
+          "body": [
+            "Information is shared only as needed:",
+            "• with the Administrators of the Server concerned (for example, form answers are visible to the team reviewing them);",
+            "• with our providers: Discord (bot operation and login), Cloudflare (site protection, bot checks), our cloud hosting provider and Stripe (payments);",
+            "• with authorities, where the law requires it.",
+            "Our providers are contractually bound to protect the information and may not use it for other purposes."
+          ]
+        },
+        {
+          "title": "8. Hosting and transfers outside Québec",
+          "body": [
+            "Our servers are hosted by a cloud provider in the United States, and Discord, Cloudflare and Stripe process data outside Québec. Before any transfer, we assess whether the information will receive adequate protection, as required by law."
+          ]
+        },
+        {
+          "title": "9. Retention and destruction",
+          "body": [
+            "Sessions: 7 days of inactivity. Technical logs: 7 days. Message cache (Logs module): 1 hour, in memory only.",
+            "$debug reports: 90 days, viewable through a unique link (kronbot.xyz/d/…), then deleted automatically.",
+            "Panel account: while you use it; logging out revokes your Discord tokens. Module data: as long as the Administrator keeps it or until a deletion request.",
+            "Data of a Server Kron was removed from: deleted automatically 30 days after removal, or sooner on request. The Server's paid Pro plan is kept. Billing data: as long as tax laws require.",
+            "When retention ends, information is securely destroyed or anonymized."
+          ]
+        },
+        {
+          "title": "10. Security",
+          "body": [
+            "We protect information with reasonable measures: encrypted connections (HTTPS), encrypted Discord tokens (AES-256-GCM), sessions stored as hashes, restricted server access, bot and attack protection. No system is perfectly secure; if a confidentiality incident presents a risk of serious injury, we will notify the Commission d’accès à l’information and the people concerned, and we keep an incident register."
+          ]
+        },
+        {
+          "title": "11. Your rights",
+          "body": [
+            "You may request access to your information, its correction, its deletion, its transfer in a structured, commonly used technological format (portability), and withdraw your consent. Email dev@kronbot.xyz; we will answer within 30 days. We may verify your identity (for example through your Discord account). For data collected by a Server, we may refer you to its Administrator.",
+            "If you are not satisfied with our answer, you may file a complaint with the Commission d’accès à l’information du Québec (cai.gouv.qc.ca)."
+          ]
+        },
+        {
+          "title": "12. Cookies and local storage",
+          "body": [
+            "We only use essential cookies: one session cookie and a temporary cookie during login. Your theme and language are kept in your browser. We use no advertising, analytics or tracking cookies."
+          ]
+        },
+        {
+          "title": "13. Changes",
+          "body": [
+            "We may update this policy. The effective date is shown at the top; a material change will be announced on kronbot.xyz and on our Discord server."
+          ]
+        }
+      ]
+    }
+  },
+  "ui": {
+    "today": "Today at {time}",
+    "remove": "Remove",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "disabledNote": "This module is disabled: you can configure it, it will work as soon as you enable it.",
+    "none": "— None —",
+    "addRole": "Add a role",
+    "addChannel": "Add a channel",
+    "roleTooHigh": "This role is above Kron: move Kron’s role higher so it can manage it.",
+    "unsaved": "Unsaved changes",
+    "reset": "Discard",
+    "save": "Save",
+    "limit": "{used}/{max}",
+    "vipLimit": "Free plan limit reached. Upgrade to Pro for more.",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "cancel": "Cancel",
+    "confirmDelete": "Click again to confirm",
+    "channel": "Channel",
+    "category": "Category",
+    "roles": "Roles",
+    "name": "Name",
+    "embed": {
+      "content": "Message (outside embeds)",
+      "variables": "Variables",
+      "embed": "Embed {n}",
+      "authorName": "Author",
+      "authorIcon": "Author icon (URL)",
+      "title": "Title",
+      "url": "Title link (URL)",
+      "description": "Description",
+      "color": "Color",
+      "noColor": "None",
+      "fields": "Fields",
+      "fieldName": "Field name",
+      "fieldValue": "Value",
+      "inline": "Inline",
+      "addField": "Add a field",
+      "image": "Image (URL)",
+      "thumbnail": "Thumbnail (URL)",
+      "footer": "Footer",
+      "footerIcon": "Footer icon (URL)",
+      "timestamp": "Show send time",
+      "addEmbed": "Add an embed",
+      "total": "Total",
+      "linkButtons": "Link buttons",
+      "buttonLabel": "Button text",
+      "addButton": "Add a button",
+      "import": "Import JSON",
+      "export": "Copy JSON",
+      "importApply": "Import",
+      "importError": "Invalid JSON (Discord or Discohook format expected).",
+      "preview": "Preview",
+      "issues": {
+        "too_long": "Embeds exceed 6000 characters in total.",
+        "empty": "The message is empty: add text or an embed.",
+        "field_empty": "Every field needs a name and a value.",
+        "invalid_url": "A URL is invalid (it must start with https://).",
+        "required": "A required field is empty."
+      }
+    },
+    "leave": {
+      "title": "Unsaved changes",
+      "text": "You have changes that are not saved. What do you want to do?",
+      "stay": "Stay",
+      "discard": "Leave without saving",
+      "save": "Save and continue"
+    },
+    "plan": {
+      "title": "Will be created",
+      "hint": "Click a line to change its emoji, its name or who can see it.",
+      "existing": "existing category reused",
+      "emoji": "Emoji",
+      "name": "Name",
+      "access": "Visible to",
+      "save": "Save",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "public": "visible to everyone",
+      "private": "staff only",
+      "roles": "{count} role(s)"
+    },
+    "copy": "Copy",
+    "copied": "Copied",
+    "emoji": {
+      "pick": "Pick an emoji",
+      "type": "Type or paste an emoji",
+      "none": "None",
+      "groups": {
+        "info": "Info",
+        "chat": "Chat",
+        "voice": "Voice and games",
+        "staff": "Staff",
+        "rp": "RP",
+        "misc": "Misc"
+      }
+    },
+    "vars": {
+      "server": "Server name",
+      "server_id": "Server ID",
+      "server_icon": "Server icon (URL)",
+      "memberCount": "Member count",
+      "date": "Today’s date",
+      "time": "Time",
+      "fivem_server": "FiveM server name",
+      "fivem_players": "Players online (FiveM)",
+      "fivem_status": "FiveM server state (🟢/🔴)",
+      "fivem_maxPlayers": "Max slots (FiveM)",
+      "fivem_police": "Police on duty (FiveM)",
+      "fivem_ems": "EMS on duty (FiveM)",
+      "fivem_jobs": "Jobs on duty (FiveM)"
+    },
+    "newChannel": {
+      "create": "Create",
+      "submit": "Create the channel",
+      "preview": "Will be created:",
+      "atTop": "at the top of the server",
+      "inLogs": "in the server’s logs category",
+      "privateHint": "Hidden from everyone else. Kron always sees it.",
+      "created": "{name} created.",
+      "errors": {
+        "missing_permissions": "Kron lacks the Manage Channels permission.",
+        "too_many_channels": "Discord limits a server to 500 channels.",
+        "invalid_channel": "The logs category no longer exists: pick another one on the General page.",
+        "invalid_role": "A chosen role no longer exists."
+      },
+      "names": {
+        "verification": "verification",
+        "welcome": "welcome",
+        "goodbye": "goodbye",
+        "birthdays": "birthdays",
+        "starboard": "starboard",
+        "levelUp": "level-up",
+        "giveaways": "giveaways",
+        "roles": "roles",
+        "github": "github",
+        "announcements": "announcements",
+        "modLogs": "logs-moderation",
+        "raidAlerts": "raid-alerts",
+        "automodAlerts": "automod-alerts",
+        "honeypotLogs": "logs-honeypot",
+        "ticketLogs": "logs-ticket",
+        "transcripts": "ticket-transcripts",
+        "tickets": "tickets",
+        "ticketCategory": "Support",
+        "reviews": "applications",
+        "interview": "Interview",
+        "tempHub": "Create a channel",
+        "tempCategory": "Temporary channels",
+        "voiceSupport": "Voice support",
+        "logs": "Logs",
+        "roleLogs": "role-logs",
+        "backupAlerts": "role-alerts",
+        "inviteLogs": "invite-logs",
+        "arrivals": "arrivals",
+        "counting": "counting"
+      },
+      "category": "Category",
+      "inCategory": "in 📁 {name}",
+      "suggested": "Suggested: {name}",
+      "suggestedTag": "suggested",
+      "noSuggestion": "No games category found: the channel goes to the top, or pick one."
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "lead": "Kron is a Discord product: support happens on Discord first, where our team and the community answer much faster.",
+    "discordTitle": "🎫 Open a ticket on Discord",
+    "discordText": "The fastest and easiest way. Join our support server and open a ticket: you can attach screenshots and your $debug link.",
+    "discordButton": "Join the support server",
+    "debugTip": "Tip: type $debug in your server, then paste the link in your ticket. We’ll see exactly what you see.",
+    "emailTitle": "✉️ By email",
+    "emailText": "For business, billing or privacy questions (access, correction, deletion of your information).",
+    "emailDelay": "Answer within a few business days. Privacy requests are handled within 30 days.",
+    "note": "Kron is an independent product, not affiliated with Discord Inc.",
+    "email": "dev@kronbot.xyz"
+  },
+  "fivemPromo": {
+    "badge": "A first",
+    "title": "A FiveM module like no other",
+    "text": "Install the Kron resource on your FiveM server and link it to Discord. One switch in the dashboard, and the other modules show the player’s in-city info.",
+    "points": {
+      "tickets": "🎫 Tickets: the player’s characters in the header, as soon as it opens",
+      "whitelist": "📝 Synced whitelist: denied on Discord = denied in game",
+      "moderation": "🛡️ Moderation: identifiers, playtime and sanctions in one place"
+    },
+    "soon": "Coming soon",
+    "mockLabel": "Preview: ticket header with the player’s FiveM info",
+    "cardTitle": "FiveM profile",
+    "cardText": "Ticket opened by **@Alex** · license:3f9a…c21",
+    "status": "Status",
+    "online": "In the city (2h 14m)",
+    "characters": "Characters",
+    "jobs": {
+      "mechanic": "🔧 Mechanic",
+      "ems": "🚑 Paramedic"
+    }
+  },
+  "docs": {
+    "eyebrow": "Documentation",
+    "title": "Kron documentation",
+    "lead": "Everything you need to install, configure and get the most out of Kron, module by module.",
+    "search": "Search the docs…",
+    "searchAll": "Search a module, a command, a question…",
+    "noResult": "No article found.",
+    "results": "{count} result(s)",
+    "popular": "Most read",
+    "categories": {
+      "start": "Getting started",
+      "modules": "Modules",
+      "fivem": "FiveM",
+      "premium": "Premium & Whitelabel",
+      "help": "Help"
+    },
+    "callouts": {
+      "note": "ℹ️ Note",
+      "tip": "💡 Tip",
+      "important": "⚠️ Important",
+      "warning": "🚫 Warning"
+    },
+    "prev": "Previous",
+    "next": "Next",
+    "helpTitle": "Need help?",
+    "helpText": "Open a ticket on our Discord server: the team answers fast.",
+    "fallback": "This article isn’t translated yet: here is the French version.",
+    "articles": "Articles"
+  },
+  "mockWl": {
+    "title": "📝┆Whitelist application",
+    "text": "Application from **@Alex**",
+    "field1": "🎂 Age",
+    "value1": "24",
+    "field2": "🎮 RP experience",
+    "value2": "3 years",
+    "accept": "Accept",
+    "deny": "Deny"
+  },
+  "mockLog": {
+    "title": "🗑️ Message deleted",
+    "text": "Has anyone seen my car?",
+    "author": "Author",
+    "channel": "Channel"
+  },
+  "cookies": {
+    "label": "Cookies",
+    "text": "Kron only uses essential cookies (session and login). No tracking or ads.",
+    "more": "Learn more",
+    "ok": "Got it"
+  },
+  "premium": {
+    "title": "Plan",
+    "freeText": "Your server is on the free plan.",
+    "until": "Active until {date}.",
+    "lifetime": "Active for life.",
+    "seePlans": "See plans",
+    "redeemTitle": "Redeem a key",
+    "redeemText": "Got a Kron key? Enter it here to activate the plan on this server. A key works only once.",
+    "redeem": "Redeem",
+    "redeemed": "Key redeemed. Thank you!",
+    "errors": {
+      "key_invalid": "Invalid key.",
+      "key_used": "This key was already used.",
+      "key_revoked": "This key was disabled.",
+      "rate": "Too many tries. Try again in a minute.",
+      "unknown": "Error. Try again later."
+    },
+    "launch": "Unlocked for free during the launch. Your setup will be kept when payments open.",
+    "billing": {
+      "title": "Subscription",
+      "staffPreview": "Launch period: everything is free. Only staff see these buttons, to test payments.",
+      "renewsOn": "renews on {date}",
+      "endsOn": "canceled, active until {date}",
+      "pastDue": "payment failed, update your card",
+      "manage": "Manage subscription",
+      "notMine": "Another manager of this server pays for this subscription: only they can change it.",
+      "secure": "Secure payment by Stripe (card, Apple Pay, Google Pay). Kron never sees your card details. Cancel anytime.",
+      "thanks": "Thank you! Your subscription is active within a few seconds.",
+      "errors": {
+        "billing_off": "Payments are not open yet.",
+        "already_subscribed": "This server already has an active subscription.",
+        "plan_unavailable": "This offer is not available right now.",
+        "no_subscription": "No subscription in your name for this server."
+      },
+      "lifetime": "Lifetime: nothing to renew.",
+      "prepaid": "Pass paid, active until {date}",
+      "upgrade": "Move to a longer term: {amount} already paid will be taken off, and your monthly subscription will stop on its own."
+    }
+  },
+  "admin": {
+    "title": "Staff dashboard",
+    "short": "Staff",
+    "level": "Access: {level}",
+    "levels": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "dev": "Dev",
+      "modo": "Mod"
+    },
+    "tabs": {
+      "premium": "Premium servers",
+      "keys": "Keys",
+      "overview": "Overview",
+      "servers": "Servers",
+      "journal": "Journal",
+      "finance": "Finance"
+    },
+    "stats": {
+      "guilds": "Servers",
+      "activeGrants": "Active premium",
+      "unusedKeys": "Available keys",
+      "members": "Members (total)",
+      "left": "Servers left",
+      "live": "Live now"
+    },
+    "grantTitle": "Give a plan to a server",
+    "guildId": "Server ID",
+    "note": "Note (optional)",
+    "grant": "Give",
+    "noGrants": "No premium servers.",
+    "left": "Left",
+    "expired": "Expired",
+    "until": "until {date}",
+    "lifetime": "Lifetime",
+    "days": "{n} days",
+    "revoke": "Revoke",
+    "sources": {
+      "key": "Key",
+      "manual": "Manual",
+      "stripe": "Stripe"
+    },
+    "keysTitle": "Generate keys",
+    "count": "Count",
+    "keyNote": "For whom? (e.g. partner, staff)",
+    "generate": "Generate",
+    "createdTitle": "Copy these keys now",
+    "createdText": "They will never be shown again: we only keep a fingerprint.",
+    "copy": "Copy",
+    "done": "I copied them",
+    "noKeys": "No keys.",
+    "redeemedOn": "used on {guild}",
+    "status": {
+      "available": "Available",
+      "used": "Used",
+      "revoked": "Disabled"
+    },
+    "bot": {
+      "status": "Bot",
+      "online": "Online",
+      "offline": "Offline",
+      "ping": "Latency",
+      "memory": "Memory",
+      "uptime": "Up for",
+      "version": "Kron v{version} · {guilds} servers in cache"
+    },
+    "topModules": "Most used modules",
+    "searchGuilds": "Search a server (name or ID)…",
+    "membersCount": "{count} members",
+    "modulesCount": "{count} modules",
+    "allGuilds": "All servers",
+    "leave": "Make Kron leave",
+    "leaveConfirm": "Confirm: Kron leaves this server",
+    "leftDone": "Kron left the server. Its data will be deleted in 30 days.",
+    "facts": {
+      "owner": "Owner",
+      "members": "Members",
+      "online": "{count} online",
+      "locale": "Language",
+      "joined": "Kron joined",
+      "leftAt": "Left",
+      "grant": "Premium"
+    },
+    "permsTitle": "Kron's permissions",
+    "adminWarning": "Kron has Administrator on this server (through a role). Not recommended: the precise permissions are enough.",
+    "permsOk": "Every required permission is there.",
+    "permsMissing": "{count} missing permission(s):",
+    "botRole": "Kron's highest role: {role} · {above} role(s) above it (out of {total}) that it can't manage.",
+    "modulesTitle": "Modules",
+    "reportsTitle": "$debug reports",
+    "noReports": "No recent $debug report.",
+    "reportBy": "requested by {user}",
+    "reportsHint": "Ask the server's team to type $debug in the channel with the problem: the report shows up here.",
+    "liveTitle": "Live alerts running",
+    "journalTitle": "Staff journal",
+    "journalEmpty": "No staff action yet.",
+    "actions": {
+      "grant.create": "granted a Premium plan",
+      "grant.revoke": "revoked a Premium plan",
+      "key.create": "created Premium keys",
+      "key.revoke": "revoked a key",
+      "module.toggle": "turned a module on / off",
+      "guild.leave": "made Kron leave a server"
+    },
+    "errors": {
+      "no_access": "Kron no longer has access to this server.",
+      "discord_error": "Discord didn't answer.",
+      "note_required": "A note is required (e.g. “October 20 giveaway”)."
+    },
+    "permNames": {
+      "ViewChannel": "View Channels",
+      "SendMessages": "Send Messages",
+      "EmbedLinks": "Embed Links",
+      "AttachFiles": "Attach Files",
+      "ManageRoles": "Manage Roles",
+      "ManageChannels": "Manage Channels",
+      "ManageMessages": "Manage Messages",
+      "ReadMessageHistory": "Read Message History",
+      "KickMembers": "Kick Members",
+      "BanMembers": "Ban Members",
+      "ManageGuild": "Manage Server",
+      "ViewAuditLog": "View Audit Log",
+      "ModerateMembers": "Timeout Members"
+    },
+    "growth": {
+      "joined": "Joined (7 d)",
+      "left": "Left (7 d)",
+      "d30": "in 30 d",
+      "tickets": "Tickets opened (7 d)",
+      "openTickets": "Open tickets"
+    },
+    "shardsTitle": "Shards",
+    "shardGuilds": "{count} servers",
+    "whitelabelTitle": "Whitelabel bots",
+    "whitelabelEmpty": "No Whitelabel bot connected.",
+    "wlOff": "Disabled",
+    "wlErrors": {
+      "token_invalid": "Invalid token",
+      "intents_missing": "Missing intents"
+    },
+    "finance": {
+      "mrr": "Monthly revenue (MRR)",
+      "arr": "Estimated yearly revenue",
+      "active": "Active subscriptions",
+      "risk": "Canceled / payment failed",
+      "hint": "Amounts before taxes and Stripe fees (about 2.9% + $0.30 per payment). Canceled subscriptions no longer count in MRR.",
+      "subs": "Stripe subscriptions",
+      "none": "No subscription yet.",
+      "months": "months",
+      "renews": "renews",
+      "ends": "ends"
+    },
+    "presets": {
+      "month": "1 month Pro",
+      "monthWhitelabel": "1 month Pro + Whitelabel",
+      "year": "1 year Pro",
+      "yearWhitelabel": "1 year Pro + Whitelabel",
+      "fiveYears": "5 years Pro",
+      "fiveYearsWhitelabel": "5 years Pro + Whitelabel"
+    },
+    "reveal": "Show key",
+    "notStored": "Key made before keys were stored: it cannot be shown.",
+    "editNote": "Edit note",
+    "addNote": "Add a note",
+    "noteRequired": "A note is required (e.g. “October 20 giveaway”)."
+  },
+  "account": {
+    "menu": "Account menu",
+    "title": "My account",
+    "preferences": "Preferences",
+    "preferencesHint": "Language of the site and of Kron’s direct messages, and light or dark theme.",
+    "shortcutsTitle": "Shortcuts",
+    "shortcuts": {
+      "dashboard": "Your servers and their modules",
+      "tickets": "Your tickets in every server",
+      "staff": "Keys, plans and premium servers",
+      "docs": "Guides and answers"
+    },
+    "privacy": "Privacy",
+    "privacyText": "Kron only keeps what it needs to work (Discord profile, managed servers, tickets). You can ask for a copy or the deletion of your data.",
+    "privacyPolicy": "Privacy policy",
+    "deleteData": "Request deletion"
+  },
+  "fivemPage": {
+    "install": "Install guide",
+    "functions": "All features",
+    "featuresTitle": "What the module does",
+    "features": {
+      "tickets": {
+        "title": "🎫 Profile in tickets",
+        "text": "The player’s characters, job, money and phone under every ticket."
+      },
+      "whitelist": {
+        "title": "📝 Synced whitelist",
+        "text": "Applications accepted on Discord give the right roles."
+      },
+      "moderation": {
+        "title": "🛡️ Moderation",
+        "text": "Identifiers, playtime and sanctions in one place."
+      },
+      "actions": {
+        "title": "🔧 Quick actions",
+        "text": "Unstuck a player or send a vehicle back to the garage from Discord."
+      },
+      "reports": {
+        "title": "📣 In-game reports",
+        "text": "Each /report opens a Discord thread where staff replies to the player."
+      },
+      "jobs": {
+        "title": "💼 Job channels",
+        "text": "A JOBS category with a private channel per job or gang, visible to staff and the job role."
+      }
+    },
+    "stepsTitle": "Install in 3 steps",
+    "steps": {
+      "s1": {
+        "title": "Download the resource",
+        "text": "Unzip kronbot_bridge in your server’s resources folder."
+      },
+      "s2": {
+        "title": "Add the token",
+        "text": "Copy the token from the dashboard into server.cfg and add ensure kronbot_bridge."
+      },
+      "s3": {
+        "title": "Restart",
+        "text": "The dashboard shows “Connected”: the features are ready."
+      }
+    }
+  },
+  "liveUi": {
+    "notConfigured": "{platform} alerts aren't connected to Kron yet (missing API keys). You can prepare your list: alerts start as soon as it's done.",
+    "addTitle": "Follow a channel",
+    "addHint": "As soon as the channel goes live on {platform}, Kron posts an alert (checked every minute).",
+    "loginPlaceholder": "channel name",
+    "add": "Add",
+    "notFound": "No “{login}” channel on {platform}.",
+    "listTitle": "Followed channels",
+    "emptyTitle": "No channels",
+    "emptyText": "Add a {platform} channel above.",
+    "liveNow": "live",
+    "pingRoles": "Roles to mention",
+    "pingEveryone": "Mention @everyone",
+    "message": "Message",
+    "messageHint": "Variables: {streamer}, {title}, {game}, {url}. Empty = default message.",
+    "defaultMessage": "🔴 {streamer} is live: {title}",
+    "endTitle": "Stream end",
+    "endHint": "What happens to the alert when the stream ends.",
+    "onEnd": {
+      "edit": "Mark as “stream ended” (grey, with the duration)",
+      "delete": "Delete the alert",
+      "keep": "Leave the alert as is"
+    },
+    "errors": {
+      "not_configured": "This platform's API keys are not configured yet.",
+      "platform_error": "The platform didn't answer. Try again in a moment."
+    }
+  },
+  "whitelabel": {
+    "title": "Whitelabel: your own bot",
+    "intro": "Every Kron feature under your name and avatar, with your own Discord application.",
+    "notAvailable": "Whitelabel is part of the Whitelabel plan.",
+    "seePlans": "See plans",
+    "online": "Online in your server",
+    "starting": "Starting (less than a minute)…",
+    "invite": "Invite your bot",
+    "name": "Bot name",
+    "nameHint": "Discord limits name changes to about 2 per hour.",
+    "avatar": "Avatar",
+    "avatarHint": "PNG, JPG, GIF or WebP, 1 MB max.",
+    "status": "Status",
+    "statusPlaceholder": "e.g. Server support · kronbot.xyz",
+    "apply": "Apply",
+    "connectTitle": "Connect your bot",
+    "replaceToken": "Replace the token",
+    "stepPortal": "Open the Discord Developer Portal",
+    "stepCreate": "Create your application",
+    "stepCreateValue": "click New Application, give it a name and accept the terms.",
+    "stepInstall": "Installation tab",
+    "stepInstallValue": "under Default Install Settings, pick:",
+    "userInstall": "User Install, scopes:",
+    "guildInstall": "Guild Install, scopes:",
+    "permissions": "Guild Install, permissions:",
+    "stepBot": "Bot tab",
+    "stepBotValue": "click Reset Token and copy the token. Under Privileged Gateway Intents, turn on:",
+    "on": "on",
+    "stepProfile": "General Information tab",
+    "stepProfileValue": "choose your bot’s avatar, name and description, then Save Changes (on every tab you changed).",
+    "stepToken": "Paste the token below",
+    "stepTokenValue": "then Connect and invite your bot with the button that appears. Kron hosts it: it stays online 24/7.",
+    "tokenPlaceholder": "Bot token",
+    "connect": "Connect",
+    "tokenSafe": "The token is checked with Discord, then encrypted. It is never shown again or shared.",
+    "takeover": "Once your bot is online in the server, Kron leaves it automatically: your bot takes over with all your settings.",
+    "remove": "Disconnect the bot",
+    "removeConfirm": "Confirm (invite Kron back afterwards)",
+    "connected": "Bot connected: invite it to your server now.",
+    "saved": "Saved.",
+    "removed": "Bot disconnected. Invite Kron back to continue.",
+    "intents": {
+      "members": "Server Members Intent",
+      "content": "Message Content Intent"
+    },
+    "errors": {
+      "token_invalid": "Invalid token: copy it again (Reset Token).",
+      "not_a_bot": "This token is not a bot token.",
+      "intents_missing": "Turn on these intents in the Bot tab: {missing}",
+      "app_in_use": "This application is already used by another server.",
+      "whitelabel_required": "This server does not have the Whitelabel plan.",
+      "discord_error": "Discord didn't answer. Try again in a moment.",
+      "rate_limited": "Discord limits name changes: try again in an hour.",
+      "profile_rejected": "Discord refused this name or avatar.",
+      "avatar_too_big": "Image too large (1 MB max)."
+    }
+  },
+  "statusPage": {
+    "title": "Kron status",
+    "lead": "Live bot status, shard by shard. Updated every minute.",
+    "up": "All systems operational",
+    "degraded": "Degraded service",
+    "down": "Offline",
+    "loading": "Loading…",
+    "error": "Could not reach the Kron API.",
+    "servers": "Servers",
+    "ping": "Latency",
+    "uptime": "Up for",
+    "version": "Version",
+    "shards": "Shards",
+    "shardsHint": "Discord splits servers across connections called shards.",
+    "shard": "Shard {id}",
+    "online": "Online",
+    "connecting": "Connecting",
+    "offline": "Offline",
+    "checked": "Checked {time}",
+    "help": "A problem that doesn’t show here? Open a ticket on our server.",
+    "pill": "Status",
+    "footer": "Status"
+  },
+  "pro": {
+    "eyebrow": "👑 Kron Pro",
+    "title": "Take your server further",
+    "lead": "Everything essential stays free. Pro unlocks FiveM, live alerts, GitHub feeds, esport teams and removes every limit. Whitelabel gives you your own bot.",
+    "forever": "forever",
+    "month": "/ month",
+    "unlimited": "Unlimited",
+    "choose": "Choose {plan}",
+    "compareTitle": "Compare plans",
+    "pickTitle": "For which server?",
+    "pickText": "The {plan} plan applies to one server. Pick it, then pay securely with Stripe.",
+    "signIn": "Sign in with Discord",
+    "noServer": "Kron is on none of the servers you manage.",
+    "faqTitle": "FAQ",
+    "more": "More details in",
+    "docsLink": "the Premium docs",
+    "rows": {
+      "coreModules": "Tickets, logs, roles, welcome, AutoMod, levels…",
+      "fivem": "FiveM module (profiles, jobs, /report)",
+      "streams": "Twitch and Kick alerts",
+      "github": "GitHub feeds",
+      "esport": "Esport teams",
+      "branding": "No “Kron” signature",
+      "support": "Priority support",
+      "ownBot": "Your own bot (name, avatar, status)"
+    },
+    "limits": {
+      "embeds": "Saved embeds",
+      "ticketPanels": "Ticket panels",
+      "forms": "Forms",
+      "reactionMenus": "Role menus",
+      "customCommands": "Commands and tags",
+      "giveawaysActive": "Active giveaways",
+      "counters": "Channel counters",
+      "levelRewards": "Level rewards",
+      "scheduledMessages": "Scheduled sends"
+    },
+    "faq": [
+      {
+        "q": "Is the subscription for a server or for my account?",
+        "a": "For a server. Each server has its own subscription, paid by any of its managers."
+      },
+      {
+        "q": "Can I cancel anytime?",
+        "a": "Yes, from the server’s Premium page (Stripe portal). Access stays until the end of the paid period."
+      },
+      {
+        "q": "I start monthly: do I lose what I paid if I move to yearly?",
+        "a": "No. What you paid in the last 60 days comes off the yearly or 5-year price, and your monthly subscription stops on its own."
+      },
+      {
+        "q": "What happens to my setup if I stop?",
+        "a": "Nothing is deleted. Items above the free limits stay, but you can’t create new ones, and Pro modules pause."
+      },
+      {
+        "q": "Which payment methods?",
+        "a": "Credit or debit card, Apple Pay and Google Pay, through Stripe. Kron never sees your card details."
+      },
+      {
+        "q": "What is Whitelabel?",
+        "a": "Your server uses your own Discord bot (your name, avatar, status) with every Pro feature. You create the application, Kron does the rest."
+      }
+    ],
+    "offers": {
+      "monthly": {
+        "name": "Monthly",
+        "note": "Pro, billed every month",
+        "per": "/ month"
+      },
+      "monthlyWhitelabel": {
+        "name": "Monthly + Whitelabel",
+        "note": "Pro + your own bot, billed every month",
+        "per": "/ month"
+      },
+      "yearly": {
+        "name": "Yearly",
+        "note": "Pro, billed every year ({monthly} / month)",
+        "per": "/ year",
+        "billed": "{amount} billed every year"
+      },
+      "yearlyWhitelabel": {
+        "name": "Yearly + Whitelabel",
+        "note": "Pro + your own bot, billed every year ({monthly} / month)",
+        "per": "/ year"
+      },
+      "fiveYears": {
+        "name": "5-year pass",
+        "note": "Paid once, 5 years of Pro ({monthly} / month)",
+        "per": "once"
+      },
+      "fiveYearsWhitelabel": {
+        "name": "5-year pass + Whitelabel",
+        "note": "Paid once, 5 years of Pro + your own bot ({monthly} / month)",
+        "per": "once"
+      }
+    },
+    "cards": {
+      "monthly": [
+        "Every Pro module (FiveM, Twitch, Kick, GitHub, esport)",
+        "No limits",
+        "No Kron signature",
+        "Cancel anytime"
+      ],
+      "yearly": [
+        "Everything in Monthly",
+        "The lowest monthly price with renewal",
+        "Your last monthly payment taken off when you switch",
+        "Priority support"
+      ],
+      "fiveYears": [
+        "Everything in Yearly",
+        "Paid once, nothing to renew",
+        "Every new Pro feature for 5 years",
+        "Your monthly payments of the last 60 days taken off"
+      ]
+    },
+    "addon": "Add Whitelabel",
+    "once": "once",
+    "save": "−{pct}%",
+    "bestValue": "★ Best",
+    "taxes": "Prices in US dollars (USD). Applicable taxes are added at checkout.",
+    "addonHint": "your own bot (name, avatar), on any term",
+    "withWhitelabel": "Whitelabel: your own bot"
+  },
+  "tools": {
+    "title": "Discord tools",
+    "lead": "Free tools for everyone: IDs, timestamps, profiles, invites, emojis, permissions and fonts.",
+    "search": "Search",
+    "errors": {
+      "not_found": "Not found: check the ID or the link.",
+      "discord_error": "Discord is not answering, try again in a moment."
+    },
+    "snowflake": {
+      "name": "❄️ ID decoder",
+      "text": "Every Discord ID (snowflake) holds its creation date. Paste a user, server, channel or message ID.",
+      "placeholder": "e.g. 1376340570460393563",
+      "date": "Created on",
+      "age": "Age",
+      "timestamp": "Discord timestamp"
+    },
+    "timestamp": {
+      "name": "🕒 Timestamp generator",
+      "text": "Pick a date and time: copy the code, Discord shows it in each reader’s time zone and language.",
+      "hint": "Paste the code in any message or embed."
+    },
+    "user": {
+      "name": "👤 User lookup",
+      "text": "Public profile of a Discord account from its ID: avatar, banner, badges, creation date.",
+      "placeholder": "User ID",
+      "hint": "Discord developer mode → right-click a member → Copy User ID.",
+      "created": "Account created on",
+      "badges": "Badges",
+      "avatar": "Avatar",
+      "banner": "Banner"
+    },
+    "server": {
+      "name": "🏠 Server lookup",
+      "text": "Public info of a server from an invite: name, icon, banner, members, boosts, features.",
+      "placeholder": "discord.gg/… or the code",
+      "hint": "Works with any valid invite.",
+      "id": "Server ID",
+      "members": "Members",
+      "boosts": "Boosts",
+      "vanity": "Vanity link",
+      "channel": "Invite channel",
+      "inviter": "Created by",
+      "expires": "Expires",
+      "never": "Never"
+    },
+    "media": {
+      "name": "🖼️ Emojis and stickers",
+      "text": "Download an emoji or a sticker in high resolution.",
+      "placeholder": "<:name:123…>, an ID or a link",
+      "hint": "In Discord, send \\:emoji: to get its <:name:id> code.",
+      "emoji": "Emoji (PNG/GIF)",
+      "emojiWebp": "Emoji (WebP)",
+      "sticker": "Sticker",
+      "open": "Open"
+    },
+    "permissions": {
+      "name": "🔐 Permission calculator",
+      "text": "Tick permissions to get their value, or paste a value to see what it holds. Also builds a bot invite link.",
+      "value": "Permission value",
+      "clear": "Clear all",
+      "clientId": "Application ID (optional, for the invite link)"
+    },
+    "fonts": {
+      "name": "🔤 Unicode fonts",
+      "text": "Write in bold, italic, mono, small caps… and paste it in a nickname, a channel or a message.",
+      "placeholder": "Your text"
+    },
+    "badges": {
+      "staff": "Discord Staff",
+      "partner": "Partner",
+      "hypesquad": "HypeSquad Events",
+      "bugHunter": "Bug Hunter",
+      "bravery": "Bravery",
+      "brilliance": "Brilliance",
+      "balance": "Balance",
+      "earlySupporter": "Early Supporter",
+      "bugHunter2": "Bug Hunter (gold)",
+      "verifiedBot": "Verified Bot",
+      "earlyDev": "Early Verified Bot Developer",
+      "certifiedMod": "Certified Moderator",
+      "activeDev": "Active Developer"
+    }
+  },
+  "gamesStrip": {
+    "title": "Modules for your games",
+    "text": "FiveM stays our specialty, and more games are coming: stats, ranks and histories right inside Discord.",
+    "soon": "More games soon",
+    "tags": {
+      "fivem": "Profiles, jobs, /report, live board",
+      "rocketleague": "Ranks, history, MMR progress",
+      "soon": "Tell us which ones on Discord"
+    },
+    "disclaimer": "Respective brands and logos belong to their owners. Kron is not owned by, affiliated with or endorsed by them in any way: this is a Discord tool."
+  }
+}

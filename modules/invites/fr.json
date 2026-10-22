@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "name": "Suivi des invitations"
+  },
+  "commands": {
+    "invites": {
+      "name": "invites",
+      "description": "Les invitations des membres"
+    },
+    "view": {
+      "name": "voir",
+      "description": "Combien de personnes un membre a invitées"
+    },
+    "top": {
+      "name": "classement",
+      "description": "Les membres qui ont invité le plus de monde"
+    },
+    "options": {
+      "member": {
+        "name": "membre",
+        "description": "Le membre (toi par défaut)"
+      }
+    }
+  },
+  "bot": {
+    "announce": "👋 {user} a rejoint le serveur, invité par **{inviter.name}** qui a maintenant **{invites}** invitation(s) !",
+    "announceVanity": "👋 {user} a rejoint le serveur grâce au lien personnalisé.",
+    "announceUnknown": "👋 {user} a rejoint le serveur.",
+    "vanity": "le lien personnalisé",
+    "unknown": "inconnu",
+    "logJoin": "📥 {user} est arrivé, invité par {inviter}",
+    "logFake": "⚠️ Compte créé il y a moins de {days} jour(s) : compté comme faux.",
+    "logLeave": "📤 {user} est parti (invité par {inviter})",
+    "fieldCode": "Invitation",
+    "fieldInvites": "Invitations de l’inviteur",
+    "fieldAccount": "Compte créé",
+    "countsShort": "{valid} valide(s) · {left} parti(s) · {fake} faux",
+    "view": "{user} a invité **{valid}** membre(s) toujours sur le serveur.",
+    "valid": "Valides",
+    "left": "Partis",
+    "fake": "Faux",
+    "topTitle": "🏆 Meilleurs inviteurs",
+    "topEmpty": "Aucune invitation suivie pour l’instant."
+  },
+  "web": {
+    "howTitle": "Comment ça marche",
+    "how": "À chaque arrivée, Kron trouve l’invitation utilisée et qui l’a créée. Un membre compte comme valide tant qu’il reste ; s’il part, il passe dans « partis » ; un compte trop récent compte comme « faux ».",
+    "announceTitle": "Message public",
+    "announceHint": "Par exemple dans le salon de bienvenue : « @Bob a rejoint le serveur, invité par Bill qui a maintenant 25 invitations ! »",
+    "announceEnabled": "Annoncer les arrivées",
+    "channel": "Salon",
+    "customMessage": "Personnaliser le message",
+    "defaultMessage": "Message par défaut de Kron",
+    "logTitle": "Logs du staff",
+    "logHint": "Chaque arrivée et départ avec l’invitation, l’inviteur et l’âge du compte. Placé dans la catégorie des logs du serveur.",
+    "fakeDays": "Comptes « faux » : créés depuis moins de (jours)",
+    "fakeHint": "0 = jamais.",
+    "boardTitle": "Classement",
+    "boardEmpty": "Aucune invitation suivie pour l’instant.",
+    "counts": "{valid} valides · {left} partis · {fake} faux",
+    "firstJoin": "Après l’activation, la toute première arrivée peut rester « inconnue » : Kron apprend alors les invitations du serveur.",
+    "vars": {
+      "inviter": "Mention de l’inviteur",
+      "inviter_name": "Nom de l’inviteur",
+      "invites": "Nombre d’invitations valides",
+      "code": "Code de l’invitation"
+    }
+  }
+}

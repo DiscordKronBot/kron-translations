@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Role management"
+  },
+  "commands": {
+    "role": {
+      "name": "role",
+      "description": "Apply a role action to a member"
+    },
+    "options": {
+      "member": {
+        "name": "member",
+        "description": "The member"
+      }
+    }
+  },
+  "bot": {
+    "noAction": "You have no role action on this server.",
+    "notMember": "This member is not on the server.",
+    "self": "Not on yourself or on a bot.",
+    "higher": "This member manages the server: only someone who manages the server can change their roles.",
+    "pick": "Which action for {member}?",
+    "dangerous": "One of the roles gives moderation rights: action blocked. Check it in the dashboard.",
+    "failed": "Kron could not change these roles: put the Kron role above them.",
+    "nothing": "No change (the member already had these roles).",
+    "done": "✅ {action} applied to {member}\n{changes}",
+    "log": "{staff} applied **{action}** to {member}"
+  },
+  "web": {
+    "intro": "Your staff applies role actions with /role, without the “Manage Roles” permission: with it, a member could also delete or edit those roles.",
+    "actionsTitle": "Actions",
+    "actionsHint": "Each action adds and removes roles at once. Members who manage the server can use them all.",
+    "newAction": "New action",
+    "template": "RP example: customs",
+    "templateName": "Approve passport",
+    "name": "Name",
+    "allowed": "Who can use it",
+    "add": "Roles added",
+    "remove": "Roles removed",
+    "remove2": "Delete the action",
+    "summary": "{who} can: {changes}",
+    "dangerous": "⚠️ {role} gives moderation rights: an action cannot give it.",
+    "logTitle": "Tracking channel",
+    "logHint": "Every action applied is noted there: who, to whom, which roles.",
+    "howTitle": "How to use",
+    "how": "On Discord: /role member:@player, then click the action. Only the actions allowed to your role show.",
+    "empty": "No action yet.",
+    "errors": {
+      "invalid_role": "A chosen role no longer exists.",
+      "role_too_high": "Kron must be above the roles added or removed (Server settings → Roles).",
+      "dangerous_role": "An action gives a role with moderation rights: remove it."
+    }
+  }
+}

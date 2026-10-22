@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "name": "Levels and economy"
+  },
+  "commands": {
+    "rank": {
+      "description": "Your level and XP (or a member's)"
+    },
+    "top": {
+      "description": "The server leaderboard"
+    },
+    "balance": {
+      "description": "Your balance (or a member's)"
+    },
+    "daily": {
+      "description": "Claim your daily reward"
+    },
+    "pay": {
+      "description": "Give coins to a member"
+    },
+    "xp": {
+      "description": "Manage member XP",
+      "give": {
+        "description": "Give XP"
+      },
+      "remove": {
+        "description": "Remove XP"
+      },
+      "reset": {
+        "description": "Reset a member"
+      }
+    },
+    "options": {
+      "member": {
+        "description": "The member"
+      },
+      "amount": {
+        "description": "The amount"
+      },
+      "board": {
+        "description": "XP or coins"
+      },
+      "bankAction": {
+        "description": "What to do?"
+      }
+    },
+    "work": {
+      "description": "Work to earn money"
+    },
+    "rob": {
+      "description": "Try to rob a member"
+    },
+    "bank": {
+      "description": "Your bank: deposit, withdraw or view"
+    },
+    "shop": {
+      "description": "The server shop"
+    },
+    "inventory": {
+      "description": "Your inventory (or a member’s)"
+    }
+  },
+  "bot": {
+    "levelUp": "🎉 GG {user}, you reached **level {level}**!",
+    "rewardReason": "Levels: level {level} reward",
+    "rankTitle": "Level {level}",
+    "position": "Rank",
+    "messages": "Messages",
+    "levelShort": "Lvl",
+    "topXp": "XP leaderboard",
+    "topCoins": "{name} leaderboard",
+    "empty": "Nobody has XP yet. Start chatting!",
+    "noBots": "Bots have no level.",
+    "economyOff": "The economy is not enabled on this server.",
+    "balance": "{user} has {amount}.",
+    "dailyOk": "You get {amount}. Come back tomorrow!",
+    "dailyWait": "Already claimed. Next reward {time}.",
+    "payInvalid": "Pick another member (not a bot, not you).",
+    "payPoor": "You don't have enough {name}.",
+    "payOk": "{from} gives {amount} to {to}.",
+    "xpDone": "{user}: level {level}, {xp} XP.",
+    "balanceBank": "{user} has {amount} in their wallet and {bank} in the bank.",
+    "cooldown": "Not so fast! Try again {time}.",
+    "worked": "💼 You {job} and earned {amount}.",
+    "robOff": "Robbing is turned off on this server.",
+    "robPoor": "{user} has almost nothing on them, not worth it.",
+    "robOk": "🦹 You stole {amount} from {user}!",
+    "robFail": "🚓 Caught! You pay a {amount} fine to {user}.",
+    "bankAmount": "Give an amount.",
+    "bankView": "👛 Wallet: {wallet}\n🏦 Bank: {bank}\n-# Money in the bank can’t be stolen.",
+    "shopTitle": "Shop",
+    "shopEmpty": "The shop is empty for now.",
+    "buyPlaceholder": "Buy an item…",
+    "itemGone": "This item is no longer for sale.",
+    "alreadyHave": "You already have this role.",
+    "bought": "✅ You bought {item} for {amount}.",
+    "shopReason": "Shop purchase",
+    "inventoryTitle": "{user}’s inventory",
+    "inventoryEmpty": "Nothing yet.",
+    "jobs": {
+      "0": "delivered pizzas",
+      "1": "fixed a server",
+      "2": "walked dogs",
+      "3": "sold lemonade",
+      "4": "coded a Discord bot",
+      "5": "mowed lawns",
+      "6": "washed cars",
+      "7": "babysat",
+      "8": "built furniture",
+      "9": "hosted a stream"
+    }
+  },
+  "web": {
+    "tabs": {
+      "settings": "Settings",
+      "board": "Leaderboard"
+    },
+    "xpTitle": "Earning XP",
+    "xpHint": "Each message gives a random amount of XP between the minimum and maximum, once per cooldown.",
+    "xpMin": "Minimum XP",
+    "xpMax": "Maximum XP",
+    "cooldown": "Cooldown (seconds)",
+    "cooldownHint": "Against spam: 60 s is the usual.",
+    "noXpChannels": "Channels without XP",
+    "noXpChannelsHint": "A category covers all its channels.",
+    "noXpRoles": "Roles without XP",
+    "levelUpTitle": "Level up",
+    "levelUpHint": "The message sent when a member levels up.",
+    "levelUpMode": "Where to announce",
+    "modes": {
+      "current": "In the message's channel",
+      "channel": "In a dedicated channel",
+      "dm": "By direct message",
+      "off": "Don't announce"
+    },
+    "levelUpChannel": "Level channel",
+    "levelUpChannelHint": "A level “spam” channel keeps the others clean.",
+    "levelUpMessage": "Message",
+    "levelUpMessageHint": "Variables: {user} (mention), {username}, {level}. Empty = default message.",
+    "rewardsTitle": "Role rewards",
+    "rewardsHint": "A role given automatically at a level. Kron's role must be above it.",
+    "atLevel": "Level",
+    "addReward": "Add a reward",
+    "stack": "Keep previous roles",
+    "stackHint": "Off: only the role of the highest level reached is kept.",
+    "economyTitle": "Economy",
+    "economyHint": "A currency earned by chatting, with a daily reward and gifts between members.",
+    "economyEnabled": "Enable the economy",
+    "currencyName": "Currency name",
+    "currencyEmoji": "Emoji",
+    "perMessage": "Coins per message (with XP)",
+    "daily": "/daily reward",
+    "commandsHint": "Commands: /rank, /top, /balance, /daily, /pay, /work, /rob, /bank, /shop, /inventory, and /xp for staff.",
+    "boardTitle": "Leaderboard",
+    "boardHint": "{count} ranked members.",
+    "boardEmpty": "Empty leaderboard",
+    "boardEmptyText": "XP comes in as soon as members chat (module on).",
+    "coins": "Coins",
+    "level": "Lvl",
+    "reset": "Reset",
+    "workTitle": "Work",
+    "workMin": "Minimum pay",
+    "workMax": "Maximum pay",
+    "cooldownMin": "Cooldown (minutes)",
+    "robTitle": "Robbing",
+    "robEnabled": "Allow /rob",
+    "robChance": "Success chance (%)",
+    "robMax": "Max stolen (% of the wallet)",
+    "robFine": "Fine when caught (% of the wallet)",
+    "shopTitle": "Shop",
+    "shopHint": "Roles and items to buy with /shop. Kron’s role must be above the roles it sells.",
+    "itemName": "Name",
+    "itemPrice": "Price",
+    "itemDesc": "Description",
+    "itemRole": "Role given (optional)",
+    "addItem": "Add an item"
+  }
+}

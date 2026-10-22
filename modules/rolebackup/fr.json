@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "Sauvegarde des rôles"
+  },
+  "bot": {
+    "deletedTitle": "🛟 Rôle supprimé",
+    "deleted": "{role} a été supprimé par {by}.\nIl peut être recréé, avec ses membres et ses permissions de salons, dans le dashboard : **Sauvegarde des rôles**.",
+    "unknown": "un membre inconnu"
+  },
+  "web": {
+    "howTitle": "Comment ça marche",
+    "how": "Toutes les heures, Kron note les rôles du serveur (nom, couleur, permissions, place), qui les a, et les permissions des rôles dans chaque salon. Rien n’est enregistré si rien n’a changé.",
+    "ownerHint": "Réservé au propriétaire du serveur : un membre du staff qui a abîmé les rôles ne peut ni couper ce module, ni restaurer par-dessus.",
+    "ownerOnly": "Cette page est réservée au propriétaire du serveur (ou aux administrateurs, s’il le permet).",
+    "snapshotsTitle": "Sauvegardes",
+    "snapshotsHint": "Choisis une sauvegarde d’avant le problème, puis « Comparer » : Kron montre ce qu’il réparerait, sans rien changer.",
+    "snapshotNow": "Sauvegarder maintenant",
+    "taken": "Sauvegarde faite.",
+    "unchanged": "Sauvegarde faite.",
+    "empty": "Aucune sauvegarde pour l’instant : active le module, la première arrive dans la minute, ou clique « Sauvegarder maintenant ».",
+    "kinds": {
+      "auto": "auto",
+      "manual": "manuelle"
+    },
+    "counts": "{roles} rôles · {members} membres",
+    "compare": "Comparer",
+    "planTitle": "Restaurer la sauvegarde du {date}",
+    "nothing": "Rien à réparer : le serveur est comme dans cette sauvegarde.",
+    "missing": "{count} rôle(s) supprimé(s) à recréer",
+    "membersHad": "{count} membre(s) l’avaient",
+    "changed": "{count} rôle(s) modifié(s) à remettre comme avant",
+    "nowNamed": "s’appelle maintenant {name}",
+    "permissions": "permissions",
+    "memberFixes": "{members} membre(s) récupèrent {roles} rôle(s) perdu(s).",
+    "overwrites": "{count} permission(s) de salon à remettre.",
+    "left": "{count} membre(s) de cette sauvegarde ont quitté le serveur : Discord ne permet pas de les ramener.",
+    "steps": {
+      "recreate": "Recréer les rôles supprimés",
+      "repair": "Remettre les rôles modifiés",
+      "members": "Rendre les rôles aux membres",
+      "overwrites": "Remettre les permissions des salons",
+      "done": "Terminé"
+    },
+    "safe": "Une restauration ne retire jamais rien : elle recrée, répare et redonne. Une sauvegarde de l’état actuel est faite juste avant. Les réglages de Kron qui visaient un rôle supprimé suivent le nouveau rôle.",
+    "confirm": "Je veux restaurer cette sauvegarde",
+    "restore": "Restaurer",
+    "restored": "Restauration terminée : {created} rôle(s) recréé(s), {repaired} réparé(s), {members} membre(s), {overwrites} permission(s) de salon. Échecs : {failed}.",
+    "restoreFailed": "La restauration a échoué : vérifie que le rôle Kron est tout en haut et réessaie.",
+    "settingsTitle": "Réglages",
+    "alertChannel": "Salon d’alerte",
+    "alertHint": "Quand un rôle est supprimé, Kron y écrit qui l’a fait.",
+    "allowAdmins": "Les administrateurs du serveur peuvent aussi utiliser cette page",
+    "allowAdminsHint": "Seul le propriétaire peut changer ce réglage.",
+    "errors": {
+      "already_running": "Une restauration est déjà en cours.",
+      "owner_only": "Réservé au propriétaire du serveur."
+    }
+  }
+}

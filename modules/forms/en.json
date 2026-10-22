@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "name": "Whitelist & forms"
+  },
+  "review": {
+    "applicant": "Application from {user} (`{username}`)",
+    "accepted": "✅ **Accepted** by {reviewer}",
+    "denied": "❌ **Denied** by {reviewer}",
+    "reason": "**Reason:** {reason}",
+    "noAnswer": "No answer",
+    "footer": "Application #{id}",
+    "accept": "Accept",
+    "deny": "Deny",
+    "interview": "Interview"
+  },
+  "dm": {
+    "onSubmit": "📨 Your **{form}** application on **{server}** was received. Staff will review it shortly.",
+    "onAccept": "✅ Good news! Your **{form}** application on **{server}** was accepted. Welcome!",
+    "onDeny": "❌ Your **{form}** application on **{server}** was denied.\nReason: {reason}",
+    "onInterview": "🎙️ **{server}** staff invite you to a voice interview for your **{form}** application: join {channel}."
+  },
+  "bot": {
+    "notFound": "This application no longer exists.",
+    "notReviewer": "You are not allowed to review applications.",
+    "accepted": "✅ Application accepted.",
+    "denied": "❌ Application denied.",
+    "already": "This application was already handled.",
+    "denyTitle": "Deny application",
+    "denyReason": "Reason (sent to the player)",
+    "interviewSent": "🎙️ Interview invitation sent by DM."
+  },
+  "public": {
+    "loginTitle": "Form",
+    "loginText": "Log in with Discord to fill in this form. Your account is identified automatically, no need to type your ID.",
+    "notFound": "This form doesn't exist or is closed.",
+    "agree": "Yes, I agree",
+    "submit": "Send my application",
+    "signedAs": "Sending as {name}.",
+    "doneTitle": "Application sent!",
+    "doneText": "Staff will review it. You'll get the answer by Discord DM.",
+    "alreadyAccepted": "You were already accepted with this form. You can still send a new one.",
+    "blocked": {
+      "notMember": {
+        "title": "Join the server first",
+        "text": "You must be a member of the Discord server to send this form."
+      },
+      "pending": {
+        "title": "Application under review",
+        "text": "You already have a pending application. Staff will answer by DM."
+      },
+      "cooldown": {
+        "title": "Please wait",
+        "text": "Your last application was denied. You can try again on {date}."
+      }
+    },
+    "errors": {
+      "required": "This answer is required.",
+      "too_short": "Your answer is too short.",
+      "too_long": "Your answer is too long.",
+      "range": "This number is out of range.",
+      "number": "Enter a number.",
+      "choice": "Pick an option.",
+      "turnstile_failed": "The bot check failed. Try again.",
+      "not_member": "You must be a member of the server.",
+      "pending": "You already have a pending application.",
+      "cooldown": "You must wait before applying again.",
+      "invalid_answers": "Some answers are not valid."
+    }
+  },
+  "web": {
+    "mainTabs": {
+      "forms": "📝 Forms",
+      "submissions": "📥 Applications"
+    },
+    "formsTitle": "Forms",
+    "formsHint": "Whitelist, staff recruitment, developers… Each form has its own public link.",
+    "newForm": "New form",
+    "allForms": "Forms",
+    "emptyTitle": "No forms yet",
+    "emptyText": "Create your whitelist: a FiveM template is ready, just adjust it.",
+    "closed": "Closed",
+    "tabs": {
+      "general": "General",
+      "questions": "Questions",
+      "review": "Review",
+      "roles": "Roles",
+      "messages": "Messages"
+    },
+    "nameHint": "Only visible to staff.",
+    "color": "Color",
+    "open": "Form open (accepts new applications)",
+    "title": "Displayed title",
+    "description": "Description",
+    "descriptionHint": "Markdown supported: **bold**, lists, links…",
+    "cooldown": "Delay after a denial (hours)",
+    "cooldownHint": "Time before someone can apply again. 0 = no delay.",
+    "publicLink": "Public link",
+    "copy": "Copy",
+    "types": {
+      "short": "Short text",
+      "paragraph": "Paragraph",
+      "choice": "Choice",
+      "number": "Number",
+      "checkbox": "Checkbox"
+    },
+    "required": "Required",
+    "question": "Question",
+    "help": "Help (optional)",
+    "minLength": "Minimum characters",
+    "maxLength": "Maximum characters",
+    "minValue": "Minimum value",
+    "maxValue": "Maximum value",
+    "options": "Options",
+    "optionsHint": "One option per line (at least 2).",
+    "addQuestion": "Add a question",
+    "reviewChannel": "Applications channel",
+    "reviewChannelHint": "Applications arrive here with Accept / Deny / Interview buttons.",
+    "pingRoles": "Roles to mention for each application",
+    "reviewerRoles": "Roles allowed to accept or deny",
+    "reviewerRolesHint": "Members with Manage Server can always review.",
+    "interviewChannel": "Interview voice channel (optional)",
+    "interviewChannelHint": "Enables the Interview button: the player gets a DM invitation.",
+    "joinRoleTip": "💡 To give a role like @newcomer as soon as someone joins the server, use the Auto roles module.",
+    "flow": {
+      "submit": "Form sent",
+      "accept": "Accepted",
+      "deny": "Denied",
+      "add": "Add roles",
+      "remove": "Remove roles"
+    },
+    "messagesHint": "Direct messages sent to the player. Without customization, Kron sends the default text below.",
+    "dm": {
+      "onSubmit": "📨 Application received",
+      "onAccept": "✅ Accepted",
+      "onDeny": "❌ Denied",
+      "onInterview": "🎙️ Interview invitation"
+    },
+    "customize": "Customize",
+    "vars": {
+      "user": "Player mention",
+      "username": "Player name",
+      "server": "Server name",
+      "form": "Form title",
+      "reason": "Denial reason",
+      "channel": "Interview voice channel"
+    },
+    "submissionsTitle": "Applications",
+    "status": {
+      "pending": "⏳ Pending",
+      "accepted": "✅ Accepted",
+      "denied": "❌ Denied"
+    },
+    "noSubmissions": "No applications here.",
+    "view": "View",
+    "accept": "Accept",
+    "deny": "Deny",
+    "denyReason": "Denial reason (sent to the player)",
+    "reasonLabel": "Reason",
+    "decided": {
+      "accepted": "Application accepted",
+      "denied": "Application denied"
+    },
+    "errors": {
+      "limit_reached": "The free plan allows 1 form. Upgrade to Pro for unlimited forms.",
+      "invalid_channel": "A chosen channel doesn't exist or is the wrong type.",
+      "already": "This application was already handled.",
+      "not_found": "Not found."
+    },
+    "templatesTitle": "Pick a template",
+    "templatesHint": "A ready-made form you can edit afterwards. Pick its language too.",
+    "templateLang": "Template language",
+    "templateQuestions": "{count} questions",
+    "blank": "Blank form",
+    "blankHint": "Start from scratch.",
+    "blankName": "New form",
+    "langs": {
+      "fr": "🇫🇷 Français",
+      "en": "🇬🇧 English"
+    }
+  }
+}

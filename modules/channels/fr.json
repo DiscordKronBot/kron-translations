@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "name": "Constructeur de salons"
+  },
+  "web": {
+    "title": "Ton serveur",
+    "hint": "Glisse les salons pour les réordonner, clique sur un nom pour le renommer (emoji, séparateur, police). Rien n’est envoyé à Discord avant « Vérifier et appliquer ».",
+    "addCategory": "Catégorie",
+    "addChannel": "Ajouter un salon ({type})",
+    "channelType": "Type des nouveaux salons",
+    "newCategory": "📁┆nouvelle catégorie",
+    "newChannel": "💬┆nouveau-salon",
+    "new": "nouveau",
+    "up": "Monter",
+    "down": "Descendre",
+    "restore": "Rétablir",
+    "separator": "Séparateur",
+    "font": "Police",
+    "fonts": {
+      "normal": "Normal",
+      "bold": "Bold",
+      "italic": "Italic",
+      "sans": "Sans",
+      "mono": "Mono",
+      "double": "Double",
+      "smallcaps": "Small caps"
+    },
+    "types": {
+      "text": "texte",
+      "voice": "vocal",
+      "announcement": "annonces",
+      "forum": "forum",
+      "stage": "conférence"
+    },
+    "review": "Vérifier et appliquer",
+    "apply": "Appliquer sur Discord",
+    "applied": "Appliqué : {roles} rôles, {created} créés, {renamed} renommés, {moved} déplacés, {removed} supprimés.",
+    "summary": {
+      "title": "Résumé des changements",
+      "nothing": "Aucun changement à appliquer.",
+      "create": "{count} à créer",
+      "rename": "{count} à renommer",
+      "move": "{count} à déplacer",
+      "remove": "{count} à supprimer",
+      "confirm": "Je confirme la suppression de {count} salon(s) et de leurs messages.",
+      "roles": "{count} rôle(s) à créer"
+    },
+    "errors": {
+      "module_disabled": "Active le module pour appliquer les changements.",
+      "missing_permissions": "Kron n’a pas la permission de gérer certains salons. Une partie a peut-être été appliquée.",
+      "too_many_channels": "Discord limite un serveur à 500 salons.",
+      "unknown_channel": "Un salon a changé entre-temps. La page a été rechargée.",
+      "discord_error": "Discord a refusé une partie des changements. La page a été rechargée.",
+      "no_backup": "Aucun ancien nom à remettre.",
+      "unknown_role": "Un rôle choisi n’existe plus. La page a été rechargée.",
+      "remove_not_confirmed": "Coche la confirmation pour supprimer des salons."
+    },
+    "beautify": {
+      "title": "✨ Embellir les noms",
+      "hint": "Donne le même style à tous les salons et catégories : un emoji (gardé s’il existe déjà, sinon choisi d’après le nom), un séparateur et une police. Tu vois le résultat dans l’arbre ci-dessous ; rien n’est envoyé à Discord avant « Vérifier et appliquer », et « Annuler » en bas remet tout comme avant.",
+      "sample": "règles",
+      "preview": "Aperçu sur tout le serveur",
+      "previewed": "Aperçu appliqué à l’arbre. Vérifie, puis applique ou annule.",
+      "addEmojis": "Ajouter un emoji aux noms qui n’en ont pas",
+      "addEmojisHint": "Choisi d’après le nom : règles → 📜, tickets → 🎫, général → 💬…",
+      "backup": "Les noms d’origine de {count} salon(s) peuvent être remis jusqu’au {until}.",
+      "restore": "Remettre les anciens noms",
+      "restoreSure": "Confirmer : remettre les anciens noms",
+      "restored": "{count} salon(s) ont retrouvé leur ancien nom.",
+      "badSeparators": "{count} nom(s) utilisent un autre séparateur que « {separator} » (ex. 💭-discussion).",
+      "fixSeparators": "Corriger seulement les séparateurs",
+      "restoreSkipped": "{count} salon(s) sont hors de portée de Kron et ont gardé leur nom."
+    },
+    "packs": {
+      "title": "📦 Packs de serveur",
+      "hint": "Ajoute d’un clic des catégories, salons et rôles prêts pour ton type de serveur. Ils s’ajoutent à l’arbre ci-dessus : ce qui existe déjà (même nom) est gardé, rien n’est supprimé. Renomme ou retire ce que tu veux, puis « Vérifier et appliquer ». Les catégories 🔒 sont privées : visibles seulement par leurs rôles et Kron.",
+      "counts": "{categories} catégories · {channels} salons · {roles} rôles",
+      "added": "Pack ajouté à l’arbre. Vérifie, ajuste, puis applique ou annule.",
+      "pendingRoles": "{count} rôle(s) à créer",
+      "fivem": {
+        "name": "Serveur FiveM RP",
+        "hint": "Infos, whitelist, communauté, en ville, services privés (police, EMS, mécano), support, vocaux et staff."
+      },
+      "gaming": {
+        "name": "Gaming",
+        "hint": "Règles, clips, mèmes, recherche d’équipe, tournois, vocaux d’escouade et staff."
+      },
+      "streamer": {
+        "name": "Streamer",
+        "hint": "Annonces de live, clips, fan-art, salon VIP privé pour VIP et abonnés, watch party."
+      },
+      "community": {
+        "name": "Communauté",
+        "hint": "Bienvenue, présentations, rôles, événements, sondages, support et vocaux."
+      }
+    },
+    "skipped": "{count} salon(s) ignoré(s), Kron n’y a pas accès : {names}.",
+    "locked": {
+      "access": "Kron ne voit pas ce salon ou ne peut pas le gérer : il ne peut pas le renommer.",
+      "accessBadge": "pas d’accès",
+      "counter": "Un compteur des statistiques de salons nomme ce salon lui-même.",
+      "counterBadge": "compteur",
+      "note": "{count} salon(s) sont cachés à Kron (🔒) : il ne peut pas les renommer ni les déplacer. Pour les inclure, ajoute le rôle Kron sur ces salons ou leur catégorie (Voir le salon + Gérer les salons), puis recharge la page."
+    }
+  }
+}

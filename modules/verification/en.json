@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Verification"
+  },
+  "bot": {
+    "panelTitle": "✅ Verification",
+    "panelText": "Welcome to **{server}**! Click **Verify** to access the server.",
+    "verifyButton": "Verify",
+    "already": "You are already verified.",
+    "done": "✅ You are verified, welcome!",
+    "roleFailed": "Could not give you the role: Kron’s role must be above it. Tell the staff.",
+    "notSetUp": "Verification is not set up yet.",
+    "tooYoung": "Your account is too new (at least {days} days). Try again {time}.",
+    "captcha": "🔐 Your code: **`{code}`**\nClick the button and type it (no spaces).",
+    "enterCode": "Enter the code",
+    "modalTitle": "Verification",
+    "expired": "Code expired: click Verify again.",
+    "wrong": "❌ Wrong code. Click Verify again for a new one."
+  },
+  "web": {
+    "setupTitle": "Settings",
+    "channel": "Verification channel",
+    "role": "Role given once verified",
+    "removeRole": "Role removed once verified (optional)",
+    "removeRoleHint": "For example an “Unverified” role given on join by auto roles.",
+    "mode": "Method",
+    "modes": {
+      "button": "One click on Verify",
+      "captcha": "Code to type (stops bots)"
+    },
+    "minAge": "Minimum account age (days)",
+    "minAgeHint": "0 = no limit. Blocks accounts made to raid.",
+    "messageTitle": "Channel message",
+    "customize": "Customize the message",
+    "publish": "Publish the message",
+    "published": "Message published.",
+    "tip": "Tip: make your channels visible to the verified role only, and the verification channel to @everyone.",
+    "errors": {
+      "no_channel": "Pick a verification channel.",
+      "bad_role": "Pick a role Kron can give (below its own role)."
+    }
+  }
+}

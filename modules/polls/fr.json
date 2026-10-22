@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Sondages"
+  },
+  "commands": {
+    "sondage": {
+      "description": "Créer un sondage"
+    },
+    "options": {
+      "question": {
+        "description": "La question"
+      },
+      "choices": {
+        "description": "Les choix, séparés par | (ex. Pizza | Sushis | Tacos)",
+        "name": "choix"
+      },
+      "duration": {
+        "description": "Durée en minutes (vide = jusqu’à ce qu’on le ferme)",
+        "name": "duree"
+      },
+      "multi": {
+        "description": "Permettre plusieurs choix"
+      },
+      "hidden": {
+        "description": "Cacher les résultats jusqu’à la fin",
+        "name": "cache"
+      }
+    }
+  },
+  "bot": {
+    "voters": "{count} votant(s)",
+    "multi": "plusieurs choix",
+    "ended": "terminé",
+    "endsAt": "se termine {time}",
+    "hidden": "résultats cachés jusqu’à la fin",
+    "endButton": "Terminer",
+    "noRight": "Tu n’as pas le droit de gérer les sondages.",
+    "needTwo": "Donne au moins 2 choix séparés par |.",
+    "closed": "Ce sondage est terminé.",
+    "voted": "✅ Ton vote : {options}",
+    "unvoted": "Vote retiré."
+  },
+  "web": {
+    "rolesTitle": "Qui peut créer des sondages",
+    "roles": "Rôles autorisés",
+    "rolesHint": "Vide = les membres qui peuvent gérer les messages.",
+    "usage": "Commande : /sondage question:… choix:Pizza | Sushis | Tacos duree:60 multiple:oui cache:non",
+    "recentTitle": "Sondages récents",
+    "empty": "Aucun sondage pour l’instant.",
+    "ended": "Terminé",
+    "open": "En cours",
+    "voters": "{count} votant(s)"
+  }
+}

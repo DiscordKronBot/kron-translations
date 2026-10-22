@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "name": "Custom commands"
+  },
+  "bot": {
+    "disabled": "Custom commands are disabled on this server.",
+    "noAccess": "You don't have access to this command.",
+    "roleReason": "Custom command /{name}"
+  },
+  "web": {
+    "listHintOff": "The module is off: commands are kept, but removed from Discord until it is back on.",
+    "uses": "{count} uses",
+    "live": "Live",
+    "offline": "Offline",
+    "name": "Name",
+    "nameHint": "Lowercase, digits, - and _ (32 characters max).",
+    "description": "Description",
+    "descriptionHint": "Shown in Discord's command menu.",
+    "ephemeral": "Private answer",
+    "ephemeralHint": "Only the member who uses the command sees the answer.",
+    "accessTitle": "Access and roles",
+    "allowedRoles": "Allowed roles",
+    "allowedRolesHint": "Empty = everyone.",
+    "addRole": "Give a role",
+    "addRoleHint": "For example, a “Read the rules” role.",
+    "removeRole": "Remove a role",
+    "vars": {
+      "user": "Member mention",
+      "username": "Member name",
+      "server": "Server name",
+      "channel": "Channel",
+      "memberCount": "Member count",
+      "user_avatar": "Member avatar"
+    },
+    "starter": {
+      "description": "The server rules",
+      "title": "📜 Rules",
+      "text": "- Respect everyone\n- No spam\n- Have fun!",
+      "name": "rules"
+    },
+    "errors": {
+      "limit_reached": "The free plan allows 5 commands. Go Pro for more.",
+      "reserved_name": "This name is already a Kron command.",
+      "duplicate_name": "Another command already has this name.",
+      "invalid_role": "Pick roles from this server.",
+      "role_too_high": "Kron can't give or remove this role (move its role higher).",
+      "not_found": "This command no longer exists."
+    },
+    "kinds": {
+      "slash": "⚡ Slash command",
+      "text": "🏷️ Tag (text)"
+    },
+    "kindHints": {
+      "slash": "A real / command, in Discord's menu.",
+      "text": "Kron answers when a message is exactly the trigger (e.g. !rules, $ip or just rules)."
+    },
+    "prefix": "Prefix",
+    "noPrefix": "(none)",
+    "preview": "Trigger",
+    "reply": "Reply to the message",
+    "replyHint": "Otherwise, a plain message in the channel.",
+    "deleteTrigger": "Delete the trigger message",
+    "deleteTriggerHint": "Keeps the channel clean.",
+    "pages": {
+      "slash": {
+        "tab": "⚡ Commands",
+        "title": "Slash commands",
+        "hint": "Real / commands in Discord’s menu, answering with your text or embed.",
+        "new": "New command",
+        "all": "All commands",
+        "emptyTitle": "No command yet",
+        "emptyText": "Create /rules, /ip, /shop… in seconds."
+      },
+      "text": {
+        "tab": "🏷️ Tags",
+        "title": "Text tags",
+        "hint": "Kron answers when a message is exactly the trigger: !rules, $ip or just rules.",
+        "new": "New tag",
+        "all": "All tags",
+        "emptyTitle": "No tag yet",
+        "emptyText": "Create !rules, $ip, ?shop… with the prefix you like."
+      }
+    }
+  }
+}

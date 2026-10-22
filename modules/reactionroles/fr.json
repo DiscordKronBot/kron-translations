@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "name": "Rôles par réaction"
+  },
+  "bot": {
+    "nothing": "Aucun changement.",
+    "gone": "Ce menu n'existe plus."
+  },
+  "web": {
+    "menusTitle": "Menus de rôles",
+    "menusHint": "Les membres choisissent leurs rôles avec des boutons ou un menu.",
+    "newMenu": "Nouveau menu",
+    "allMenus": "Menus",
+    "emptyTitle": "Aucun menu",
+    "emptyText": "Crée un menu : couleurs de pseudo, notifications, jeux…",
+    "publish": "Publier",
+    "published": "Menu publié dans Discord !",
+    "updated": "Menu mis à jour dans Discord !",
+    "mode": "Affichage",
+    "modes": {
+      "buttons": "Boutons",
+      "select": "Menu déroulant"
+    },
+    "behavior": "Comportement",
+    "behaviors": {
+      "toggle": {
+        "name": "Basculer",
+        "hint": "Un clic donne le rôle, un autre le retire."
+      },
+      "unique": {
+        "name": "Unique",
+        "hint": "Un seul rôle de ce menu à la fois."
+      },
+      "add": {
+        "name": "Ajouter seulement",
+        "hint": "Donne le rôle, ne le retire jamais."
+      },
+      "remove": {
+        "name": "Retirer seulement",
+        "hint": "Retire le rôle, ne le donne jamais."
+      }
+    },
+    "label": "Texte",
+    "description": "Description",
+    "placeholder": "Texte du menu",
+    "starter": {
+      "name": "Rôles",
+      "title": "🎭┆Choisis tes rôles",
+      "description": "Clique sur les boutons pour ajouter ou retirer un rôle."
+    },
+    "errors": {
+      "limit_reached": "Limite du plan gratuit atteinte (10 menus).",
+      "invalid_channel": "Choisis un salon de ce serveur.",
+      "invalid_role": "Un rôle est introuvable ou au-dessus de Kron.",
+      "missing_permissions": "Kron n'a pas la permission d'écrire dans ce salon."
+    }
+  }
+}

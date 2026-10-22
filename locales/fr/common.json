@@ -1,0 +1,13 @@
+{
+  "errors": {
+    "generic": "Une erreur est survenue. L'équipe Kron a été prévenue.",
+    "moduleDisabled": "Le module **{module}** n'est pas activé sur ce serveur. Un administrateur peut l'activer depuis le panel.",
+    "staffOnly": "Cette commande est réservée au staff Kron."
+  },
+  "staff": {
+    "owner": "👑 Owner",
+    "admin": "🛡️ Admin",
+    "dev": "💻 Dev",
+    "modo": "🔨 Modo"
+  }
+}

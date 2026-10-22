@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "name": "AutoMod"
+  },
+  "web": {
+    "templatesTitle": "Ready-made rules",
+    "templatesHint": "One click opens the rule already filled in: adjust anything before saving. Nothing is created until you save.",
+    "templates": {
+      "invites": {
+        "emoji": "🔗",
+        "name": "Discord invites",
+        "hint": "Blocks invite links to other servers (discord.gg, discord.com/invite)."
+      },
+      "links": {
+        "emoji": "🌐",
+        "name": "All links",
+        "hint": "Blocks http(s) links. Exempt your sharing channels or trusted roles."
+      },
+      "scam": {
+        "emoji": "🎣",
+        "name": "Nitro and Steam scams",
+        "hint": "Fake “free Nitro”, fake Steam gifts and fake Discord domains. Times the author out for 1 hour."
+      },
+      "iploggers": {
+        "emoji": "🕵️",
+        "name": "IP grabbers",
+        "hint": "Blocks link shorteners that log the IP address of whoever clicks (Grabify, IPLogger…)."
+      },
+      "promo": {
+        "emoji": "📣",
+        "name": "Self-promotion",
+        "hint": "“Subscribe to my”, “join my server”, “abonne-toi”… in English and French."
+      },
+      "swearsFr": {
+        "emoji": "🤐",
+        "name": "French swear words",
+        "hint": "Québec and France swear words. Discord’s built-in lists only cover English."
+      },
+      "zalgo": {
+        "emoji": "👾",
+        "name": "Zalgo text",
+        "hint": "Blocks text stacked with marks (z̷̢a̵l̶g̸o̷) that spills over other messages."
+      },
+      "insults": {
+        "emoji": "🤬",
+        "name": "Insults and sexual content (EN)",
+        "hint": "Discord’s built-in lists: profanity, sexual content, slurs (English)."
+      },
+      "spam": {
+        "emoji": "📨",
+        "name": "Spam",
+        "hint": "Discord’s spam filter: suspicious and repeated messages."
+      },
+      "mentions": {
+        "emoji": "📢",
+        "name": "Mass mentions",
+        "hint": "Blocks at 5 mentions per message and times the author out for 10 minutes."
+      },
+      "names": {
+        "emoji": "🪪",
+        "name": "Fake staff names",
+        "hint": "Stops names that imitate the staff or Discord (admin, moderator, support…)."
+      }
+    },
+    "rulesTitle": "Server rules",
+    "rulesHint": "Rules are enforced by Discord itself: they work even when Kron is offline. Rules made in Discord show up too.",
+    "newRule": "New rule",
+    "allRules": "All rules",
+    "emptyTitle": "No rules",
+    "emptyText": "Start with a ready-made rule above.",
+    "triggers": {
+      "keyword": {
+        "name": "Keywords",
+        "hint": "Blocks messages containing these words or matching these regexes."
+      },
+      "preset": {
+        "name": "Discord lists",
+        "hint": "Word lists maintained by Discord."
+      },
+      "spam": {
+        "name": "Spam",
+        "hint": "Discord's spam filter. It has no settings."
+      },
+      "mention": {
+        "name": "Mass mentions",
+        "hint": "Blocks messages with too many mentions (members and roles)."
+      },
+      "profile": {
+        "name": "Names",
+        "hint": "Checks member names and profiles when they join and on every change."
+      }
+    },
+    "name": "Rule name",
+    "ruleEnabled": "Rule active",
+    "keywords": "Banned words (one per line)",
+    "keywordsHint": "* = anything before or after: *cat* catches “concatenate”. Up to 1000 words of 60 characters.",
+    "regex": "Regular expressions (one per line)",
+    "regexHint": "Rust syntax, up to 10 regexes of 260 characters. Discord rejects invalid ones.",
+    "presets": "Lists",
+    "presetNames": {
+      "profanity": "Profanity",
+      "sexual": "Sexual content",
+      "slurs": "Slurs"
+    },
+    "allowList": "Exceptions (one word per line)",
+    "allowListHint": "These words never trigger the rule.",
+    "mentionLimit": "Maximum mentions per message",
+    "mentionLimitHint": "Between 1 and 50.",
+    "raidProtection": "Mention raid detection",
+    "raidProtectionHint": "Discord also spots waves of mentions spread over several messages.",
+    "actionsTitle": "Actions",
+    "block": "Block the message",
+    "blockHint": "The message is never posted.",
+    "blockMessage": "Message shown to the author (optional)",
+    "alert": "Alert staff",
+    "alertHint": "Discord posts an alert with the message in this channel.",
+    "timeout": "Time the author out",
+    "timeoutHint": "Only for keyword and mention rules.",
+    "durations": {
+      "60": "1 minute",
+      "300": "5 minutes",
+      "600": "10 minutes",
+      "3600": "1 hour",
+      "86400": "1 day",
+      "604800": "1 week"
+    },
+    "profileAction": "Discord stops the member from chatting and using the server while their name breaks the rule.",
+    "exemptTitle": "Exemptions",
+    "exemptRoles": "Exempt roles",
+    "exemptRolesHint": "Up to 20. Usually staff.",
+    "exemptChannels": "Exempt channels",
+    "problems": {
+      "empty": "Add at least one word, regex or list.",
+      "too_many": "100 exceptions maximum for this rule type.",
+      "channel": "Pick the alert channel.",
+      "trigger": "Timeouts only work on keyword and mention rules.",
+      "no_action": "Turn on at least one action.",
+      "custom": "Check the {field} field."
+    },
+    "errors": {
+      "module_disabled": "Turn the AutoMod module on to edit rules.",
+      "missing_permissions": "Kron needs the “Manage Server” permission to manage AutoMod.",
+      "type_limit": "Discord limits rules of this type (6 keyword rules, 1 for the others).",
+      "invalid_channel": "Pick channels and roles from this server.",
+      "trigger_changed": "A rule's type cannot change: create a new rule.",
+      "not_found": "This rule no longer exists in Discord.",
+      "discord_rejected": "Discord refused the rule: {detail}"
+    },
+    "langs": {
+      "all": "🌐 Any language",
+      "fr": "🇫🇷 French",
+      "en": "🇬🇧 English",
+      "fren": "🇬🇧🇫🇷 EN + FR"
+    },
+    "templateBlocked": {
+      "off": "Module off",
+      "full": "Discord limit reached"
+    }
+  }
+}

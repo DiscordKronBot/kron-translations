@@ -1,0 +1,79 @@
+{
+  "titles": {
+    "user": "🩺┆Diagnostic Kron",
+    "staff": "🔎┆Diagnostic à distance",
+    "join": "🎉┆Nouveau serveur"
+  },
+  "health": {
+    "ok": "**✅ Tout est en ordre.**",
+    "issues": "**⚠️ {count} problème(s) détecté(s)**",
+    "missingServer": "**Permissions manquantes sur le serveur :**",
+    "missingChannel": "**Permissions manquantes dans ce salon :**"
+  },
+  "sections": {
+    "server": "🏠 Serveur",
+    "bot": "🤖 Kron",
+    "channel": "📍 Salon",
+    "you": "👤 Toi",
+    "owner": "👑 Propriétaire"
+  },
+  "labels": {
+    "permServer": "Permissions",
+    "permChannel": "Perms du salon",
+    "name": "Nom",
+    "id": "ID",
+    "members": "Membres",
+    "channels": "Salons",
+    "roles": "Rôles",
+    "boosts": "Boosts",
+    "language": "Langue",
+    "created": "Créé",
+    "version": "Version",
+    "plan": "Offre",
+    "modules": "Modules",
+    "role": "Rôle",
+    "latency": "Latence",
+    "uptime": "En ligne depuis",
+    "joined": "Arrivé",
+    "level": "Niveau",
+    "totalGuilds": "Serveurs Kron",
+    "server": "Serveur",
+    "owner": "Propriétaire",
+    "channel": "Salon",
+    "you": "Membre",
+    "staff": "Staff Kron"
+  },
+  "values": {
+    "free": "Gratuit",
+    "none": "aucun",
+    "tier": "Niveau {tier}",
+    "uptime": "{d}j {h}h {m}m",
+    "plans": {
+      "free": "Gratuit",
+      "vip": "Pro",
+      "whitelabel": "Whitelabel"
+    }
+  },
+  "levels": {
+    "owner": "Propriétaire du serveur",
+    "administrator": "Administrateur",
+    "manager": "Gestionnaire",
+    "member": "Membre"
+  },
+  "permissions": {
+    "ViewChannel": "Voir les salons",
+    "SendMessages": "Envoyer des messages",
+    "EmbedLinks": "Intégrer des liens",
+    "AttachFiles": "Joindre des fichiers",
+    "ManageRoles": "Gérer les rôles",
+    "ManageChannels": "Gérer les salons",
+    "ManageMessages": "Gérer les messages",
+    "ReadMessageHistory": "Voir l'historique"
+  },
+  "page": {
+    "kind": "Diagnostic",
+    "ok": "Tout est en ordre",
+    "issues": "{count} problème(s) détecté(s)",
+    "footer": "Rapport {code} · {date}"
+  }
+}

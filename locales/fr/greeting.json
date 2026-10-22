@@ -1,0 +1,57 @@
+{
+  "title": "Merci d’avoir ajouté Kron !",
+  "intro": "Je suis prêt. Active seulement les modules dont ton serveur a besoin et personnalise tout depuis le dashboard. Un aperçu :",
+  "features": {
+    "tickets": {
+      "name": "Tickets",
+      "text": "panels à boutons, questions et transcriptions"
+    },
+    "forms": {
+      "name": "Whitelist et formulaires",
+      "text": "candidatures web avec rôles par étape"
+    },
+    "logs": {
+      "name": "Logs",
+      "text": "messages, membres et rôles, salon par salon"
+    },
+    "roles": {
+      "name": "Rôles",
+      "text": "automatiques et par réaction"
+    },
+    "moderation": {
+      "name": "Modération",
+      "text": "sanctions, historique et anti-spam"
+    },
+    "fivem": {
+      "name": "FiveM",
+      "text": "infos des personnages directement dans Discord"
+    }
+  },
+  "outro": "Clique sur **Configurer Kron** pour commencer. Besoin d’aide ? Tape `$debug` ou rejoins notre support.",
+  "footer": "kronbot.xyz · Seuls les administrateurs voient le dashboard",
+  "dashboard": "Configurer Kron",
+  "docs": "Documentation",
+  "support": "Support",
+  "permissions": {
+    "title": "Kron a besoin d’une permission de plus",
+    "text": "De nouveaux modules sont arrivés (AutoMod, Anti-raid, Niveaux, Commandes personnalisées). Pour qu’ils fonctionnent, Kron a besoin de :",
+    "how": "Clique sur **Mettre à jour les permissions** : Discord ouvre la page d’autorisation de Kron avec les bonnes cases déjà cochées. Valide, c’est tout. Rien de ta configuration ne change.",
+    "footer": "Kron ne demande jamais Administrateur.",
+    "button": "Mettre à jour les permissions",
+    "names": {
+      "ViewChannel": "Voir les salons",
+      "SendMessages": "Envoyer des messages",
+      "EmbedLinks": "Intégrer des liens",
+      "AttachFiles": "Joindre des fichiers",
+      "ManageRoles": "Gérer les rôles",
+      "ManageChannels": "Gérer les salons",
+      "ManageMessages": "Gérer les messages",
+      "ReadMessageHistory": "Voir l’historique des messages",
+      "KickMembers": "Expulser des membres",
+      "BanMembers": "Bannir des membres",
+      "ManageGuild": "Gérer le serveur",
+      "ViewAuditLog": "Voir les logs d’audit",
+      "ModerateMembers": "Exclure temporairement des membres"
+    }
+  }
+}

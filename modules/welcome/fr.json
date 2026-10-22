@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "Bienvenue"
+  },
+  "default": {
+    "welcome": "👋 Bienvenue {user} sur **{server}** ! Tu es notre {memberCount}e membre.",
+    "goodbye": "🚪 **{username}** a quitté le serveur."
+  },
+  "web": {
+    "welcome": "Arrivée",
+    "goodbye": "Départ",
+    "channelMessage": "Message dans le salon",
+    "dmMessage": "Message privé au nouveau membre",
+    "noDm": "Aucun MP envoyé.",
+    "customize": "Personnaliser",
+    "ignoreBots": "Ignorer les bots",
+    "vars": {
+      "user": "Mention du membre",
+      "username": "Nom du membre",
+      "server": "Nom du serveur",
+      "memberCount": "Nombre de membres",
+      "user_avatar": "Avatar du membre (URL)",
+      "server_icon": "Icône du serveur (URL)",
+      "user_id": "ID du membre",
+      "user_created": "Date de création du compte",
+      "user_createdAgo": "Âge du compte (« il y a 2 ans »)",
+      "user_joined": "Arrivée sur le serveur (départs)",
+      "user_type": "Bot ou membre"
+    }
+  },
+  "card": {
+    "welcomeTitle": "👋 Bienvenue sur {server} !",
+    "welcomeText": "Salut {user}, content de te voir ici ! Lis les règles et présente-toi.",
+    "goodbyeTitle": "🚪 {username} est parti",
+    "goodbyeText": "Il reste **{memberCount}** membres sur {server}.",
+    "created": "📅 Compte créé",
+    "type": "🪪 Type",
+    "number": "👥 Membre n°",
+    "joined": "⏱️ Arrivé",
+    "footer": "{server}",
+    "bot": "🤖 Bot",
+    "human": "👤 Membre"
+  }
+}

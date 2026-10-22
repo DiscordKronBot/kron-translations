@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "name": "Logs"
+  },
+  "setup": {
+    "category": "Logs"
+  },
+  "fields": {
+    "author": "Auteur",
+    "channel": "Salon",
+    "attachments": "Fichiers",
+    "before": "Avant",
+    "after": "Après",
+    "accountCreated": "Compte créé",
+    "memberCount": "Membres",
+    "joined": "Arrivé",
+    "member": "Membre",
+    "by": "Par",
+    "reason": "Raison",
+    "until": "Jusqu'à",
+    "added": "Ajoutés",
+    "removed": "Retirés",
+    "from": "De",
+    "to": "Vers",
+    "name": "Nom",
+    "permissions": "Permissions",
+    "color": "Couleur",
+    "hoist": "Affiché séparément",
+    "mentionable": "Mentionnable",
+    "icon": "Icône"
+  },
+  "message": {
+    "deleted": "🗑️ Message supprimé",
+    "edited": "✏️ Message modifié",
+    "bulk": "🧹 {count} messages supprimés",
+    "unknownContent": "*Contenu inconnu (message trop ancien)*"
+  },
+  "joinpart": {
+    "joined": "📥 Arrivée",
+    "left": "📤 Départ"
+  },
+  "members": {
+    "nickname": "🪪 Pseudo modifié"
+  },
+  "roles": {
+    "memberUpdated": "🏷️ Rôles du membre modifiés",
+    "created": "➕ Rôle créé",
+    "deleted": "➖ Rôle supprimé",
+    "updated": "✏️ Rôle modifié",
+    "permissionsChanged": "Permissions modifiées"
+  },
+  "moderation": {
+    "ban": "🔨 Membre banni",
+    "unban": "🕊️ Membre débanni",
+    "kick": "👢 Membre expulsé",
+    "timeout": "⏳ Membre exclu temporairement",
+    "untimeout": "✅ Exclusion levée"
+  },
+  "voice": {
+    "joined": "🔊 A rejoint un vocal",
+    "left": "🔇 A quitté un vocal",
+    "moved": "🔀 A changé de vocal"
+  },
+  "server": {
+    "channelCreated": "➕ Salon créé",
+    "channelDeleted": "➖ Salon supprimé",
+    "channelRenamed": "✏️ Salon renommé"
+  },
+  "web": {
+    "autoCreate": "Créer les salons pour moi",
+    "created": "Salons de logs créés !",
+    "typesTitle": "Types de logs",
+    "typesHint": "Choisis un salon pour chaque type, ou laisse Kron les créer dans une catégorie privée.",
+    "types": {
+      "message": {
+        "name": "log-message",
+        "hint": "Messages supprimés et modifiés"
+      },
+      "joinpart": {
+        "name": "log-join-part",
+        "hint": "Arrivées et départs"
+      },
+      "members": {
+        "name": "log-members",
+        "hint": "Changements de pseudo"
+      },
+      "roles": {
+        "name": "log-roles",
+        "hint": "Rôles ajoutés ou retirés, rôles créés, modifiés, supprimés"
+      },
+      "moderation": {
+        "name": "log-moderation",
+        "hint": "Bannissements, expulsions, exclusions temporaires"
+      },
+      "voice": {
+        "name": "log-voice",
+        "hint": "Arrivées, départs et changements de salon vocal"
+      },
+      "server": {
+        "name": "log-server",
+        "hint": "Salons créés, supprimés, renommés"
+      }
+    },
+    "filtersTitle": "Filtres",
+    "ignoreBots": "Ignorer les messages des bots",
+    "ignoredChannels": "Salons ignorés",
+    "ignoredRoles": "Rôles ignorés",
+    "setupHint": "Une catégorie privée et un salon par type de log qui n’en a pas encore. Personne d’autre que Kron et les rôles choisis ne les voit.",
+    "setupRoles": "Rôles du staff",
+    "setupRolesHint": "Ils pourront lire les logs. Tu peux aussi choisir par salon dans l’aperçu.",
+    "setupRun": "Tout créer"
+  },
+  "values": {
+    "true": "Oui",
+    "false": "Non",
+    "changed": "Modifiée"
+  }
+}

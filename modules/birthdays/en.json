@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Birthdays"
+  },
+  "commands": {
+    "birthday": {
+      "description": "Your birthday",
+      "set": {
+        "description": "Save your birthday"
+      },
+      "remove": {
+        "description": "Remove your birthday"
+      },
+      "upcoming": {
+        "description": "Upcoming birthdays"
+      },
+      "options": {
+        "day": {
+          "description": "Day (1-31)"
+        },
+        "month": {
+          "description": "Month (1-12)"
+        },
+        "year": {
+          "description": "Year (optional, for the age)"
+        }
+      }
+    }
+  },
+  "bot": {
+    "invalid": "This date doesn't exist.",
+    "saved": "🎂 Birthday saved: {date}.",
+    "removed": "Birthday removed.",
+    "none": "No birthdays saved.",
+    "default": "🎂 Happy birthday {user}! Everyone at **{server}** wishes you a great day 🎉"
+  },
+  "web": {
+    "title": "Birthdays",
+    "hint": "Members save their date with /birthday. Kron celebrates on the day.",
+    "role": "Birthday role",
+    "roleHint": "Given for the birthday, then removed.",
+    "hour": "Announcement time",
+    "timezone": "Timezone",
+    "message": "Birthday message",
+    "customize": "Customize",
+    "vars": {
+      "user": "Member mention",
+      "username": "Member name",
+      "age": "Age (if the year is known)",
+      "server": "Server name",
+      "user_avatar": "Member avatar (URL)"
+    }
+  }
+}

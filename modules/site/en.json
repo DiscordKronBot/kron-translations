@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "name": "Server page"
+  },
+  "errors": {
+    "slug_taken": "This address is already taken.",
+    "invalid_input": "A field is invalid: check the invite link (discord.gg/...) and the short address."
+  },
+  "web": {
+    "title": "Public page",
+    "hint": "A page to share with your description, invite and open forms. Turn the module on to publish it.",
+    "link": "Page link",
+    "slug": "Short address (Pro)",
+    "slugHint": "3 to 32 characters: letters, digits and dashes.",
+    "invite": "Invite link",
+    "inviteHint": "A discord.gg or discord.com/invite link that never expires.",
+    "description": "Description",
+    "descriptionHint": "Discord markdown works: rules, links, intro.",
+    "showMembers": "Show the member count",
+    "showForms": "Show open forms",
+    "staff": "Team",
+    "staffHint": "Members of these roles show on the page with their avatar, under their highest role (10 roles, 50 members per role).",
+    "directoryTitle": "Server directory",
+    "directoryHint": "Get discovered on kronbot.xyz/servers. Free for everyone; Pro servers get a star.",
+    "listed": "Show my server in the directory",
+    "category": "Server type",
+    "tags": "Tags",
+    "tagsHint": "Up to 5, comma separated."
+  },
+  "public": {
+    "notFound": "This page does not exist or is not turned on.",
+    "online": "{n} online",
+    "members": "{n} members",
+    "join": "Join the server",
+    "forms": "Forms",
+    "staff": "Team"
+  },
+  "directory": {
+    "title": "Servers",
+    "intro": "Find a community that uses Kron: FiveM RP, gaming, streamers and more.",
+    "search": "Search a server, a tag…",
+    "all": "All",
+    "allPlans": "All plans",
+    "free": "Free",
+    "empty": "No server matches.",
+    "categories": {
+      "fivem": "FiveM RP",
+      "gaming": "Gaming",
+      "community": "Community",
+      "streamer": "Streamer",
+      "dev": "Development",
+      "other": "Other"
+    },
+    "noSummary": "{category} community on Discord. Come say hi!"
+  }
+}

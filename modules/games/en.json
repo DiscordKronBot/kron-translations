@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "name": "Games"
+  },
+  "names": {
+    "tictactoe": "Tic-tac-toe",
+    "connect4": "Connect four",
+    "hangman": "Hangman",
+    "wordle": "Wordle",
+    "blackjack": "Blackjack",
+    "coinflip": "Coin flip",
+    "rps": "Rock paper scissors",
+    "trivia": "Trivia",
+    "guess": "Guess the number",
+    "dice": "Dice",
+    "eightball": "Magic 8-ball"
+  },
+  "commands": {
+    "jeu": {
+      "description": "Play a game",
+      "name": "game"
+    },
+    "game": {
+      "tictactoe": {
+        "description": "Tic-tac-toe against a member or Kron",
+        "name": "tictactoe"
+      },
+      "connect4": {
+        "description": "Connect four against a member or Kron",
+        "name": "connect4"
+      },
+      "hangman": {
+        "description": "Find the word letter by letter",
+        "name": "hangman"
+      },
+      "wordle": {
+        "description": "Find the 5-letter word in 6 tries"
+      },
+      "blackjack": {
+        "description": "Blackjack against the dealer, with a bet"
+      },
+      "coinflip": {
+        "description": "Heads or tails, with a bet",
+        "name": "coinflip"
+      },
+      "rps": {
+        "description": "Rock, paper, scissors against Kron",
+        "name": "rps"
+      },
+      "trivia": {
+        "description": "A trivia question for the whole channel",
+        "name": "trivia"
+      },
+      "guess": {
+        "description": "Guess the number between 1 and 100",
+        "name": "guess"
+      },
+      "dice": {
+        "description": "Roll a die",
+        "name": "dice"
+      },
+      "eightball": {
+        "description": "Ask the magic 8-ball"
+      },
+      "stats": {
+        "description": "Your game stats (or a member’s)"
+      }
+    },
+    "options": {
+      "opponent": {
+        "description": "Your opponent (empty = against Kron)",
+        "name": "opponent"
+      },
+      "side": {
+        "description": "Heads or tails",
+        "name": "side"
+      },
+      "bet": {
+        "description": "Your bet (server currency)",
+        "name": "bet"
+      },
+      "choice": {
+        "description": "Your choice",
+        "name": "choice"
+      },
+      "faces": {
+        "description": "Number of faces (6 by default)"
+      },
+      "question": {
+        "description": "Your question"
+      },
+      "member": {
+        "description": "The member",
+        "name": "member"
+      }
+    }
+  },
+  "bot": {
+    "turn": "{who}’s turn",
+    "winner": "🏆 {who} wins!",
+    "draw": "🤝 Draw!",
+    "reward": "+{amount} for the win",
+    "notYours": "Not your game (or not your turn).",
+    "expired": "This game is over or expired.",
+    "notYourself": "You can’t play against yourself.",
+    "gameOff": "This game is turned off on this server.",
+    "wrongChannel": "Games are played here: {channels}",
+    "noEconomy": "Bets need the economy (Levels and economy module).",
+    "maxBet": "The maximum bet is {max}.",
+    "tooPoor": "You don’t have enough {name}.",
+    "pickLetter": "Pick a letter ({range})",
+    "wrongLetters": "Wrong letters:",
+    "hangmanLives": "{lives} mistakes left.",
+    "hangmanWin": "🎉 Well done, you found the word!",
+    "hangmanLose": "💀 You lost! The word was **{word}**.",
+    "wordleAsk": "Your 5-letter word",
+    "wordleInvalid": "Type a 5-letter word.",
+    "wordleWin": "🎉 Found in {tries} tries!",
+    "wordleLose": "You lost! The word was **{word}**.",
+    "wordleLeft": "{left} tries left.",
+    "guessButton": "Guess",
+    "bet": "Bet: {amount}",
+    "dealer": "Dealer:",
+    "you": "You:",
+    "hit": "Hit",
+    "stand": "Stand",
+    "double": "Double",
+    "bj": {
+      "win": "🎉 You win!",
+      "lose": "😞 The dealer wins.",
+      "push": "🤝 Push, your bet is returned.",
+      "bust": "💥 Bust, over 21!",
+      "blackjack": "🃏 Blackjack! You win 1.5× your bet."
+    },
+    "heads": "Heads",
+    "tails": "Tails",
+    "youWin": "You win! 🎉",
+    "youLose": "You lose.",
+    "wonCoins": "+{amount}",
+    "lostCoins": "−{amount}",
+    "triviaHint": "First right answer wins. One answer per person.",
+    "triviaRight": "✅ Right answer from {who}!",
+    "triviaWrong": "The right answer was **{answer}**.",
+    "triviaOnce": "You already answered.",
+    "triviaNope": "❌ Wrong answer! The others can still try.",
+    "guessStart": "I picked a number between 1 and 100.",
+    "guessAsk": "Your number (1 to 100)",
+    "guessInvalid": "Type a number from 1 to 100.",
+    "higher": "{n}: it’s **higher** ⬆️",
+    "lower": "{n}: it’s **lower** ⬇️",
+    "guessWin": "🎉 It was **{n}**, found in {tries} tries!",
+    "guessLose": "You lost! It was **{n}**.",
+    "guessTries": "Tries left: {left}",
+    "diceRoll": "{faces}-sided die",
+    "statsTitle": "{user}’s games",
+    "noStats": "No game played yet.",
+    "eightball": {
+      "0": "It is certain.",
+      "1": "Without a doubt.",
+      "2": "Yes, definitely.",
+      "3": "You may rely on it.",
+      "4": "As I see it, yes.",
+      "5": "Most likely.",
+      "6": "Signs point to yes.",
+      "7": "Reply hazy, try again.",
+      "8": "Ask again later.",
+      "9": "Better not tell you now.",
+      "10": "Cannot predict now.",
+      "11": "Concentrate and ask again.",
+      "12": "Don’t count on it.",
+      "13": "My reply is no.",
+      "14": "My sources say no.",
+      "15": "Outlook not so good.",
+      "16": "Very doubtful.",
+      "17": "Not in a million years."
+    },
+    "countWrong": "{user} wrong number! The next one is **{next}**.",
+    "countTwice": "{user} you can’t count twice in a row. The next one is **{next}**."
+  },
+  "web": {
+    "gamesTitle": "Available games",
+    "gamesHint": "Members play with /game. Untick a game to remove it from your server.",
+    "rulesTitle": "Rules",
+    "channels": "Game channels",
+    "channelsHint": "Empty = everywhere.",
+    "winReward": "Coins per win",
+    "winRewardHint": "Needs the economy of the Levels and economy module (0 = none).",
+    "maxBet": "Maximum bet",
+    "boardTitle": "Top players",
+    "boardEmpty": "No game played yet.",
+    "wins": "{wins} wins · {played} games",
+    "countingTitle": "🔢 Counting",
+    "countingHint": "Members count up in one channel, one number each. A right number gets ✅; a wrong one, or two numbers in a row by the same member, gets a reply and the count keeps going.",
+    "countingChannel": "Counting channel",
+    "countingState": "Current count: {current} · record: {best}"
+  }
+}

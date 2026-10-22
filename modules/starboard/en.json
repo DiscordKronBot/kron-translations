@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "name": "Starboard"
+  },
+  "web": {
+    "title": "Settings",
+    "hint": "A message that gets enough reactions is reposted in the starboard channel, with its author, image and a link. The count updates live.",
+    "channel": "Starboard channel",
+    "emoji": "Emoji",
+    "threshold": "Reactions needed",
+    "selfStar": "Count the author’s own reaction",
+    "ignored": "Ignored channels"
+  }
+}

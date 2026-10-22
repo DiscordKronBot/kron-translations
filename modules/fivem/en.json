@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "name": "FiveM bridge"
+  },
+  "commands": {
+    "fivem": {
+      "description": "FiveM tools for staff",
+      "profil": {
+        "description": "Show a member’s FiveM profile"
+      },
+      "debloquer": {
+        "description": "Unstuck a member’s character"
+      },
+      "garage": {
+        "description": "Return a member’s vehicle to the garage"
+      },
+      "options": {
+        "membre": {
+          "description": "The Discord member"
+        }
+      }
+    },
+    "fiche": {
+      "description": "Show a member’s RP character sheet",
+      "options": {
+        "membre": {
+          "description": "The member (you by default)"
+        }
+      }
+    }
+  },
+  "errors": {
+    "offline": "🔴 The FiveM server is not connected to Kron right now.",
+    "timeout": "⏳ The FiveM server didn’t answer in time. Try again.",
+    "not_linked": "This member never joined the city with Discord open: no linked FiveM account.",
+    "unsupported": "This action isn’t supported by the server’s framework yet.",
+    "not_found": "Not found in the city.",
+    "failed": "The FiveM server refused the action.",
+    "staffOnly": "Staff only.",
+    "disabled": "This feature is disabled in the dashboard.",
+    "reportClosed": "This report is already closed."
+  },
+  "done": {
+    "unstuck": {
+      "online": "📍 Player teleported to the safe spot.",
+      "offline": "📍 Position reset to the safe spot: the player will spawn there next time."
+    },
+    "noVehicles": "No vehicles for this character.",
+    "pickVehicle": "Pick the vehicle to return:",
+    "garage": "🚗 Vehicle {plate} returned to the garage."
+  },
+  "vehicleState": {
+    "out": "Out",
+    "garaged": "In garage",
+    "impound": "Impounded"
+  },
+  "report": {
+    "closed": "🔒 Report closed by {user}."
+  },
+  "web": {
+    "download": "Download the script",
+    "copy": "Copy",
+    "status": {
+      "online": "🟢 FiveM server connected",
+      "waiting": "🟠 Waiting for the server",
+      "notLinked": "No server linked",
+      "hint": "Generate a token, install the resource, then restart your server."
+    },
+    "players": "{count} player(s) in the city",
+    "lastSeen": "Last contact: {date}",
+    "generate": "Generate a token",
+    "rotate": "New token",
+    "tokenTitle": "Your token",
+    "tokenHint": "Copy it now: it won’t be shown again. Keep it secret (like a password). Generating a new token disables the old one.",
+    "tokenPlaceholder": "YOUR_TOKEN",
+    "install": {
+      "title": "Install the Kron resource",
+      "s1": "1. Download the resource",
+      "s2": "2. Unzip it in your server’s resources folder",
+      "s3": "3. Add these lines to your server.cfg (after oxmysql and your framework)",
+      "tokenHint": "Generate a token on this page first, then replace YOUR_TOKEN.",
+      "s4": "4. Restart the server",
+      "s4hint": "The status turns green in under a minute.",
+      "requirements": "Requires: OneSync, oxmysql, and QBCore or Qbox (ESX soon). Players need Discord open for their account to be linked."
+    },
+    "featuresTitle": "Features",
+    "featuresHint": "Choose what Kron may do with your server’s info.",
+    "features": {
+      "tickets": {
+        "name": "FiveM profile in tickets",
+        "hint": "Each ticket header shows the player’s characters."
+      },
+      "reports": {
+        "name": "In-city /report",
+        "hint": "In-game /report goes to Discord, staff answer in the thread. Off: the resource adds no /report, your server keeps its own."
+      },
+      "unstuck": {
+        "name": "Unstuck a player",
+        "hint": "Staff button: teleports the character to the safe spot."
+      },
+      "garage": {
+        "name": "Return a vehicle",
+        "hint": "Staff button: puts a vehicle back in the garage."
+      },
+      "jobs": {
+        "name": "Job channels",
+        "hint": "Off by default. Needs resource 1.2.0 or later."
+      },
+      "board": {
+        "name": "Player board",
+        "hint": "One always up-to-date message: players online, slots, jobs on duty. Needs resource 1.4.0."
+      },
+      "sheets": {
+        "name": "RP sheets",
+        "hint": "Staff write one sheet per character (📜 button on the profile). Anyone can read it with /fiche."
+      }
+    },
+    "fieldsTitle": "Shown info",
+    "fieldsHint": "Only show what your staff needs.",
+    "fields": {
+      "job": "💼 Job",
+      "phone": "📱 Phone",
+      "money": "💵 Cash",
+      "bank": "🏦 Bank"
+    },
+    "staffTitle": "FiveM staff",
+    "staffHint": "These roles can see profiles and use Unstuck / Garage. The Timeout Members permission also works.",
+    "reportsTitle": "In-city reports",
+    "reportsHint": "Each /report creates a thread in this channel. Write in the thread: the player gets your answer in game.",
+    "reportsCreate": "Create the channel for me",
+    "reportsCreated": "Reports channel created!",
+    "reportsChannelName": "city-reports",
+    "reportPing": "Roles to mention",
+    "reportsUsage": "In game: /report <message>. While the report is open, new /report messages go to the same thread.",
+    "jobsTitle": "Jobs and gangs",
+    "jobsHint": "A JOBS category with one private channel per job or gang of the FiveM server: staff see it, and so do members with the job's Discord role. A “permanent ticket” per job.",
+    "jobsLoad": "Load the server's jobs",
+    "jobsCreate": "Create {count} channel(s)",
+    "jobsCreated": "{count} job channel(s) created.",
+    "jobsCategoryName": "JOBS",
+    "jobsRoleSet": "job role",
+    "jobsNoRole": "staff only",
+    "boardTitle": "Live board",
+    "boardHint": "Kron posts one message in this channel and updates it every minute with the FiveM server’s info.",
+    "boardCreate": "Create the channel for me",
+    "boardCreated": "Channel created: the board shows up within a minute.",
+    "boardChannelName": "city-live",
+    "boardName": "Title (empty = server name)",
+    "boardConnect": "“Join” link (https, optional)",
+    "boardUsage": "Jobs come from the framework (QBCore/Qbox): police and EMS on duty are also in the {fivem.police} and {fivem.ems} tags.",
+    "sheetsTitle": "Character sheets",
+    "sheetsHint": "One sheet per character: name, age, occupation, story, image. Staff create it from a member’s FiveM profile (/fivem profil or a ticket header).",
+    "sheetsEmpty": "No sheets yet. Open a member’s profile and click 📜 RP sheet.",
+    "sheetsSearch": "Search a character…",
+    "sheetSave": "Save",
+    "sheetSaved": "Sheet saved.",
+    "sheetInvalid": "Sheet rejected: check the name and the image URL (https only).",
+    "sheetDelete": "Delete",
+    "sheetDeleteConfirm": "Confirm delete",
+    "sheet": {
+      "name": "Character name",
+      "age": "Age",
+      "occupation": "Occupation",
+      "story": "Story",
+      "image": "Image (https URL)"
+    }
+  },
+  "board": {
+    "online": "Online",
+    "offline": "Server offline",
+    "players": "players",
+    "onDuty": "on duty",
+    "offDuty": "off duty",
+    "footer": "Updated every minute by Kron",
+    "join": "Join the city"
+  },
+  "sheet": {
+    "age": "Age",
+    "occupation": "Occupation",
+    "name": "Character name",
+    "story": "Story",
+    "image": "Image (https URL)",
+    "edit": "Edit",
+    "modalTitle": "RP sheet",
+    "noStory": "No story yet.",
+    "updated": "Updated {date}",
+    "none": "No RP sheet for {user}.",
+    "pick": "Pick a character",
+    "invalid": "Sheet rejected: check the name and the image URL (https only)."
+  }
+}

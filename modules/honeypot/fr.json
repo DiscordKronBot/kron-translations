@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Honeypot"
+  },
+  "bot": {
+    "caught": {
+      "ban": "Spammeur banni",
+      "softban": "Spammeur expulsé (messages effacés)",
+      "kick": "Spammeur expulsé"
+    },
+    "failed": "Honeypot déclenché, action impossible",
+    "user": "Membre",
+    "account": "Compte créé",
+    "joined": "Arrivé",
+    "message": "Message",
+    "noText": "(pas de texte)",
+    "unban": "Débannir",
+    "reason": "Honeypot : a écrit dans le salon piège",
+    "unbanReason": "Honeypot : débanni par {user}",
+    "unbannedBy": "Débanni par {user}",
+    "noPermission": "Il faut la permission Bannir des membres.",
+    "topic": "⛔ N’écris jamais ici. Ce salon sert à attraper les spambots : tout message entraîne une sanction immédiate.",
+    "warnTitle": "SALON HONEYPOT · NE PAS ÉCRIRE ICI",
+    "warnLead": "Ce salon sert uniquement à détecter les spambots. Si tu écris ici, tu seras sanctionné automatiquement, sans avertissement.",
+    "warnNothing": "Tu n’as rien à faire ici.",
+    "warnText": "Pour discuter, poser une question ou demander de l’aide, utilise les autres salons. Ne teste pas le système et ne réponds pas ici.",
+    "warnThanks": "Merci de ta compréhension."
+  },
+  "web": {
+    "setupTitle": "Salon piège",
+    "setupHint": "Kron crée le salon, permet à @everyone d’y écrire et publie l’avertissement. Les bots spammeurs écrivent partout : ils se font attraper ici.",
+    "name": "Nom du salon",
+    "category": "Catégorie",
+    "noCategory": "Aucune (hors catégorie)",
+    "bottomTip": "Conseil : mets-le tout en bas de la liste, loin des salons utilisés.",
+    "create": "Créer le salon",
+    "created": "Salon honeypot créé.",
+    "current": "Salon actuel",
+    "missing": "Le salon a été supprimé dans Discord. Crée-en un nouveau.",
+    "recreate": "Créer un autre salon",
+    "actionTitle": "Action",
+    "actionHint": "Ce qui arrive à quelqu’un qui écrit dans le salon. Le staff (permission Gérer les messages) et le propriétaire ne sont jamais touchés.",
+    "actions": {
+      "ban": "Bannir (bouton Débannir dans le rapport)",
+      "softban": "Expulser et effacer ses messages",
+      "kick": "Expulser seulement"
+    },
+    "deleteMessages": "Effacer ses messages de la dernière heure",
+    "logTitle": "Rapport",
+    "logHint": "Salon où Kron explique chaque action : membre, âge du compte, message et bouton pour débannir en cas d’erreur.",
+    "logChannel": "Salon du rapport",
+    "defaultName": "🍯┆honeypot"
+  }
+}

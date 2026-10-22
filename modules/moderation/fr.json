@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "name": "Modération"
+  },
+  "commands": {
+    "warn": {
+      "description": "Avertir un membre",
+      "options": {
+        "member": {
+          "description": "Le membre"
+        },
+        "reason": {
+          "description": "La raison"
+        }
+      }
+    },
+    "timeout": {
+      "description": "Exclure temporairement un membre",
+      "options": {
+        "member": {
+          "description": "Le membre"
+        },
+        "reason": {
+          "description": "La raison"
+        },
+        "duration": {
+          "description": "Durée, ex. 10m, 1h, 1d (28j max)"
+        }
+      }
+    },
+    "untimeout": {
+      "description": "Lever une exclusion temporaire",
+      "options": {
+        "member": {
+          "description": "Le membre"
+        },
+        "reason": {
+          "description": "La raison"
+        }
+      }
+    },
+    "kick": {
+      "description": "Expulser un membre",
+      "options": {
+        "member": {
+          "description": "Le membre"
+        },
+        "reason": {
+          "description": "La raison"
+        }
+      }
+    },
+    "ban": {
+      "description": "Bannir un membre",
+      "options": {
+        "member": {
+          "description": "Le membre"
+        },
+        "reason": {
+          "description": "La raison"
+        },
+        "delete_days": {
+          "description": "Supprimer ses messages des X derniers jours (0-7)"
+        }
+      }
+    },
+    "unban": {
+      "description": "Débannir un utilisateur",
+      "options": {
+        "user_id": {
+          "description": "ID de l'utilisateur"
+        },
+        "reason": {
+          "description": "La raison"
+        }
+      }
+    },
+    "purge": {
+      "description": "Supprimer des messages dans ce salon",
+      "options": {
+        "amount": {
+          "description": "Nombre de messages (1-100)"
+        },
+        "member": {
+          "description": "Seulement les messages de ce membre"
+        }
+      }
+    },
+    "infractions": {
+      "description": "Historique d'un membre",
+      "options": {
+        "member": {
+          "description": "Le membre"
+        }
+      }
+    }
+  },
+  "types": {
+    "warn": "⚠️ Avertissement",
+    "timeout": "⏳ Exclusion",
+    "untimeout": "✅ Fin d'exclusion",
+    "kick": "👢 Expulsion",
+    "ban": "🔨 Bannissement",
+    "unban": "🕊️ Débannissement"
+  },
+  "dm": {
+    "warn": "⚠️ Tu as reçu un avertissement sur **{server}**.\nRaison : {reason}",
+    "timeout": "⏳ Tu es exclu temporairement de **{server}** jusqu'à {until}.\nRaison : {reason}",
+    "untimeout": "✅ Ton exclusion sur **{server}** a été levée.",
+    "kick": "👢 Tu as été expulsé de **{server}**.\nRaison : {reason}",
+    "ban": "🔨 Tu as été banni de **{server}**.\nRaison : {reason}",
+    "unban": ""
+  },
+  "log": {
+    "warn": "⚠️ Avertissement",
+    "timeout": "⏳ Exclusion temporaire",
+    "untimeout": "✅ Exclusion levée",
+    "kick": "👢 Expulsion",
+    "ban": "🔨 Bannissement",
+    "unban": "🕊️ Débannissement",
+    "member": "Membre",
+    "moderator": "Modérateur",
+    "until": "Jusqu'à",
+    "reason": "Raison"
+  },
+  "done": {
+    "warn": "⚠️ {user} a été averti (#{id}).",
+    "timeout": "⏳ {user} est exclu temporairement (#{id}).",
+    "untimeout": "✅ Exclusion de {user} levée (#{id}).",
+    "kick": "👢 {user} a été expulsé (#{id}).",
+    "ban": "🔨 {user} a été banni (#{id}).",
+    "unban": "🕊️ {user} a été débanni (#{id}).",
+    "purge": "🧹 {count} message(s) supprimé(s)."
+  },
+  "bot": {
+    "notMember": "Ce membre n'est pas sur le serveur.",
+    "self": "Tu ne peux pas faire ça sur toi-même.",
+    "higher": "Ce membre a un rôle égal ou supérieur au tien.",
+    "botCannot": "Kron ne peut pas agir sur ce membre (rôle trop haut).",
+    "badDuration": "Durée invalide : entre 1 minute et 28 jours.",
+    "badId": "ID d'utilisateur invalide.",
+    "notBanned": "Cet utilisateur n'est pas banni.",
+    "clean": "Aucune infraction.",
+    "autoReason": "Sanction automatique : {count} avertissements",
+    "autoLog": "⚖️ {user} : **{action}** automatique ({count} avertissements).",
+    "autoDone": "⚖️ Sanction automatique appliquée : {action} ({count} avertissements)."
+  },
+  "web": {
+    "commandsTitle": "Commandes",
+    "commandsHint": "Réservées aux membres qui ont la permission Discord correspondante (Expulser, Bannir, Exclure…).",
+    "settings": "Réglages",
+    "dm": "Prévenir le membre en MP",
+    "dmHint": "Le membre reçoit la sanction et la raison en message privé.",
+    "logChannel": "Salon des sanctions",
+    "logChannelHint": "Optionnel. Le module Logs enregistre déjà bannissements, expulsions et exclusions.",
+    "historyTitle": "Historique",
+    "filter": "Filtrer par ID de membre",
+    "none": "Aucune infraction.",
+    "autoTitle": "Sanctions automatiques",
+    "autoHint": "Quand un membre atteint un nombre d’avertissements (/warn), Kron applique la sanction.",
+    "autoWarnings": "Avertissements",
+    "autoAction": "Sanction",
+    "autoMinutes": "Durée (minutes)",
+    "autoAdd": "Ajouter une règle",
+    "actions": {
+      "timeout": "Exclusion temporaire",
+      "kick": "Expulsion",
+      "ban": "Bannissement"
+    }
+  }
+}

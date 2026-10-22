@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "name": "Channel stats"
+  },
+  "web": {
+    "newTitle": "New counter",
+    "newHint": "Kron creates a locked voice channel at the top of the server and updates its name every 10 minutes.",
+    "type": "Counter",
+    "types": {
+      "members": "Members",
+      "humans": "Humans",
+      "bots": "Bots",
+      "boosts": "Boosts",
+      "channels": "Channels",
+      "roles": "Roles"
+    },
+    "templates": {
+      "members": "👥┆Members: {count}",
+      "humans": "🙋┆Humans: {count}",
+      "bots": "🤖┆Bots: {count}",
+      "boosts": "💎┆Boosts: {count}",
+      "channels": "💬┆Channels: {count}",
+      "roles": "🏷️┆Roles: {count}"
+    },
+    "template": "Channel name",
+    "templateHint": "{count} is replaced with the number.",
+    "create": "Create counter",
+    "created": "Counter created!",
+    "listTitle": "Counters",
+    "listHint": "Discord limits renames: updates happen every 10 minutes.",
+    "empty": "No counters yet.",
+    "deleted": "Channel deleted",
+    "kind": "Channel type",
+    "kindHint": "Voice is recommended: the name keeps spaces and capitals, and nobody can join it.",
+    "kinds": {
+      "voice": "🔊 Voice (recommended)",
+      "text": "# Text (lowercase name with dashes)",
+      "category": "📁 Category"
+    }
+  }
+}

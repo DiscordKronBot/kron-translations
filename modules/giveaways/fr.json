@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "name": "Concours"
+  },
+  "commands": {
+    "giveaway": {
+      "description": "Gérer les concours",
+      "start": {
+        "description": "Lancer un concours"
+      },
+      "end": {
+        "description": "Terminer un concours maintenant"
+      },
+      "reroll": {
+        "description": "Retirer de nouveaux gagnants"
+      },
+      "options": {
+        "prize": {
+          "description": "Le prix à gagner"
+        },
+        "duration": {
+          "description": "Durée, ex. 30m, 2h, 1d, 1w"
+        },
+        "winners": {
+          "description": "Nombre de gagnants (1 par défaut)"
+        },
+        "channel": {
+          "description": "Salon du concours (ce salon par défaut)"
+        },
+        "role": {
+          "description": "Rôle requis pour participer"
+        },
+        "id": {
+          "description": "Numéro du concours"
+        }
+      }
+    }
+  },
+  "msg": {
+    "howTo": "Clique sur 🎉 pour participer !",
+    "ends": "⏰ Fin {time}",
+    "ended": "🏁 Terminé {time}",
+    "count": "🏆 Gagnants : **{count}**",
+    "host": "🎙️ Organisé par {host}",
+    "role": "🔒 Réservé à {role}",
+    "enter": "Participer ({count})",
+    "winners": "🏆 Gagnant(s) : {winners}",
+    "noWinner": "Personne n'a participé. Aucun gagnant.",
+    "announce": "🎉 Félicitations {winners} ! Vous gagnez **{prize}** !"
+  },
+  "bot": {
+    "badDuration": "Durée invalide : entre 1 minute et 30 jours (ex. 30m, 2h, 1d).",
+    "limit": "Limite de concours actifs du plan gratuit atteinte.",
+    "started": "🎉 Concours #{id} lancé dans {channel}.",
+    "notFound": "Concours introuvable.",
+    "alreadyEnded": "Ce concours est terminé.",
+    "notEnded": "Ce concours n'est pas encore terminé.",
+    "done": "Terminé : {count} gagnant(s) tiré(s).",
+    "needRole": "Ce concours est réservé à {role}.",
+    "entered": "🎉 Tu participes ! Bonne chance.",
+    "left": "Tu ne participes plus."
+  },
+  "web": {
+    "newTitle": "Nouveau concours",
+    "newHint": "Les membres participent avec un bouton. Les gagnants sont tirés au hasard à la fin.",
+    "prize": "Prix",
+    "winners": "Gagnants",
+    "duration": "Durée",
+    "durations": {
+      "60": "1 heure",
+      "360": "6 heures",
+      "1440": "1 jour",
+      "4320": "3 jours",
+      "10080": "1 semaine"
+    },
+    "requiredRole": "Rôle requis (optionnel)",
+    "commandTip": "Astuce : /giveaway start dans Discord pour une durée libre.",
+    "start": "Lancer le concours",
+    "started": "Concours lancé !",
+    "listTitle": "Concours",
+    "empty": "Aucun concours.",
+    "ended": "Terminé",
+    "running": "En cours",
+    "entries": "{count} participant(s)",
+    "end": "Terminer",
+    "reroll": "Retirer",
+    "done": "C'est fait !"
+  }
+}

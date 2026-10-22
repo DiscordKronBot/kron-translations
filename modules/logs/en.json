@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "name": "Logs"
+  },
+  "setup": {
+    "category": "Logs"
+  },
+  "fields": {
+    "author": "Author",
+    "channel": "Channel",
+    "attachments": "Files",
+    "before": "Before",
+    "after": "After",
+    "accountCreated": "Account created",
+    "memberCount": "Members",
+    "joined": "Joined",
+    "member": "Member",
+    "by": "By",
+    "reason": "Reason",
+    "until": "Until",
+    "added": "Added",
+    "removed": "Removed",
+    "from": "From",
+    "to": "To",
+    "name": "Name",
+    "permissions": "Permissions",
+    "color": "Color",
+    "hoist": "Displayed separately",
+    "mentionable": "Mentionable",
+    "icon": "Icon"
+  },
+  "message": {
+    "deleted": "🗑️ Message deleted",
+    "edited": "✏️ Message edited",
+    "bulk": "🧹 {count} messages deleted",
+    "unknownContent": "*Unknown content (message too old)*"
+  },
+  "joinpart": {
+    "joined": "📥 Member joined",
+    "left": "📤 Member left"
+  },
+  "members": {
+    "nickname": "🪪 Nickname changed"
+  },
+  "roles": {
+    "memberUpdated": "🏷️ Member roles updated",
+    "created": "➕ Role created",
+    "deleted": "➖ Role deleted",
+    "updated": "✏️ Role updated",
+    "permissionsChanged": "Permissions changed"
+  },
+  "moderation": {
+    "ban": "🔨 Member banned",
+    "unban": "🕊️ Member unbanned",
+    "kick": "👢 Member kicked",
+    "timeout": "⏳ Member timed out",
+    "untimeout": "✅ Timeout removed"
+  },
+  "voice": {
+    "joined": "🔊 Joined voice",
+    "left": "🔇 Left voice",
+    "moved": "🔀 Switched voice channel"
+  },
+  "server": {
+    "channelCreated": "➕ Channel created",
+    "channelDeleted": "➖ Channel deleted",
+    "channelRenamed": "✏️ Channel renamed"
+  },
+  "web": {
+    "autoCreate": "Create channels for me",
+    "created": "Log channels created!",
+    "typesTitle": "Log types",
+    "typesHint": "Pick a channel for each type, or let Kron create them in a private category.",
+    "types": {
+      "message": {
+        "name": "log-message",
+        "hint": "Deleted and edited messages"
+      },
+      "joinpart": {
+        "name": "log-join-part",
+        "hint": "Joins and leaves"
+      },
+      "members": {
+        "name": "log-members",
+        "hint": "Nickname changes"
+      },
+      "roles": {
+        "name": "log-roles",
+        "hint": "Roles added or removed, roles created, updated, deleted"
+      },
+      "moderation": {
+        "name": "log-moderation",
+        "hint": "Bans, kicks, timeouts"
+      },
+      "voice": {
+        "name": "log-voice",
+        "hint": "Voice joins, leaves and moves"
+      },
+      "server": {
+        "name": "log-server",
+        "hint": "Channels created, deleted, renamed"
+      }
+    },
+    "filtersTitle": "Filters",
+    "ignoreBots": "Ignore bot messages",
+    "ignoredChannels": "Ignored channels",
+    "ignoredRoles": "Ignored roles",
+    "setupHint": "A private category and one channel per log type that has none yet. Only Kron and the chosen roles can see them.",
+    "setupRoles": "Staff roles",
+    "setupRolesHint": "They can read the logs. You can also pick per channel in the preview.",
+    "setupRun": "Create everything"
+  },
+  "values": {
+    "true": "Yes",
+    "false": "No",
+    "changed": "Changed"
+  }
+}

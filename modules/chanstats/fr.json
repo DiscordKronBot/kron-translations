@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "name": "Statistiques de salons"
+  },
+  "web": {
+    "newTitle": "Nouveau compteur",
+    "newHint": "Kron crée un salon vocal verrouillé en haut du serveur et met son nom à jour toutes les 10 minutes.",
+    "type": "Compteur",
+    "types": {
+      "members": "Membres",
+      "humans": "Humains",
+      "bots": "Bots",
+      "boosts": "Boosts",
+      "channels": "Salons",
+      "roles": "Rôles"
+    },
+    "templates": {
+      "members": "👥┆Membres : {count}",
+      "humans": "🙋┆Humains : {count}",
+      "bots": "🤖┆Bots : {count}",
+      "boosts": "💎┆Boosts : {count}",
+      "channels": "💬┆Salons : {count}",
+      "roles": "🏷️┆Rôles : {count}"
+    },
+    "template": "Nom du salon",
+    "templateHint": "{count} est remplacé par le nombre.",
+    "create": "Créer le compteur",
+    "created": "Compteur créé !",
+    "listTitle": "Compteurs",
+    "listHint": "Discord limite les changements de nom : la mise à jour se fait toutes les 10 minutes.",
+    "empty": "Aucun compteur.",
+    "deleted": "Salon supprimé",
+    "kind": "Type de salon",
+    "kindHint": "Le vocal est recommandé : le nom garde les espaces et les majuscules, et personne ne peut y entrer.",
+    "kinds": {
+      "voice": "🔊 Vocal (recommandé)",
+      "text": "# Textuel (nom en minuscules avec tirets)",
+      "category": "📁 Catégorie"
+    }
+  }
+}

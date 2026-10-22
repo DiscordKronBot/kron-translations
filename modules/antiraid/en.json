@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "name": "Anti-raid"
+  },
+  "bot": {
+    "raidTitle": "Raid detected",
+    "raidText": "More than **{count} joins in {seconds} s**. Raid mode stays on while joins keep coming.",
+    "raidEndedTitle": "Raid over",
+    "raidEndedText": "Raid mode ended by {by}.",
+    "auto": "inactivity (no more joins)",
+    "joiners": "Joins",
+    "since": "Started",
+    "action": "Action",
+    "invites": "Invites",
+    "invitesPaused": "⏸️ Paused",
+    "invitesResumed": "▶️ Resumed",
+    "latest": "Latest joins",
+    "end": "End raid",
+    "banAll": "Ban the {count} joins",
+    "actions": {
+      "none": "Alert only",
+      "kick": "Kick",
+      "ban": "Ban"
+    },
+    "raidReason": "Anti-raid: joined during a raid",
+    "banReason": "Anti-raid: raid joins banned by {user}",
+    "banned": "{count} of {total} members banned.",
+    "expired": "This raid's list is no longer available (Kron restarted or it was already handled).",
+    "noPermission": "You don't have the required permission.",
+    "youngTitle": "New account",
+    "member": "Member",
+    "created": "Account created",
+    "ageReason": "Anti-raid: account created less than {days} days ago",
+    "ageActions": {
+      "alert": "Alert only",
+      "kick": "Kick",
+      "role": "Quarantine role",
+      "failed": "⚠️ Action failed (Kron's role too low?)"
+    }
+  },
+  "web": {
+    "detectTitle": "Detection",
+    "detectHint": "A raid is a wave of joins in a short time.",
+    "joinCount": "Number of joins",
+    "joinSeconds": "Within how many seconds",
+    "detectSummary": "Raid mode when {count} members join within {seconds} seconds.",
+    "raidTitle": "During a raid",
+    "raidHint": "Kron alerts staff with buttons to end the raid or ban every join.",
+    "raidAction": "Action on joins",
+    "raidActionHint": "Also applies to the members who triggered the raid.",
+    "quietMinutes": "Ends automatically after (minutes)",
+    "quietMinutesHint": "Without a new join.",
+    "pauseInvites": "Pause invites",
+    "pauseInvitesHint": "Discord security action: nobody can join by invite until the raid ends.",
+    "ageTitle": "New accounts",
+    "ageHint": "Brand-new accounts are often throwaways. Checked on every join, outside raids.",
+    "ageEnabled": "Watch new accounts",
+    "ageDays": "Account younger than (days)",
+    "ageAction": "Action",
+    "ageRole": "Quarantine role",
+    "ageRoleHint": "A role that only sees a verification channel, for example.",
+    "alertTitle": "Alerts",
+    "alertHint": "Raids and new accounts are reported here. Pick a staff-only channel.",
+    "pingRoles": "Roles to mention during a raid"
+  }
+}

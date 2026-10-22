@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "name": "Jeux"
+  },
+  "names": {
+    "tictactoe": "Morpion",
+    "connect4": "Puissance 4",
+    "hangman": "Pendu",
+    "wordle": "Wordle",
+    "blackjack": "Blackjack",
+    "coinflip": "Pile ou face",
+    "rps": "Chifoumi",
+    "trivia": "Quiz",
+    "guess": "Devine le nombre",
+    "dice": "Dé",
+    "eightball": "Boule magique"
+  },
+  "commands": {
+    "jeu": {
+      "description": "Jouer à un jeu",
+      "name": "jeu"
+    },
+    "game": {
+      "tictactoe": {
+        "description": "Morpion contre un membre ou contre Kron"
+      },
+      "connect4": {
+        "description": "Puissance 4 contre un membre ou contre Kron"
+      },
+      "hangman": {
+        "description": "Trouve le mot lettre par lettre"
+      },
+      "wordle": {
+        "description": "Trouve le mot de 5 lettres en 6 essais"
+      },
+      "blackjack": {
+        "description": "Blackjack contre le croupier, avec une mise"
+      },
+      "coinflip": {
+        "description": "Pile ou face, avec une mise"
+      },
+      "rps": {
+        "description": "Pierre, feuille, ciseaux contre Kron"
+      },
+      "trivia": {
+        "description": "Une question de culture générale pour tout le salon"
+      },
+      "guess": {
+        "description": "Devine le nombre entre 1 et 100"
+      },
+      "dice": {
+        "description": "Lancer un dé"
+      },
+      "eightball": {
+        "description": "Pose une question à la boule magique"
+      },
+      "stats": {
+        "description": "Tes statistiques de jeux (ou celles d’un membre)"
+      }
+    },
+    "options": {
+      "opponent": {
+        "description": "Ton adversaire (vide = contre Kron)"
+      },
+      "side": {
+        "description": "Pile ou face"
+      },
+      "bet": {
+        "description": "Ta mise (monnaie du serveur)"
+      },
+      "choice": {
+        "description": "Ton choix"
+      },
+      "faces": {
+        "description": "Nombre de faces (6 par défaut)"
+      },
+      "question": {
+        "description": "Ta question"
+      },
+      "member": {
+        "description": "Le membre"
+      }
+    }
+  },
+  "bot": {
+    "turn": "Au tour de {who}",
+    "winner": "🏆 {who} gagne !",
+    "draw": "🤝 Égalité !",
+    "reward": "+{amount} pour la victoire",
+    "notYours": "Ce n’est pas ta partie (ou pas ton tour).",
+    "expired": "Cette partie est terminée ou a expiré.",
+    "notYourself": "Tu ne peux pas jouer contre toi-même.",
+    "gameOff": "Ce jeu est désactivé sur ce serveur.",
+    "wrongChannel": "Les jeux se jouent ici : {channels}",
+    "noEconomy": "Les mises demandent l’économie (module Niveaux et économie).",
+    "maxBet": "La mise maximale est de {max}.",
+    "tooPoor": "Tu n’as pas assez de {name}.",
+    "pickLetter": "Choisis une lettre ({range})",
+    "wrongLetters": "Mauvaises lettres :",
+    "hangmanLives": "Encore {lives} erreurs permises.",
+    "hangmanWin": "🎉 Bravo, tu as trouvé le mot !",
+    "hangmanLose": "💀 Perdu ! Le mot était **{word}**.",
+    "wordleAsk": "Ton mot de 5 lettres",
+    "wordleInvalid": "Écris un mot de 5 lettres.",
+    "wordleWin": "🎉 Trouvé en {tries} essai(s) !",
+    "wordleLose": "Perdu ! Le mot était **{word}**.",
+    "wordleLeft": "Encore {left} essai(s).",
+    "guessButton": "Proposer",
+    "bet": "Mise : {amount}",
+    "dealer": "Croupier :",
+    "you": "Toi :",
+    "hit": "Carte",
+    "stand": "Rester",
+    "double": "Doubler",
+    "bj": {
+      "win": "🎉 Tu gagnes !",
+      "lose": "😞 Le croupier gagne.",
+      "push": "🤝 Égalité, ta mise t’est rendue.",
+      "bust": "💥 Tu dépasses 21 !",
+      "blackjack": "🃏 Blackjack ! Tu gagnes 1,5 fois ta mise."
+    },
+    "heads": "Pile",
+    "tails": "Face",
+    "youWin": "Tu gagnes ! 🎉",
+    "youLose": "Tu perds.",
+    "wonCoins": "+{amount}",
+    "lostCoins": "−{amount}",
+    "triviaHint": "Premier à répondre juste gagne. Une seule réponse par personne.",
+    "triviaRight": "✅ Bonne réponse de {who} !",
+    "triviaWrong": "La bonne réponse était **{answer}**.",
+    "triviaOnce": "Tu as déjà répondu.",
+    "triviaNope": "❌ Mauvaise réponse ! Les autres peuvent encore tenter leur chance.",
+    "guessStart": "J’ai choisi un nombre entre 1 et 100.",
+    "guessAsk": "Ton nombre (1 à 100)",
+    "guessInvalid": "Écris un nombre de 1 à 100.",
+    "higher": "{n} : c’est **plus** ⬆️",
+    "lower": "{n} : c’est **moins** ⬇️",
+    "guessWin": "🎉 C’était **{n}**, trouvé en {tries} essai(s) !",
+    "guessLose": "Perdu ! C’était **{n}**.",
+    "guessTries": "Essais restants : {left}",
+    "diceRoll": "Dé à {faces} faces",
+    "statsTitle": "Jeux de {user}",
+    "noStats": "Aucune partie pour l’instant.",
+    "eightball": {
+      "0": "C’est certain.",
+      "1": "Sans aucun doute.",
+      "2": "Oui, absolument.",
+      "3": "Tu peux compter dessus.",
+      "4": "Comme je le vois, oui.",
+      "5": "Très probablement.",
+      "6": "Les signes disent oui.",
+      "7": "Réponse floue, réessaie.",
+      "8": "Redemande plus tard.",
+      "9": "Mieux vaut ne pas te le dire maintenant.",
+      "10": "Impossible à prédire.",
+      "11": "Concentre-toi et redemande.",
+      "12": "N’y compte pas.",
+      "13": "Ma réponse est non.",
+      "14": "Mes sources disent non.",
+      "15": "Les perspectives ne sont pas bonnes.",
+      "16": "Très douteux.",
+      "17": "Même pas en rêve."
+    },
+    "countWrong": "{user} mauvais nombre! Le prochain est **{next}**.",
+    "countTwice": "{user} tu ne peux pas compter deux fois de suite. Le prochain est **{next}**."
+  },
+  "web": {
+    "gamesTitle": "Jeux disponibles",
+    "gamesHint": "Les membres jouent avec /jeu. Décoche un jeu pour le retirer de ton serveur.",
+    "rulesTitle": "Règles",
+    "channels": "Salons des jeux",
+    "channelsHint": "Vide = partout.",
+    "winReward": "Pièces par victoire",
+    "winRewardHint": "Demande l’économie du module Niveaux et économie (0 = rien).",
+    "maxBet": "Mise maximale",
+    "boardTitle": "Meilleurs joueurs",
+    "boardEmpty": "Aucune partie jouée pour l’instant.",
+    "wins": "{wins} victoires · {played} parties",
+    "countingTitle": "🔢 Comptage",
+    "countingHint": "Les membres comptent dans un salon, un nombre chacun. Un bon nombre reçoit ✅; un mauvais, ou deux nombres de suite par le même membre, reçoit une réponse et le compte continue.",
+    "countingChannel": "Salon de comptage",
+    "countingState": "Compte actuel : {current} · record : {best}"
+  }
+}

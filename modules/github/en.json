@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "name": "GitHub"
+  },
+  "web": {
+    "newTitle": "Follow a repository",
+    "newHint": "Each push becomes a clean embed in the chosen channel: one message per push, one section per commit, like Kron's own #github.",
+    "repo": "Repository",
+    "repoHint": "owner/name, for example octocat/hello-world",
+    "branch": "Branch (optional)",
+    "branchHint": "Empty = every branch.",
+    "create": "Create feed",
+    "listTitle": "Feeds",
+    "emptyTitle": "No repository followed",
+    "emptyText": "Add a repository above, then paste the URL and secret in GitHub.",
+    "noPush": "waiting for the first push",
+    "rotate": "New secret",
+    "setupTitle": "Last step, in GitHub",
+    "step1": "Open your repository → Settings → Webhooks → Add webhook.",
+    "step5": "Save. GitHub sends a ping, then every push lands in your channel.",
+    "secretOnce": "The secret is shown only once. Lost it? Generate a new one.",
+    "copy": "Copy",
+    "done": "Done",
+    "errors": {
+      "invalid_channel": "Pick a text channel of this server.",
+      "too_many": "10 repositories maximum per server.",
+      "vip_required": "The GitHub module is part of Pro.",
+      "exists": "This repository is already linked to this channel (same branch)."
+    },
+    "offWarning": "The GitHub module is off: pushes are received but not posted. Flip the switch next to the title.",
+    "test": "Test",
+    "lastEvent": "last push received: {date}",
+    "sampleSent": "(sample, no push received from GitHub yet)",
+    "results": {
+      "posted": "✅ Posted in the channel.",
+      "disabled": "⚠️ Skipped: module off.",
+      "other_repo": "⚠️ Skipped: another repository than the feed’s.",
+      "other_branch": "⚠️ Skipped: another branch than the chosen one.",
+      "no_commits": "Skipped: push without commits."
+    },
+    "stepUrl": "Payload URL",
+    "stepType": "Content type",
+    "stepSecret": "Secret",
+    "stepEvents": "Which events would you like to trigger this webhook?",
+    "stepEventsValue": "pick “Just the push event”."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Vocaux temporaires"
+  },
+  "web": {
+    "title": "Réglages",
+    "hint": "Les membres rejoignent le salon « hub » : Kron crée leur propre salon vocal et les y déplace. Ils peuvent le renommer, limiter les places ou le verrouiller. Le salon disparaît quand il est vide.",
+    "hub": "Salon hub (« Rejoins pour créer »)",
+    "category": "Catégorie des nouveaux salons",
+    "categoryHint": "Vide = la catégorie du hub.",
+    "name": "Nom des salons",
+    "nameHint": "{nickname} = pseudo, {username} = nom d’utilisateur, {count} = numéro.",
+    "limit": "Places (0 = illimité)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Vérification"
+  },
+  "bot": {
+    "panelTitle": "✅ Vérification",
+    "panelText": "Bienvenue sur **{server}** ! Clique sur **Vérifier** pour accéder au serveur.",
+    "verifyButton": "Vérifier",
+    "already": "Tu es déjà vérifié.",
+    "done": "✅ Tu es vérifié, bienvenue !",
+    "roleFailed": "Impossible de te donner le rôle : le rôle de Kron doit être au-dessus. Préviens le staff.",
+    "notSetUp": "La vérification n’est pas encore configurée.",
+    "tooYoung": "Ton compte est trop récent (minimum {days} jours). Réessaie {time}.",
+    "captcha": "🔐 Ton code : **`{code}`**\nClique sur le bouton et tape-le (sans espaces).",
+    "enterCode": "Entrer le code",
+    "modalTitle": "Vérification",
+    "expired": "Code expiré : clique de nouveau sur Vérifier.",
+    "wrong": "❌ Mauvais code. Clique de nouveau sur Vérifier pour en avoir un nouveau."
+  },
+  "web": {
+    "setupTitle": "Réglages",
+    "channel": "Salon de vérification",
+    "role": "Rôle donné une fois vérifié",
+    "removeRole": "Rôle retiré une fois vérifié (optionnel)",
+    "removeRoleHint": "Par exemple un rôle « Non vérifié » donné à l’arrivée par les rôles automatiques.",
+    "mode": "Méthode",
+    "modes": {
+      "button": "Un clic sur Vérifier",
+      "captcha": "Code à recopier (anti-bots)"
+    },
+    "minAge": "Âge minimum du compte (jours)",
+    "minAgeHint": "0 = aucune limite. Bloque les comptes créés pour raider.",
+    "messageTitle": "Message du salon",
+    "customize": "Personnaliser le message",
+    "publish": "Publier le message",
+    "published": "Message publié.",
+    "tip": "Astuce : rends tes salons visibles seulement pour le rôle vérifié, et le salon de vérification seulement pour @everyone.",
+    "errors": {
+      "no_channel": "Choisis un salon de vérification.",
+      "bad_role": "Choisis un rôle que Kron peut donner (sous son propre rôle)."
+    }
+  }
+}

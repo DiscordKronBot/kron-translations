@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "Welcome"
+  },
+  "default": {
+    "welcome": "👋 Welcome {user} to **{server}**! You are member #{memberCount}.",
+    "goodbye": "🚪 **{username}** left the server."
+  },
+  "web": {
+    "welcome": "Join",
+    "goodbye": "Leave",
+    "channelMessage": "Channel message",
+    "dmMessage": "Direct message to the new member",
+    "noDm": "No DM sent.",
+    "customize": "Customize",
+    "ignoreBots": "Ignore bots",
+    "vars": {
+      "user": "Member mention",
+      "username": "Member name",
+      "server": "Server name",
+      "memberCount": "Member count",
+      "user_avatar": "Member avatar (URL)",
+      "server_icon": "Server icon (URL)",
+      "user_id": "Member ID",
+      "user_created": "Account creation date",
+      "user_createdAgo": "Account age (“2 years ago”)",
+      "user_joined": "Joined the server (goodbyes)",
+      "user_type": "Bot or member"
+    }
+  },
+  "card": {
+    "welcomeTitle": "👋 Welcome to {server}!",
+    "welcomeText": "Hi {user}, glad to have you here! Read the rules and say hello.",
+    "goodbyeTitle": "🚪 {username} left",
+    "goodbyeText": "**{memberCount}** members are left on {server}.",
+    "created": "📅 Account created",
+    "type": "🪪 Type",
+    "number": "👥 Member #",
+    "joined": "⏱️ Joined",
+    "footer": "{server}",
+    "bot": "🤖 Bot",
+    "human": "👤 Member"
+  }
+}

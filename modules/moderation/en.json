@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "name": "Moderation"
+  },
+  "commands": {
+    "warn": {
+      "description": "Warn a member",
+      "options": {
+        "member": {
+          "description": "The member"
+        },
+        "reason": {
+          "description": "The reason"
+        }
+      }
+    },
+    "timeout": {
+      "description": "Time out a member",
+      "options": {
+        "member": {
+          "description": "The member"
+        },
+        "reason": {
+          "description": "The reason"
+        },
+        "duration": {
+          "description": "Duration, e.g. 10m, 1h, 1d (28d max)"
+        }
+      }
+    },
+    "untimeout": {
+      "description": "Remove a timeout",
+      "options": {
+        "member": {
+          "description": "The member"
+        },
+        "reason": {
+          "description": "The reason"
+        }
+      }
+    },
+    "kick": {
+      "description": "Kick a member",
+      "options": {
+        "member": {
+          "description": "The member"
+        },
+        "reason": {
+          "description": "The reason"
+        }
+      }
+    },
+    "ban": {
+      "description": "Ban a member",
+      "options": {
+        "member": {
+          "description": "The member"
+        },
+        "reason": {
+          "description": "The reason"
+        },
+        "delete_days": {
+          "description": "Delete their messages from the last X days (0-7)"
+        }
+      }
+    },
+    "unban": {
+      "description": "Unban a user",
+      "options": {
+        "user_id": {
+          "description": "User ID"
+        },
+        "reason": {
+          "description": "The reason"
+        }
+      }
+    },
+    "purge": {
+      "description": "Delete messages in this channel",
+      "options": {
+        "amount": {
+          "description": "Number of messages (1-100)"
+        },
+        "member": {
+          "description": "Only this member's messages"
+        }
+      }
+    },
+    "infractions": {
+      "description": "A member's history",
+      "options": {
+        "member": {
+          "description": "The member"
+        }
+      }
+    }
+  },
+  "types": {
+    "warn": "⚠️ Warning",
+    "timeout": "⏳ Timeout",
+    "untimeout": "✅ Timeout removed",
+    "kick": "👢 Kick",
+    "ban": "🔨 Ban",
+    "unban": "🕊️ Unban"
+  },
+  "dm": {
+    "warn": "⚠️ You received a warning on **{server}**.\nReason: {reason}",
+    "timeout": "⏳ You are timed out on **{server}** until {until}.\nReason: {reason}",
+    "untimeout": "✅ Your timeout on **{server}** was removed.",
+    "kick": "👢 You were kicked from **{server}**.\nReason: {reason}",
+    "ban": "🔨 You were banned from **{server}**.\nReason: {reason}",
+    "unban": ""
+  },
+  "log": {
+    "warn": "⚠️ Warning",
+    "timeout": "⏳ Timeout",
+    "untimeout": "✅ Timeout removed",
+    "kick": "👢 Kick",
+    "ban": "🔨 Ban",
+    "unban": "🕊️ Unban",
+    "member": "Member",
+    "moderator": "Moderator",
+    "until": "Until",
+    "reason": "Reason"
+  },
+  "done": {
+    "warn": "⚠️ {user} was warned (#{id}).",
+    "timeout": "⏳ {user} is timed out (#{id}).",
+    "untimeout": "✅ {user}'s timeout removed (#{id}).",
+    "kick": "👢 {user} was kicked (#{id}).",
+    "ban": "🔨 {user} was banned (#{id}).",
+    "unban": "🕊️ {user} was unbanned (#{id}).",
+    "purge": "🧹 {count} message(s) deleted."
+  },
+  "bot": {
+    "notMember": "This member isn't on the server.",
+    "self": "You can't do that to yourself.",
+    "higher": "This member has a role equal to or above yours.",
+    "botCannot": "Kron can't act on this member (role too high).",
+    "badDuration": "Invalid duration: between 1 minute and 28 days.",
+    "badId": "Invalid user ID.",
+    "notBanned": "This user isn't banned.",
+    "clean": "No infractions.",
+    "autoReason": "Automatic sanction: {count} warnings",
+    "autoLog": "⚖️ {user}: automatic **{action}** ({count} warnings).",
+    "autoDone": "⚖️ Automatic sanction applied: {action} ({count} warnings)."
+  },
+  "web": {
+    "commandsTitle": "Commands",
+    "commandsHint": "Only for members with the matching Discord permission (Kick, Ban, Timeout…).",
+    "settings": "Settings",
+    "dm": "Notify the member by DM",
+    "dmHint": "The member gets the sanction and reason by DM.",
+    "logChannel": "Sanctions channel",
+    "logChannelHint": "Optional. The Logs module already records bans, kicks and timeouts.",
+    "historyTitle": "History",
+    "filter": "Filter by member ID",
+    "none": "No infractions.",
+    "autoTitle": "Automatic sanctions",
+    "autoHint": "When a member reaches a number of warnings (/warn), Kron applies the sanction.",
+    "autoWarnings": "Warnings",
+    "autoAction": "Sanction",
+    "autoMinutes": "Duration (minutes)",
+    "autoAdd": "Add a rule",
+    "actions": {
+      "timeout": "Timeout",
+      "kick": "Kick",
+      "ban": "Ban"
+    }
+  }
+}

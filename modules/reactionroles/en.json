@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "name": "Reaction roles"
+  },
+  "bot": {
+    "nothing": "No changes.",
+    "gone": "This menu no longer exists."
+  },
+  "web": {
+    "menusTitle": "Role menus",
+    "menusHint": "Members pick their roles with buttons or a menu.",
+    "newMenu": "New menu",
+    "allMenus": "Menus",
+    "emptyTitle": "No menus yet",
+    "emptyText": "Create a menu: name colors, notifications, games…",
+    "publish": "Publish",
+    "published": "Menu published in Discord!",
+    "updated": "Menu updated in Discord!",
+    "mode": "Display",
+    "modes": {
+      "buttons": "Buttons",
+      "select": "Dropdown menu"
+    },
+    "behavior": "Behavior",
+    "behaviors": {
+      "toggle": {
+        "name": "Toggle",
+        "hint": "One click gives the role, another removes it."
+      },
+      "unique": {
+        "name": "Unique",
+        "hint": "Only one role of this menu at a time."
+      },
+      "add": {
+        "name": "Add only",
+        "hint": "Gives the role, never removes it."
+      },
+      "remove": {
+        "name": "Remove only",
+        "hint": "Removes the role, never gives it."
+      }
+    },
+    "label": "Text",
+    "description": "Description",
+    "placeholder": "Menu text",
+    "starter": {
+      "name": "Roles",
+      "title": "🎭┆Pick your roles",
+      "description": "Click the buttons to add or remove a role."
+    },
+    "errors": {
+      "limit_reached": "Free plan limit reached (10 menus).",
+      "invalid_channel": "Pick a channel from this server.",
+      "invalid_role": "A role is missing or above Kron.",
+      "missing_permissions": "Kron is not allowed to post in this channel."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Anniversaires"
+  },
+  "commands": {
+    "birthday": {
+      "description": "Ton anniversaire",
+      "set": {
+        "description": "Enregistrer ta date d'anniversaire"
+      },
+      "remove": {
+        "description": "Retirer ta date"
+      },
+      "upcoming": {
+        "description": "Les prochains anniversaires"
+      },
+      "options": {
+        "day": {
+          "description": "Jour (1-31)"
+        },
+        "month": {
+          "description": "Mois (1-12)"
+        },
+        "year": {
+          "description": "Année (optionnel, pour l'âge)"
+        }
+      }
+    }
+  },
+  "bot": {
+    "invalid": "Cette date n'existe pas.",
+    "saved": "🎂 Anniversaire enregistré : {date}.",
+    "removed": "Date retirée.",
+    "none": "Aucun anniversaire enregistré.",
+    "default": "🎂 Joyeux anniversaire {user} ! Toute l'équipe de **{server}** te souhaite une belle journée 🎉"
+  },
+  "web": {
+    "title": "Anniversaires",
+    "hint": "Les membres enregistrent leur date avec /birthday. Kron les souhaite le jour venu.",
+    "role": "Rôle du jour",
+    "roleHint": "Donné pendant la journée d'anniversaire, puis retiré.",
+    "hour": "Heure de l'annonce",
+    "timezone": "Fuseau horaire",
+    "message": "Message d'anniversaire",
+    "customize": "Personnaliser",
+    "vars": {
+      "user": "Mention du membre",
+      "username": "Nom du membre",
+      "age": "Âge (si l'année est connue)",
+      "server": "Nom du serveur",
+      "user_avatar": "Avatar du membre (URL)"
+    }
+  }
+}
