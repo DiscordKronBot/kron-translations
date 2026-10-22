@@ -2,7 +2,7 @@
 
 # 🌍 Kron Translations
 
-**Help bring [Kron](https://kronbot.xyz) to your language, and earn Pro keys for it.**
+**Help bring [Kron](https://kronbot.xyz) to your language at [kronbot.xyz/translate](https://kronbot.xyz/translate), and earn Pro keys for it.**
 
 [Website](https://kronbot.xyz) · [Docs](https://kronbot.xyz/docs) · [Discord](https://kronbot.xyz/support) · [Roadmap](https://github.com/orgs/DiscordKronBot/projects/1)
 
@@ -30,12 +30,12 @@ Kron speaks **English** and **French** today. This repository holds every text K
 | `modules/<module>/<lang>.json` | Each module's texts (tickets, levels, games…) |
 | `docs/<lang>/` | The documentation at kronbot.xyz/docs |
 
-English (`en`) is the source. Translations are done on **Crowdin**, not by editing files here: Crowdin keeps every language in sync when we add new texts.
+English (`en`) is the source. Translations are done on **[kronbot.xyz/translate](https://kronbot.xyz/translate)**, not by editing files here: every suggestion is checked by AI, then approved by a reviewer who speaks the language.
 
 ### How to help
 
 1. Join our [Discord](https://kronbot.xyz/support) and say hi in the translators channel.
-2. Open the Crowdin project (link pinned there) and pick your language.
+2. Open **[kronbot.xyz/translate](https://kronbot.xyz/translate)**, sign in with Discord and pick your language.
 3. Translate, or vote on other people's suggestions.
 4. A proofreader who speaks the language approves the strings, then they ship with the next update.
 
@@ -47,9 +47,11 @@ Approved translations earn **Kron Pro keys** (one key = Pro for one server of yo
 
 | Approved words | Reward |
 |---|---|
-| 500 | 1 month of Pro |
-| 2,000 | 3 months of Pro |
-| A whole language at 100% (with a proofreader) | 1 year of Pro + the **Translator** role on our Discord |
+| 200 | 30 days of Pro + 🥉 Bronze role |
+| 600 | 60 days of Pro + 🥈 Silver role |
+| 1,500 | 90 days of Pro + 🥇 Gold role |
+| 4,000 | 1 year of Pro + 💎 Diamond role |
+| 10,000 | Pro for life + 👑 Legend role |
 
 Every translator is credited in the language's credits and on our Discord. Machine-translated text pasted as is is not rewarded.
 
@@ -72,7 +74,7 @@ Kron parle **anglais** et **français** aujourd'hui. Ce dépôt contient tous le
 ### Comment aider
 
 1. Rejoins notre [Discord](https://kronbot.xyz/support) et viens dire bonjour dans le salon des traducteurs.
-2. Ouvre le projet Crowdin (lien épinglé là-bas) et choisis ta langue.
+2. Ouvre **[kronbot.xyz/translate](https://kronbot.xyz/translate)**, connecte-toi avec Discord et choisis ta langue.
 3. Traduis, ou vote pour les propositions des autres.
 4. Un relecteur qui parle la langue approuve les textes, qui arrivent avec la mise à jour suivante.
 
@@ -80,7 +82,7 @@ Lis d'abord [CONTRIBUTING.md](CONTRIBUTING.md) : les variables comme `{user}` et
 
 ### Récompenses 🎁
 
-Les traductions approuvées donnent des **clés Kron Pro** (une clé = Pro pour un serveur de ton choix) : 1 mois pour 500 mots, 3 mois pour 2 000 mots, 1 an + le rôle **Traducteur** sur notre Discord pour une langue complète à 100 %. Chaque traducteur est crédité. Le texte traduit automatiquement et collé tel quel n'est pas récompensé.
+Les traductions approuvées donnent des **clés Kron Pro** et des rôles sur notre Discord : 200 mots → 30 jours, 600 → 60 jours, 1 500 → 90 jours, 4 000 → 1 an, 10 000 → Pro à vie. Les clés arrivent toutes seules en message privé. Chaque traducteur est crédité.
 
 ---
 
