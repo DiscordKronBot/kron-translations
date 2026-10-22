@@ -1,27 +1,27 @@
 {
   "profile": {
-    "title": "Profil FiveM",
-    "online": "🟢 En ville",
-    "offline": "⚫ Hors ligne",
-    "characters": "Personnages",
-    "none": "Aucun personnage trouvé.",
-    "pick": "Voir un autre personnage…",
-    "job": "Emploi",
-    "phone": "Téléphone",
-    "cash": "Liquide",
-    "bank": "Banque"
+    "title": "FiveM profile",
+    "online": "🟢 In the city",
+    "offline": "⚫ Offline",
+    "characters": "Characters",
+    "none": "No characters found.",
+    "pick": "See another character…",
+    "job": "Job",
+    "phone": "Phone",
+    "cash": "Cash",
+    "bank": "Bank"
   },
   "actions": {
-    "unstuck": "Débloquer",
-    "garage": "Rapatrier un véhicule",
-    "sheet": "Fiche RP"
+    "unstuck": "Unstuck",
+    "garage": "Return a vehicle",
+    "sheet": "RP sheet"
   },
   "report": {
     "title": "Report #{id}",
-    "player": "Joueur",
-    "serverId": "ID en jeu",
-    "howTo": "Écris dans le fil pour répondre au joueur en jeu.",
-    "profile": "Profil",
-    "close": "Fermer"
+    "player": "Player",
+    "serverId": "In-game ID",
+    "howTo": "Write in the thread to answer the player in game.",
+    "profile": "Profile",
+    "close": "Close"
   }
 }
