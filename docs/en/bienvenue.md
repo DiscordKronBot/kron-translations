@@ -18,18 +18,18 @@ order: 7
 
 ## Variables
 
-| Variable | Replaced by |
-|---|---|
-| `{user}` | member mention |
-| `{username}` | member name |
-| `{server}` | server name |
-| `{memberCount}` | member count |
-| `{user.avatar}` | member avatar, usable as an image or thumbnail |
-| `{user.id}` | member ID |
-| `{user.created}` / `{user.createdAgo}` | account creation date / its age (“2 years ago”) |
-| `{user.type}` | 🤖 Bot or 👤 Member |
-| `{user.joined}` | when they joined the server (useful for goodbyes) |
-| `{server.icon}` | server icon |
+| Variable                               | Replaced by                                                          |
+| -------------------------------------- | -------------------------------------------------------------------- |
+| `{user}`                               | member mention                                                       |
+| `{username}`                           | member name                                                          |
+| `{server}`                             | server name                                                          |
+| `{memberCount}`                        | member count                                                         |
+| `{user.avatar}`                        | member avatar, usable as an image or thumbnail                       |
+| `{user.id}`                            | member ID                                                            |
+| `{user.created}` / `{user.createdAgo}` | account creation date / its age (“2 years ago”)   |
+| `{user.type}`                          | 🤖 Bot or 👤 Member                                                  |
+| `{user.joined}`                        | when they joined the server (useful for goodbyes) |
+| `{server.icon}`                        | server icon                                                          |
 
 > [!TIP]
 > Put `{user.avatar}` in the embed **thumbnail**: every welcome shows the new member's picture.
