@@ -2,33 +2,33 @@
 title: Anti-raid
 category: modules
 emoji: 🚧
-summary: Détecter les vagues d'arrivées, mettre les invitations en pause et surveiller les comptes récents.
+summary: Spot waves of joins, pause invites and watch brand-new accounts.
 order: 14
 ---
 
-Le module **Anti-raid** repère les raids (beaucoup de comptes qui rejoignent en même temps) et aide le staff à les arrêter en un clic.
+The **Anti-raid** module spots raids (many accounts joining at once) and helps staff stop them in one click.
 
-## Détection
+## Detection
 
-Tu choisis le seuil : par exemple **10 arrivées en 10 secondes**. Quand il est atteint, Kron passe en **mode raid** :
+You choose the threshold: for example **10 joins in 10 seconds**. When it is reached, Kron goes into **raid mode**:
 
-- il publie une alerte dans le salon choisi, en mentionnant les rôles du staff;
-- il applique l'action choisie à chaque arrivée : **alerte seulement**, **expulser** ou **bannir** (les membres qui ont déclenché le raid compris);
-- il peut **mettre les invitations en pause** grâce aux actions de sécurité de Discord.
+- it posts an alert in the chosen channel, mentioning the staff roles;
+- it applies the chosen action to every join: **alert only**, **kick** or **ban** (the members who triggered the raid included);
+- it can **pause invites** with Discord's security actions.
 
-Le mode raid se termine tout seul après quelques minutes sans nouvelle arrivée, ou avec le bouton **Terminer le raid**. Les invitations sont alors rétablies.
+Raid mode ends by itself after a few minutes without a new join, or with the **End raid** button. Invites are then resumed.
 
 > [!TIP]
-> Le bouton **Bannir les arrivées** bannit d'un coup tous les comptes arrivés pendant le raid (jusqu'à 200). La liste est gardée en mémoire : après un redémarrage de Kron, le bouton ne fonctionne plus.
+> The **Ban the joins** button bans every account that joined during the raid at once (up to 200). The list is kept in memory: after Kron restarts, the button no longer works.
 
-## Comptes récents
+## New accounts
 
-Hors raid, Kron peut vérifier l'âge du compte de chaque nouveau membre. Si le compte a été créé il y a moins de X jours :
+Outside raids, Kron can check the account age of every new member. If the account was created less than X days ago:
 
-- **Alerte seulement** : un message dans le salon des alertes;
-- **Expulser**;
-- **Rôle de quarantaine** : un rôle qui ne voit, par exemple, qu'un salon de vérification.
+- **Alert only**: a message in the alerts channel;
+- **Kick**;
+- **Quarantine role**: a role that only sees, for example, a verification channel.
 
 ## Permissions
 
-Expulser, Bannir, Gérer les rôles (quarantaine) et Gérer le serveur (pause des invitations). Le rôle de Kron doit être au-dessus du rôle de quarantaine.
+Kick, Ban, Manage Roles (quarantine) and Manage Server (invite pause). Kron's role must be above the quarantine role.
