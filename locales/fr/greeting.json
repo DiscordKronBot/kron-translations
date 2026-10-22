@@ -1,57 +1,57 @@
 {
-  "title": "Merci d’avoir ajouté Kron !",
-  "intro": "Je suis prêt. Active seulement les modules dont ton serveur a besoin et personnalise tout depuis le dashboard. Un aperçu :",
+  "title": "Thanks for adding Kron!",
+  "intro": "I’m ready. Turn on only the modules your server needs and customize everything from the dashboard. A quick look:",
   "features": {
     "tickets": {
       "name": "Tickets",
-      "text": "panels à boutons, questions et transcriptions"
+      "text": "button panels, questions and transcripts"
     },
     "forms": {
-      "name": "Whitelist et formulaires",
-      "text": "candidatures web avec rôles par étape"
+      "name": "Whitelist & forms",
+      "text": "web applications with roles at each step"
     },
     "logs": {
       "name": "Logs",
-      "text": "messages, membres et rôles, salon par salon"
+      "text": "messages, members and roles, channel by channel"
     },
     "roles": {
-      "name": "Rôles",
-      "text": "automatiques et par réaction"
+      "name": "Roles",
+      "text": "automatic and reaction roles"
     },
     "moderation": {
-      "name": "Modération",
-      "text": "sanctions, historique et anti-spam"
+      "name": "Moderation",
+      "text": "sanctions, history and anti-spam"
     },
     "fivem": {
       "name": "FiveM",
-      "text": "infos des personnages directement dans Discord"
+      "text": "character info right inside Discord"
     }
   },
-  "outro": "Clique sur **Configurer Kron** pour commencer. Besoin d’aide ? Tape `$debug` ou rejoins notre support.",
-  "footer": "kronbot.xyz · Seuls les administrateurs voient le dashboard",
-  "dashboard": "Configurer Kron",
-  "docs": "Documentation",
+  "outro": "Click **Set up Kron** to get started. Need help? Type `$debug` or join our support server.",
+  "footer": "kronbot.xyz · Only admins can open the dashboard",
+  "dashboard": "Set up Kron",
+  "docs": "Docs",
   "support": "Support",
   "permissions": {
-    "title": "Kron a besoin d’une permission de plus",
-    "text": "De nouveaux modules sont arrivés (AutoMod, Anti-raid, Niveaux, Commandes personnalisées). Pour qu’ils fonctionnent, Kron a besoin de :",
-    "how": "Clique sur **Mettre à jour les permissions** : Discord ouvre la page d’autorisation de Kron avec les bonnes cases déjà cochées. Valide, c’est tout. Rien de ta configuration ne change.",
-    "footer": "Kron ne demande jamais Administrateur.",
-    "button": "Mettre à jour les permissions",
+    "title": "Kron needs one more permission",
+    "text": "New modules are here (AutoMod, Anti-raid, Levels, Custom commands). For them to work, Kron needs:",
+    "how": "Click **Update permissions**: Discord opens Kron’s authorization page with the right boxes already checked. Confirm, that’s it. Nothing in your setup changes.",
+    "footer": "Kron never asks for Administrator.",
+    "button": "Update permissions",
     "names": {
-      "ViewChannel": "Voir les salons",
-      "SendMessages": "Envoyer des messages",
-      "EmbedLinks": "Intégrer des liens",
-      "AttachFiles": "Joindre des fichiers",
-      "ManageRoles": "Gérer les rôles",
-      "ManageChannels": "Gérer les salons",
-      "ManageMessages": "Gérer les messages",
-      "ReadMessageHistory": "Voir l’historique des messages",
-      "KickMembers": "Expulser des membres",
-      "BanMembers": "Bannir des membres",
-      "ManageGuild": "Gérer le serveur",
-      "ViewAuditLog": "Voir les logs d’audit",
-      "ModerateMembers": "Exclure temporairement des membres"
+      "ViewChannel": "View Channels",
+      "SendMessages": "Send Messages",
+      "EmbedLinks": "Embed Links",
+      "AttachFiles": "Attach Files",
+      "ManageRoles": "Manage Roles",
+      "ManageChannels": "Manage Channels",
+      "ManageMessages": "Manage Messages",
+      "ReadMessageHistory": "Read Message History",
+      "KickMembers": "Kick Members",
+      "BanMembers": "Ban Members",
+      "ManageGuild": "Manage Server",
+      "ViewAuditLog": "View Audit Log",
+      "ModerateMembers": "Timeout Members"
     }
   }
 }
