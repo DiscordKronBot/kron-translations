@@ -1,0 +1,22 @@
+{
+  "started": "Kron started",
+  "guildLeft": "Removed from a server",
+  "commandError": "Error in /{command}",
+  "dropped": "{count} log(s) skipped (rate limit)",
+  "fields": {
+    "guild": "Server",
+    "guilds": "Servers",
+    "modules": "Modules",
+    "user": "User",
+    "environment": "Environment"
+  },
+  "channels": {
+    "category": "Kron Logs",
+    "bot": "bot",
+    "errors": "errors",
+    "guilds": "servers",
+    "modules": "modules",
+    "billing": "billing",
+    "debug": "debug"
+  }
+}
