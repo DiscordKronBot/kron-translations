@@ -1,41 +1,41 @@
 ---
-title: Commandes personnalisées
+title: Custom commands
 category: modules
 emoji: ⚡
-summary: Créer tes propres commandes slash ou tags texte (!regles, $ip…), avec une réponse en texte ou en embed.
+summary: Create your own slash commands or text tags (!rules, $ip…), with a text or embed answer.
 order: 16
 ---
 
-Le module **Commandes personnalisées** ajoute à ton serveur de vraies commandes slash (`/regles`, `/ip`, `/boutique`…) ou des **tags texte** (`!regles`, `$ip`, ou juste `regles`).
+The **Custom commands** module adds real slash commands to your server (`/rules`, `/ip`, `/shop`…) or **text tags** (`!rules`, `$ip`, or just `rules`).
 
-## Créer une commande
+## Create a command
 
-1. Active le module. La page a deux onglets : **⚡ Commandes** (slash) et **🏷️ Tags** (texte).
-2. Dans le bon onglet, clique sur **Nouvelle commande** ou **Nouveau tag**.
-3. Choisis le **nom** (minuscules, chiffres, `-` et `_`) et, pour une commande slash, la **description** affichée dans Discord.
-4. Écris la **réponse** avec l'éditeur : texte, embeds, boutons de lien. L'aperçu se met à jour en direct.
-5. Enregistre : la commande est disponible tout de suite sur ton serveur.
+1. Turn the module on. The page has two tabs: **⚡ Commands** (slash) and **🏷️ Tags** (text).
+2. In the right tab, click **New command** or **New tag**.
+3. Choose the **name** (lowercase, digits, `-` and `_`) and, for a slash command, the **description** shown in Discord.
+4. Write the **answer** with the editor: text, embeds, link buttons. The preview updates live.
+5. Save: the command is available right away on your server.
 
-Variables disponibles dans la réponse : `{user}`, `{username}`, `{server}`, `{channel}`, `{memberCount}`, `{user.avatar}`.
+Variables in the answer: `{user}`, `{username}`, `{server}`, `{channel}`, `{memberCount}`, `{user.avatar}`.
 
-## Tags texte
+## Text tags
 
-Choisis un **préfixe** (`!`, `$`, `?`, `.`, `-`, `+` ou aucun) et un nom. Quand un message est exactement le déclencheur (par exemple `!regles`, `$ip` ou juste `regles`), Kron répond avec ton message ou ton embed.
+Pick a **prefix** (`!`, `$`, `?`, `.`, `-`, `+` or none) and a name. When a message is exactly the trigger (for example `!rules`, `$ip` or just `rules`), Kron answers with your message or embed.
 
-- **Répondre au message** : la réponse s'affiche en réponse au message du membre, sinon comme un message simple.
-- **Supprimer le message déclencheur** : garde le salon propre.
-- Un même membre ne déclenche un tag qu'une fois toutes les 3 secondes.
+- **Reply to the message**: the answer shows as a reply to the member's message, otherwise as a plain message.
+- **Delete the trigger message**: keeps the channel clean.
+- A member triggers a tag at most once every 3 seconds.
 
 > [!NOTE]
-> `$debug` est réservé à Kron. Un nouveau tag peut prendre jusqu'à 30 secondes pour répondre la première fois.
+> `$debug` is reserved for Kron. A new tag can take up to 30 seconds to answer the first time.
 
 ## Options
 
-- **Réponse privée** (slash) : seul le membre qui utilise la commande voit la réponse.
-- **Rôles autorisés** : seuls ces rôles peuvent l'utiliser (vide = tout le monde). Un tag reste muet pour les autres.
-- **Donner un rôle / retirer un rôle** : par exemple, `/accepter` donne le rôle « Règlement lu ».
+- **Private answer** (slash): only the member using the command sees the answer.
+- **Allowed roles**: only these roles can use it (empty = everyone). A tag stays silent for others.
+- **Give a role / remove a role**: for example, `/accept` gives the "Read the rules" role.
 
 > [!NOTE]
-> Le plan gratuit permet 5 commandes. Pro les rend illimitées.
+> The Free plan allows 5 commands. Pro makes them unlimited.
 
-Désactiver le module retire les commandes slash de Discord et coupe les tags, sans rien effacer : tout revient à la réactivation.
+Turning the module off removes slash commands from Discord and mutes tags, without deleting anything: everything comes back when it is turned on again.
