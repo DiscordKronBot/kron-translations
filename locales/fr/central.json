@@ -1,22 +1,22 @@
 {
-  "started": "Kron démarré",
-  "guildLeft": "Retiré d'un serveur",
-  "commandError": "Erreur dans /{command}",
-  "dropped": "{count} log(s) ignoré(s) (limite de débit)",
+  "started": "Kron started",
+  "guildLeft": "Removed from a server",
+  "commandError": "Error in /{command}",
+  "dropped": "{count} log(s) skipped (rate limit)",
   "fields": {
-    "guild": "Serveur",
-    "guilds": "Serveurs",
+    "guild": "Server",
+    "guilds": "Servers",
     "modules": "Modules",
-    "user": "Utilisateur",
-    "environment": "Environnement"
+    "user": "User",
+    "environment": "Environment"
   },
   "channels": {
-    "category": "Logs Kron",
+    "category": "Kron Logs",
     "bot": "bot",
-    "errors": "erreurs",
-    "guilds": "serveurs",
+    "errors": "errors",
+    "guilds": "servers",
     "modules": "modules",
-    "billing": "facturation",
+    "billing": "billing",
     "debug": "debug"
   }
 }
