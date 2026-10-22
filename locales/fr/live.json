@@ -1,10 +1,10 @@
 {
-  "default": "🔴 **{streamer}** est en live : {title}\n{url}",
-  "isLive": "{streamer} est en live sur {platform}",
-  "ended": "{streamer} · live terminé",
-  "category": "Catégorie",
-  "viewers": "Spectateurs",
-  "started": "Début",
-  "duration": "Durée",
-  "watch": "Regarder sur {platform}"
+  "default": "🔴 **{streamer}** is live: {title}\n{url}",
+  "isLive": "{streamer} is live on {platform}",
+  "ended": "{streamer} · stream ended",
+  "category": "Category",
+  "viewers": "Viewers",
+  "started": "Started",
+  "duration": "Duration",
+  "watch": "Watch on {platform}"
 }
