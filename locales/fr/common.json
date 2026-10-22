@@ -1,8 +1,8 @@
 {
   "errors": {
-    "generic": "Une erreur est survenue. L'équipe Kron a été prévenue.",
-    "moduleDisabled": "Le module **{module}** n'est pas activé sur ce serveur. Un administrateur peut l'activer depuis le panel.",
-    "staffOnly": "Cette commande est réservée au staff Kron."
+    "generic": "Something went wrong. The Kron team has been notified.",
+    "moduleDisabled": "The **{module}** module is not enabled on this server. An administrator can enable it from the panel.",
+    "staffOnly": "This command is restricted to Kron staff."
   },
   "staff": {
     "owner": "👑 Owner",
