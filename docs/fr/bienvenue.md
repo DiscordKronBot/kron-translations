@@ -1,40 +1,40 @@
 ---
-title: Bienvenue et au revoir
+title: Welcome and goodbye
 category: modules
 emoji: 👋
-summary: Accueillir chaque nouveau membre dans un salon et en MP, et annoncer les départs.
+summary: Greet every new member in a channel and by DM, and announce departures.
 order: 7
 ---
 
-## Arrivée
+## Joining
 
-- **Salon** : où publier le message de bienvenue.
-- **Message dans le salon** : une carte par défaut (avatar, date de création du compte, bot ou membre, numéro du membre), ou ton message personnalisé avec l'éditeur, qui part de cette carte.
-- **Message privé** : optionnel, envoyé directement au nouveau membre (par exemple le lien de ta whitelist ou ton règlement).
+- **Channel**: where to post the welcome message.
+- **Channel message**: a default card (avatar, account creation date, bot or member, member number), or your custom message with the editor, which starts from that card.
+- **Direct message**: optional, sent straight to the new member (for example your whitelist link or your rules).
 
-## Départ
+## Leaving
 
-- **Salon** et **message** d'au revoir, désactivés par défaut.
+- Goodbye **channel** and **message**, off by default.
 
 ## Variables
 
-| Variable | Remplacée par |
-|---|---|
-| `{user}` | mention du membre |
-| `{username}` | nom du membre |
-| `{server}` | nom du serveur |
-| `{memberCount}` | nombre de membres |
-| `{user.avatar}` | avatar du membre, à utiliser comme image ou miniature |
-| `{user.id}` | ID du membre |
-| `{user.created}` / `{user.createdAgo}` | date de création du compte / son âge (« il y a 2 ans ») |
-| `{user.type}` | 🤖 Bot ou 👤 Membre |
-| `{user.joined}` | arrivée sur le serveur (utile pour les départs) |
-| `{server.icon}` | icône du serveur |
+| Variable                               | Replaced by                                                          |
+| -------------------------------------- | -------------------------------------------------------------------- |
+| `{user}`                               | member mention                                                       |
+| `{username}`                           | member name                                                          |
+| `{server}`                             | server name                                                          |
+| `{memberCount}`                        | member count                                                         |
+| `{user.avatar}`                        | member avatar, usable as an image or thumbnail                       |
+| `{user.id}`                            | member ID                                                            |
+| `{user.created}` / `{user.createdAgo}` | account creation date / its age (“2 years ago”)   |
+| `{user.type}`                          | 🤖 Bot or 👤 Member                                                  |
+| `{user.joined}`                        | when they joined the server (useful for goodbyes) |
+| `{server.icon}`                        | server icon                                                          |
 
 > [!TIP]
-> Mets `{user.avatar}` dans la **miniature** de l'embed : chaque bienvenue affiche la photo du nouveau membre.
+> Put `{user.avatar}` in the embed **thumbnail**: every welcome shows the new member's picture.
 
 ## Options
 
-- **Ignorer les bots** (activé par défaut) : aucun message pour les bots qui rejoignent.
-- Seul `{user}` peut mentionner le membre : jamais de @everyone ni de rôles par accident.
+- **Ignore bots** (on by default): no message for bots that join.
+- Only `{user}` can ping the member: never @everyone or roles by accident.
