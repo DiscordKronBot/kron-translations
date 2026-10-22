@@ -1,0 +1,57 @@
+{
+  "title": "Thanks for adding Kron!",
+  "intro": "I’m ready. Turn on only the modules your server needs and customize everything from the dashboard. A quick look:",
+  "features": {
+    "tickets": {
+      "name": "Tickets",
+      "text": "button panels, questions and transcripts"
+    },
+    "forms": {
+      "name": "Whitelist & forms",
+      "text": "web applications with roles at each step"
+    },
+    "logs": {
+      "name": "Logs",
+      "text": "messages, members and roles, channel by channel"
+    },
+    "roles": {
+      "name": "Roles",
+      "text": "automatic and reaction roles"
+    },
+    "moderation": {
+      "name": "Moderation",
+      "text": "sanctions, history and anti-spam"
+    },
+    "fivem": {
+      "name": "FiveM",
+      "text": "character info right inside Discord"
+    }
+  },
+  "outro": "Click **Set up Kron** to get started. Need help? Type `$debug` or join our support server.",
+  "footer": "kronbot.xyz · Only admins can open the dashboard",
+  "dashboard": "Set up Kron",
+  "docs": "Docs",
+  "support": "Support",
+  "permissions": {
+    "title": "Kron needs one more permission",
+    "text": "New modules are here (AutoMod, Anti-raid, Levels, Custom commands). For them to work, Kron needs:",
+    "how": "Click **Update permissions**: Discord opens Kron’s authorization page with the right boxes already checked. Confirm, that’s it. Nothing in your setup changes.",
+    "footer": "Kron never asks for Administrator.",
+    "button": "Update permissions",
+    "names": {
+      "ViewChannel": "View Channels",
+      "SendMessages": "Send Messages",
+      "EmbedLinks": "Embed Links",
+      "AttachFiles": "Attach Files",
+      "ManageRoles": "Manage Roles",
+      "ManageChannels": "Manage Channels",
+      "ManageMessages": "Manage Messages",
+      "ReadMessageHistory": "Read Message History",
+      "KickMembers": "Kick Members",
+      "BanMembers": "Ban Members",
+      "ManageGuild": "Manage Server",
+      "ViewAuditLog": "View Audit Log",
+      "ModerateMembers": "Timeout Members"
+    }
+  }
+}
