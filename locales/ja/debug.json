@@ -1,0 +1,8 @@
+{
+  "reply": "🔗 If Kron support asks for it, share this link:\n{link}",
+  "noLink": "The support link is unavailable right now. Take a screenshot of this diagnostic.",
+  "copyHeader": "🩺 **{guild}** (`{guildId}`) · requested by **{user}** (`{userId}`)",
+  "invalidId": "❌ Invalid server ID. Usage: `$debug <server id>`",
+  "guildLeft": "📤 Kron left **{name}** on {date}.",
+  "guildUnknown": "❓ Kron has never been on this server."
+}
