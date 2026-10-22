@@ -19,13 +19,13 @@ The **AutoMod** module sets up Discord's built-in AutoMod from the dashboard. Ru
 
 ## Rule types
 
-| Type | What it blocks | Maximum |
-|---|---|---|
-| Keywords | words (with `*`) and regexes | 6 rules |
-| Discord lists | profanity, sexual content, slurs | 1 |
-| Spam | messages Discord deems suspicious | 1 |
-| Mass mentions | too many mentions in a message | 1 |
-| Names | member names and profiles | 1 |
+| Type          | What it blocks                                  | Maximum |
+| ------------- | ----------------------------------------------- | ------- |
+| Keywords      | words (with `*`) and regexes | 6 rules |
+| Discord lists | profanity, sexual content, slurs                | 1       |
+| Spam          | messages Discord deems suspicious               | 1       |
+| Mass mentions | too many mentions in a message                  | 1       |
+| Names         | member names and profiles                       | 1       |
 
 The maximums are Discord's. Rules created directly in Discord show up in the dashboard too and can be edited there.
 
