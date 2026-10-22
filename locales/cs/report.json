@@ -1,0 +1,79 @@
+{
+  "titles": {
+    "user": "🩺┆Kron Diagnostic",
+    "staff": "🔎┆Remote Diagnostic",
+    "join": "🎉┆New Server"
+  },
+  "health": {
+    "ok": "**✅ Everything looks good.**",
+    "issues": "**⚠️ {count} issue(s) found**",
+    "missingServer": "**Missing server permissions:**",
+    "missingChannel": "**Missing permissions in this channel:**"
+  },
+  "sections": {
+    "server": "🏠 Server",
+    "bot": "🤖 Kron",
+    "channel": "📍 Channel",
+    "you": "👤 You",
+    "owner": "👑 Owner"
+  },
+  "labels": {
+    "permServer": "Permissions",
+    "permChannel": "Channel perms",
+    "name": "Name",
+    "id": "ID",
+    "members": "Members",
+    "channels": "Channels",
+    "roles": "Roles",
+    "boosts": "Boosts",
+    "language": "Language",
+    "created": "Created",
+    "version": "Version",
+    "plan": "Plan",
+    "modules": "Modules",
+    "role": "Role",
+    "latency": "Latency",
+    "uptime": "Uptime",
+    "joined": "Joined",
+    "level": "Level",
+    "totalGuilds": "Kron servers",
+    "server": "Server",
+    "owner": "Owner",
+    "channel": "Channel",
+    "you": "Member",
+    "staff": "Kron staff"
+  },
+  "values": {
+    "free": "Free",
+    "none": "none",
+    "tier": "Tier {tier}",
+    "uptime": "{d}d {h}h {m}m",
+    "plans": {
+      "free": "Free",
+      "vip": "Pro",
+      "whitelabel": "Whitelabel"
+    }
+  },
+  "levels": {
+    "owner": "Server owner",
+    "administrator": "Administrator",
+    "manager": "Manager",
+    "member": "Member"
+  },
+  "permissions": {
+    "ViewChannel": "View Channels",
+    "SendMessages": "Send Messages",
+    "EmbedLinks": "Embed Links",
+    "AttachFiles": "Attach Files",
+    "ManageRoles": "Manage Roles",
+    "ManageChannels": "Manage Channels",
+    "ManageMessages": "Manage Messages",
+    "ReadMessageHistory": "Read Message History"
+  },
+  "page": {
+    "kind": "Diagnostic",
+    "ok": "Everything looks good",
+    "issues": "{count} issue(s) found",
+    "footer": "Report {code} · {date}"
+  }
+}
