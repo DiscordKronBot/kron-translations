@@ -1,24 +1,24 @@
 ---
-title: Alertes Twitch et Kick
+title: Twitch and Kick alerts
 category: modules
 emoji: 🟣
-summary: Annoncer automatiquement quand une chaîne Twitch ou Kick passe en live.
+summary: Announce automatically when a Twitch or Kick channel goes live.
 order: 20
 ---
 
-Les modules **Twitch** et **Kick** (Pro) publient une alerte dès qu'une chaîne suivie passe en live : titre du stream, catégorie, nombre de spectateurs, aperçu du live et bouton **Regarder**.
+The **Twitch** and **Kick** modules (Pro) post an alert as soon as a followed channel goes live: stream title, category, viewer count, live preview and a **Watch** button.
 
-## Suivre une chaîne
+## Follow a channel
 
-1. Active le module **Twitch** ou **Kick**.
-2. Entre le nom de la chaîne (celui de l'URL, par exemple `twitch.tv/`**`xqc`**) et clique sur **Ajouter** : Kron vérifie qu'elle existe.
-3. Choisis le **salon** de l'alerte, les **rôles à mentionner** (jusqu'à 5) et, si tu veux, **@everyone**.
-4. Personnalise le **message** au besoin, puis enregistre.
+1. Turn on the **Twitch** or **Kick** module.
+2. Enter the channel name (the one in the URL, for example `twitch.tv/`**`xqc`**) and click **Add**: Kron checks that it exists.
+3. Pick the alert **channel**, the **roles to mention** (up to 5) and, if you want, **@everyone**.
+4. Customize the **message** if needed, then save.
 
-Variables du message : `{streamer}`, `{title}`, `{game}`, `{url}`.
+Message variables: `{streamer}`, `{title}`, `{game}`, `{url}`.
 
-## Fonctionnement
+## How it works
 
-- Kron vérifie les chaînes **chaque minute**. Un live est annoncé **une seule fois**, même si Kron redémarre pendant le stream.
-- **Fin du live** : l'alerte peut passer en gris avec la durée du stream, être supprimée, ou rester telle quelle.
-- Jusqu'à **50 chaînes** par serveur et par plateforme.
+- Kron checks channels **every minute**. A stream is announced **only once**, even if Kron restarts during it.
+- **Stream end**: the alert can turn grey with the stream duration, be deleted, or stay as is.
+- Up to **50 channels** per server and per platform.
