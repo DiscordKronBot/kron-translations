@@ -1,0 +1,18 @@
+{
+  "ping": {
+    "description": "Check that Kron is responding and show latency",
+    "reply": "Pong! Round trip: **{roundtrip} ms** · Gateway: **{gateway} ms**"
+  },
+  "status": {
+    "description": "[Staff] Bot status: uptime, memory, servers",
+    "title": "📊┆Kron status",
+    "fields": {
+      "uptime": "⏱️ Uptime",
+      "guilds": "🌐 Servers",
+      "gateway": "📡 Gateway",
+      "memory": "🧠 Memory",
+      "node": "🟢 Node.js",
+      "level": "🎖️ Your level"
+    }
+  }
+}
